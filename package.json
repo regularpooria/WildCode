@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "eslint": "^9.31.0",
+    "eslint-config-xo": "^0.47.0",
+    "mega-linter-runner": "^8.8.0"
+  }
+}
