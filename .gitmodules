@@ -1,3 +1,9 @@
 [submodule "opengrep-rules"]
 	path = opengrep-rules
 	url = https://github.com/regularpooria/opengrep-rules
+[submodule "utils/all-the-package-names"]
+	path = utils/all-the-package-names
+	url = https://github.com/nice-registry/all-the-package-names.git
+[submodule "utils/javascript/builtin-modules"]
+	path = utils/javascript/builtin-modules
+	url = https://github.com/sindresorhus/builtin-modules
