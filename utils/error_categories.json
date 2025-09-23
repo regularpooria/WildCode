@@ -1,0 +1,82 @@
+[
+  {
+    "category": "Syntax Error",
+    "description": "Errors that occur when the code violates the grammatical rules of the programming language, such as missing semicolons, mismatched brackets, or incorrect keyword usage."
+  },
+  {
+    "category": "Lexical Error",
+    "description": "Errors detected during the lexical analysis phase, typically involving unrecognized characters, invalid tokens, or improper use of language symbols."
+  },
+  {
+    "category": "Semantic Error",
+    "description": "Errors that arise when the code is syntactically correct but violates language semantics, such as type mismatches, undeclared identifiers, or incorrect operator usage."
+  },
+  {
+    "category": "Type Error",
+    "description": "Errors related to mismatched or incompatible data types, including assigning wrong types to variables, incorrect function parameter types, or invalid type conversions."
+  },
+  {
+    "category": "Declaration Error",
+    "description": "Errors involving incorrect or missing variable, function, or class declarations, including duplicate declarations or using identifiers before declaration."
+  },
+  {
+    "category": "Linker Error",
+    "description": "Errors that occur during the linking phase, such as undefined references, missing libraries, or unresolved external symbols."
+  },
+  {
+    "category": "Preprocessor Error",
+    "description": "Errors originating from preprocessor directives, such as missing include files, macro definition issues, or conditional compilation problems."
+  },
+  {
+    "category": "Scope Error",
+    "description": "Errors related to variable or function scope violations, such as accessing local variables outside their scope or name conflicts."
+  },
+  {
+    "category": "Memory Error",
+    "description": "Errors involving memory management issues like accessing uninitialized memory, memory leaks, or exceeding memory allocation limits."
+  },
+  {
+    "category": "Overflow Error",
+    "description": "Errors caused by exceeding the storage capacity of data types, such as integer overflow, buffer overflow, or stack overflow."
+  },
+  {
+    "category": "Division By Zero",
+    "description": "Errors that occur when attempting arithmetic division by zero, resulting in undefined behavior or runtime exceptions."
+  },
+  {
+    "category": "Unreachable Code",
+    "description": "Warnings or errors for code that cannot be executed due to control flow logic, such as statements after return statements or unreachable branches."
+  },
+  {
+    "category": "Initialization Error",
+    "description": "Errors related to improper variable initialization, such as using uninitialized variables or conflicting initialization statements."
+  },
+  {
+    "category": "Access Control Error",
+    "description": "Errors involving violations of access specifiers, such as accessing private members outside their class or violating package visibility rules."
+  },
+  {
+    "category": "Inheritance Error",
+    "description": "Errors in object-oriented programming related to inheritance hierarchies, such as circular inheritance, conflicting method signatures, or incorrect super class usage."
+  },
+  {
+    "category": "Template/Generics Error",
+    "description": "Errors specific to template or generics usage, such as incorrect type parameters, unresolved generic types, or constraint violations."
+  },
+  {
+    "category": "Function Signature Mismatch",
+    "description": "Errors when calling functions with incorrect parameters, such as wrong number of arguments, incorrect argument types, or missing required parameters."
+  },
+  {
+    "category": "Const Correctness Error",
+    "description": "Errors related to violations of const-correctness, such as modifying constant variables or passing non-const references where const is expected."
+  },
+  {
+    "category": "Lifetime Error",
+    "description": "Errors involving object or variable lifetimes, such as using dangling pointers, accessing destroyed objects, or lifetime conflicts in memory management."
+  },
+  {
+    "category": "Ambiguity Error",
+    "description": "Errors that arise when code has multiple valid interpretations, such as ambiguous function overloads, name lookup conflicts, or indeterminate operator precedence."
+  }
+]

@@ -3144,22 +3144,6 @@ fdc4755e410e8b821a1675539759c7ef,javascript,1,10,11,opengrep-rules.all_langs.sql
 fdc4755e410e8b821a1675539759c7ef,javascript,1,16,11,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 fdc4755e410e8b821a1675539759c7ef,javascript,1,20,11,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 fdc4755e410e8b821a1675539759c7ef,javascript,1,26,1,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-02544be30d8aeea1cbdd7295fdfca202,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,10,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,10,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,10,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,11,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,11,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,11,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,4,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,4,8,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,4,9,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,5,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,5,8,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,5,9,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,6,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,6,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-02544be30d8aeea1cbdd7295fdfca202,php,6,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 02cbe0b42d960f64669bac3e01fa7635,php,0,22,14,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 02cbe0b42d960f64669bac3e01fa7635,php,0,39,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 02cbe0b42d960f64669bac3e01fa7635,php,0,39,16,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
@@ -3179,14 +3163,9 @@ fdc4755e410e8b821a1675539759c7ef,javascript,1,26,1,opengrep-rules.all_langs.sql.
 02ce54d949c92e104d92c5b8735eb34d,php,1,11,25,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 02ce54d949c92e104d92c5b8735eb34d,php,1,11,32,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 02ce54d949c92e104d92c5b8735eb34d,php,1,11,67,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-05133255d062fc3a2070b4647ff16f29,php,2,4,22,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-05133255d062fc3a2070b4647ff16f29,php,2,5,22,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 05ee4f109a2a818d9ee9d3446787b23d,php,1,12,11,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 05ee4f109a2a818d9ee9d3446787b23d,php,1,12,18,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 05ee4f109a2a818d9ee9d3446787b23d,php,1,12,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-07b36fc8ab5cdfda377e1bc867a46961,php,0,15,13,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-07f1bf076353ec842235a229f063e25b,php,12,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-07f1bf076353ec842235a229f063e25b,php,12,1,6,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 08de76bb97bc4d54f286032e20f6410a,php,1,23,17,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 08de76bb97bc4d54f286032e20f6410a,php,1,23,24,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 08de76bb97bc4d54f286032e20f6410a,php,1,23,95,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
@@ -3207,89 +3186,13 @@ fdc4755e410e8b821a1675539759c7ef,javascript,1,26,1,opengrep-rules.all_langs.sql.
 0ac7d782232ea471b226ece636f1d94c,php,7,21,18,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 0ac7d782232ea471b226ece636f1d94c,php,7,21,65,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 0ac7d782232ea471b226ece636f1d94c,php,7,22,27,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-0b23424cb0886b2994d5a9e22a04d7fd,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-0b23424cb0886b2994d5a9e22a04d7fd,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-0e786ffbe6934ee7988e9b24f79c5df0,php,0,4,11,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-0fe57e2023adf0d28b4f13933126766d,php,0,10,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-0fe57e2023adf0d28b4f13933126766d,php,0,15,53,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-10564162f5326f40573c4d25ed9d54c3,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-10564162f5326f40573c4d25ed9d54c3,php,16,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-10564162f5326f40573c4d25ed9d54c3,php,16,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-10564162f5326f40573c4d25ed9d54c3,php,16,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-10564162f5326f40573c4d25ed9d54c3,php,16,4,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-10564162f5326f40573c4d25ed9d54c3,php,16,4,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-10564162f5326f40573c4d25ed9d54c3,php,16,5,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-10564162f5326f40573c4d25ed9d54c3,php,17,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-10564162f5326f40573c4d25ed9d54c3,php,17,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-10564162f5326f40573c4d25ed9d54c3,php,17,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-10564162f5326f40573c4d25ed9d54c3,php,17,4,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-10564162f5326f40573c4d25ed9d54c3,php,17,4,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-10564162f5326f40573c4d25ed9d54c3,php,17,5,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-10a1b82752ca064c385bbb8f17ade3bc,php,2,1,11,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-10a1b82752ca064c385bbb8f17ade3bc,php,2,2,13,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-10a1b82752ca064c385bbb8f17ade3bc,php,2,2,23,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-10a1b82752ca064c385bbb8f17ade3bc,php,2,3,21,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-10a1b82752ca064c385bbb8f17ade3bc,php,2,3,39,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-10a1b82752ca064c385bbb8f17ade3bc,php,2,4,2,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-10a1b82752ca064c385bbb8f17ade3bc,php,2,8,41,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-10a1b82752ca064c385bbb8f17ade3bc,php,2,12,14,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-10a1b82752ca064c385bbb8f17ade3bc,php,2,16,38,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-10a1b82752ca064c385bbb8f17ade3bc,php,2,18,21,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-10a1b82752ca064c385bbb8f17ade3bc,php,2,22,51,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-10a1b82752ca064c385bbb8f17ade3bc,php,2,33,3,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-120c04591bb0be27ae6fdbf54d475da7,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 136bc3f63d2da6a575426402720283a4,php,0,11,13,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-1406756028faddab768335f90e859d89,php,4,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1406756028faddab768335f90e859d89,php,4,8,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1406756028faddab768335f90e859d89,php,4,8,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1406756028faddab768335f90e859d89,php,4,9,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1406756028faddab768335f90e859d89,php,5,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1406756028faddab768335f90e859d89,php,5,8,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1406756028faddab768335f90e859d89,php,5,8,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1406756028faddab768335f90e859d89,php,5,9,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 167b7d7a923c4e21d8767e1799884e8e,php,5,17,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 167b7d7a923c4e21d8767e1799884e8e,php,5,17,16,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 167b7d7a923c4e21d8767e1799884e8e,php,5,17,58,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-175c6367b7c8cbcd22b39dfabf804500,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-175c6367b7c8cbcd22b39dfabf804500,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-175c6367b7c8cbcd22b39dfabf804500,php,2,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1802d540c0ebac1d45bb584b6c960955,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1802d540c0ebac1d45bb584b6c960955,php,0,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1802d540c0ebac1d45bb584b6c960955,php,0,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 1a4b6cb353b26127bddf9252c25d4b5e,php,1,50,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 1a4b6cb353b26127bddf9252c25d4b5e,php,1,50,16,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 1a4b6cb353b26127bddf9252c25d4b5e,php,1,50,85,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1bfd23c6a9da36a5f0e88154e34ae5be,php,2,9,21,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-1bfd23c6a9da36a5f0e88154e34ae5be,php,2,15,28,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1bfd23c6a9da36a5f0e88154e34ae5be,php,2,15,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1bfd23c6a9da36a5f0e88154e34ae5be,php,2,15,70,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1bfd23c6a9da36a5f0e88154e34ae5be,php,3,9,21,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-1bfd23c6a9da36a5f0e88154e34ae5be,php,3,15,28,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1bfd23c6a9da36a5f0e88154e34ae5be,php,3,15,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1bfd23c6a9da36a5f0e88154e34ae5be,php,3,15,70,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1c107ca0b1135e363c79e41b783fa1bd,php,11,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1c36170eed2b0b087e2a109667e60cdf,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1c36170eed2b0b087e2a109667e60cdf,php,0,7,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1c36170eed2b0b087e2a109667e60cdf,php,0,7,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1c36170eed2b0b087e2a109667e60cdf,php,0,8,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1c36170eed2b0b087e2a109667e60cdf,php,3,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1c36170eed2b0b087e2a109667e60cdf,php,3,6,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1c36170eed2b0b087e2a109667e60cdf,php,3,6,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1c36170eed2b0b087e2a109667e60cdf,php,3,7,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1c36170eed2b0b087e2a109667e60cdf,php,5,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1c36170eed2b0b087e2a109667e60cdf,php,5,7,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1c36170eed2b0b087e2a109667e60cdf,php,5,7,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1c36170eed2b0b087e2a109667e60cdf,php,5,8,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1d2e3e6dd1700ec768839125cc0fd072,php,11,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1d2e3e6dd1700ec768839125cc0fd072,php,14,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1d2e3e6dd1700ec768839125cc0fd072,php,15,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1d2e3e6dd1700ec768839125cc0fd072,php,2,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1d2e3e6dd1700ec768839125cc0fd072,php,2,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1d2e3e6dd1700ec768839125cc0fd072,php,2,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1ddd0d7e573e8e60e8ff3cb64dc8daa4,php,6,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-1e21e4bcb72485c43a88ab2a3b50f2c3,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-21d4b587cb117c802d41a85d0879e063,php,0,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-2302377c69212fe4267b0faefa068669,php,4,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 2332bd904be64acbf856dd34b825d769,php,2,9,29,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 2332bd904be64acbf856dd34b825d769,php,2,9,36,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 2332bd904be64acbf856dd34b825d769,php,2,9,79,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
@@ -3298,24 +3201,9 @@ fdc4755e410e8b821a1675539759c7ef,javascript,1,26,1,opengrep-rules.all_langs.sql.
 25e10599575b5759a17118ed5ab90585,php,0,23,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 27ed4c0e2596c3e0a129fd7730779299,php,1,20,11,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 27ed4c0e2596c3e0a129fd7730779299,php,1,20,52,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-28a817fb1aee17e70c06ce91c7a77ca2,php,4,1,37,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-28a817fb1aee17e70c06ce91c7a77ca2,php,4,11,55,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-28a817fb1aee17e70c06ce91c7a77ca2,php,4,27,47,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 2a8442115c39faa0691b67cd48e1401b,php,1,16,13,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 2a8442115c39faa0691b67cd48e1401b,php,1,16,20,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 2a8442115c39faa0691b67cd48e1401b,php,1,16,90,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-2c3f4f9a3a9e2b1821f3991005fc9435,php,3,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-2c3f4f9a3a9e2b1821f3991005fc9435,php,3,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-2c3f4f9a3a9e2b1821f3991005fc9435,php,3,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-2c442a6d85d37431b2255895c7db0ad8,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-2e060e2fd0afc856ec11c28934978d38,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-2e060e2fd0afc856ec11c28934978d38,php,0,8,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-308e934fc964e28eace21cb74bee1d9f,php,0,2,5,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-308e934fc964e28eace21cb74bee1d9f,php,0,2,12,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-308e934fc964e28eace21cb74bee1d9f,php,0,2,65,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-308e934fc964e28eace21cb74bee1d9f,php,1,2,5,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-308e934fc964e28eace21cb74bee1d9f,php,1,2,12,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-308e934fc964e28eace21cb74bee1d9f,php,1,2,74,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 325a9f90cf89c970d1ade356e93a4152,php,0,10,62,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 325a9f90cf89c970d1ade356e93a4152,php,0,12,11,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 325a9f90cf89c970d1ade356e93a4152,php,0,12,18,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
@@ -3323,20 +3211,6 @@ fdc4755e410e8b821a1675539759c7ef,javascript,1,26,1,opengrep-rules.all_langs.sql.
 325a9f90cf89c970d1ade356e93a4152,php,2,7,86,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 325a9f90cf89c970d1ade356e93a4152,php,3,7,119,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 328c9d62da1ed683a81a726702091c51,php,0,16,25,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-32d9f9ec52a9a5afbcfefb90c7494bc6,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-32d9f9ec52a9a5afbcfefb90c7494bc6,php,0,8,6,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-32d9f9ec52a9a5afbcfefb90c7494bc6,php,3,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-32d9f9ec52a9a5afbcfefb90c7494bc6,php,3,6,6,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-32d9f9ec52a9a5afbcfefb90c7494bc6,php,3,11,6,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-32d9f9ec52a9a5afbcfefb90c7494bc6,php,4,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-32d9f9ec52a9a5afbcfefb90c7494bc6,php,4,6,6,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-32d9f9ec52a9a5afbcfefb90c7494bc6,php,4,10,59,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-3900e2072843e20c4646a7430bc2db27,php,1,8,21,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-3900e2072843e20c4646a7430bc2db27,php,1,12,28,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-3900e2072843e20c4646a7430bc2db27,php,1,12,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-3900e2072843e20c4646a7430bc2db27,php,1,12,61,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-3a693be27bf08418afade579d45c9082,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-3b374016674570b9a044c5cb44d944ce,php,0,19,6,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 3c0477a1853d3805099a93a6afab145c,php,1,4,121,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 3c0477a1853d3805099a93a6afab145c,php,1,15,31,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 3c0477a1853d3805099a93a6afab145c,php,1,15,38,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
@@ -3347,38 +3221,11 @@ fdc4755e410e8b821a1675539759c7ef,javascript,1,26,1,opengrep-rules.all_langs.sql.
 3fe2386fd8bd2d8826cb7259c888e133,php,1,4,43,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 3fe2386fd8bd2d8826cb7259c888e133,php,1,5,56,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 3fe2386fd8bd2d8826cb7259c888e133,php,1,10,23,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-4211ab6db24fddfdb9459c7320fe403e,php,3,1,11,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-4211ab6db24fddfdb9459c7320fe403e,php,3,3,11,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-4211ab6db24fddfdb9459c7320fe403e,php,3,5,11,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-48982aa47f11feb22cbc9bb0a8a6b758,php,4,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-48982aa47f11feb22cbc9bb0a8a6b758,php,4,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-48982aa47f11feb22cbc9bb0a8a6b758,php,4,1,87,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-48982aa47f11feb22cbc9bb0a8a6b758,php,4,6,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-48982aa47f11feb22cbc9bb0a8a6b758,php,4,6,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-48982aa47f11feb22cbc9bb0a8a6b758,php,4,6,75,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-48982aa47f11feb22cbc9bb0a8a6b758,php,4,11,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-48982aa47f11feb22cbc9bb0a8a6b758,php,4,11,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-48982aa47f11feb22cbc9bb0a8a6b758,php,4,11,87,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-4babe56c24ff9535793526671daad64d,php,6,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-4babe56c24ff9535793526671daad64d,php,6,7,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-4babe56c24ff9535793526671daad64d,php,6,7,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-4babe56c24ff9535793526671daad64d,php,6,8,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-4c43820af414c5faa071234ec6036599,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-4c43820af414c5faa071234ec6036599,php,12,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-4c43820af414c5faa071234ec6036599,php,12,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-4c43820af414c5faa071234ec6036599,php,12,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 507db341abeaa17cfb5795ba874f1cb8,php,0,2,15,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 507db341abeaa17cfb5795ba874f1cb8,php,0,29,30,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 507db341abeaa17cfb5795ba874f1cb8,php,0,30,13,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 507db341abeaa17cfb5795ba874f1cb8,php,0,30,20,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 507db341abeaa17cfb5795ba874f1cb8,php,0,30,70,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-521a2eeffd52cc1c81a58e9c0bba02b0,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-521a2eeffd52cc1c81a58e9c0bba02b0,php,1,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-521a2eeffd52cc1c81a58e9c0bba02b0,php,1,1,85,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-521a2eeffd52cc1c81a58e9c0bba02b0,php,1,4,53,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-521a2eeffd52cc1c81a58e9c0bba02b0,php,1,5,42,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-542127593a4ca335a9425578003735ae,php,4,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-571685dacbb8d54ddd7f0379e85bb8da,php,0,3,12,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 5949a17e867b7f411de3294cff0b2750,php,11,37,11,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 5949a17e867b7f411de3294cff0b2750,php,11,37,18,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 5949a17e867b7f411de3294cff0b2750,php,11,38,3,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
@@ -3389,150 +3236,6 @@ fdc4755e410e8b821a1675539759c7ef,javascript,1,26,1,opengrep-rules.all_langs.sql.
 59ae96423541931869162cab4e80ddcb,php,5,25,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 59ae96423541931869162cab4e80ddcb,php,5,25,16,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 59ae96423541931869162cab4e80ddcb,php,5,25,59,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,1,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,2,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,2,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,3,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,3,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,3,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,4,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,4,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,4,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,5,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,5,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,5,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,6,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,6,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,12,6,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,1,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,2,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,2,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,3,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,3,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,3,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,4,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,4,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,4,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,5,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,5,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,5,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,6,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,6,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5c918ff64dfec03d398feff6883fbcea,php,14,6,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5e6bbf36ed1dfb677fdf1e58d4a8685e,php,12,5,33,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-5e6bbf36ed1dfb677fdf1e58d4a8685e,php,12,15,26,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-5e6bbf36ed1dfb677fdf1e58d4a8685e,php,14,5,33,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-5e6bbf36ed1dfb677fdf1e58d4a8685e,php,14,16,26,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-5e6bbf36ed1dfb677fdf1e58d4a8685e,php,14,67,7,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-5ec10a64d45547c0711f671e0f4077e2,php,0,5,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-62415899a7b5637e91f9776997660dc8,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-627bb35e4c4f519d9fb7450239adcf1d,php,2,1,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-630c73686343cc8796f948553877c68c,php,9,1,20,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-643ffee2b4733e70386adaf25dc6f9ae,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,1,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,2,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,2,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,3,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,3,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,3,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,4,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,4,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,4,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,5,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,5,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,5,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,6,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,6,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,6,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,7,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,7,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,7,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,8,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,8,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,8,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,9,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,9,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,9,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,10,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,10,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,10,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,11,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,11,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,11,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,12,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,12,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,12,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,13,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,13,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,13,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,14,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,14,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,14,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,15,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,15,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,15,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,16,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,16,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,16,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,17,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,17,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,17,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,18,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,18,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,18,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,19,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,19,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,19,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,20,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,20,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,20,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,21,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,21,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,21,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,22,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,22,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,22,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,23,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,23,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,23,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,24,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,24,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,24,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,25,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,25,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,25,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,26,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,26,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,26,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,27,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,27,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,27,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,28,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,28,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,28,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,29,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,29,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,29,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,30,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,30,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,30,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,31,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,31,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-643ffee2b4733e70386adaf25dc6f9ae,php,1,31,102,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-65b3b506c7b19661c174be892886f1b1,php,15,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-65b3b506c7b19661c174be892886f1b1,php,38,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-65ea310e1ad0422dc5edc5582bbb80fa,php,2,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-66d384146d3cca910c73acfa64875b2d,php,2,7,24,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-66d384146d3cca910c73acfa64875b2d,php,2,7,31,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-66d384146d3cca910c73acfa64875b2d,php,2,7,91,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 6744e2e339e34f447f1050bc3170b58c,php,1,9,22,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 6744e2e339e34f447f1050bc3170b58c,php,2,9,25,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 6744e2e339e34f447f1050bc3170b58c,php,2,9,32,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
@@ -3545,54 +3248,11 @@ fdc4755e410e8b821a1675539759c7ef,javascript,1,26,1,opengrep-rules.all_langs.sql.
 6e18b031be411088ee2b366e2eb48aa6,php,0,26,49,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 6e18b031be411088ee2b366e2eb48aa6,php,1,13,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 6e18b031be411088ee2b366e2eb48aa6,php,1,13,49,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-6e7ffd8d7624ff2dc1db4b80056f9e5a,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-6e7ffd8d7624ff2dc1db4b80056f9e5a,php,0,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-6e7ffd8d7624ff2dc1db4b80056f9e5a,php,0,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-6ead9e47c888aebba7f267a541273c93,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-6ead9e47c888aebba7f267a541273c93,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-6feab5f8ba8a3f0306e92dbc885ef600,php,0,7,22,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 70188def460bad208f9585bcc2b83dc7,php,5,17,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 70188def460bad208f9585bcc2b83dc7,php,6,17,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 70188def460bad208f9585bcc2b83dc7,php,6,26,49,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 70188def460bad208f9585bcc2b83dc7,php,7,17,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 70188def460bad208f9585bcc2b83dc7,php,7,26,49,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,1,46,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,2,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,2,46,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,3,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,3,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,3,46,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,4,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,4,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,4,46,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,5,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,5,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,5,46,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,6,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,6,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,6,46,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,7,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,7,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-703bdcf170d223590598b2448795088a,php,1,7,46,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-70b4f9934e6c38da934fbb4132152d0f,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72b302da741d420af519d7aede43f6be,php,2,12,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72b302da741d420af519d7aede43f6be,php,2,12,16,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72b302da741d420af519d7aede43f6be,php,2,12,46,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72c6c83e02791d183b5bf7148d9ff78a,php,3,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72c6c83e02791d183b5bf7148d9ff78a,php,3,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72c6c83e02791d183b5bf7148d9ff78a,php,3,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72c6c83e02791d183b5bf7148d9ff78a,php,3,4,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72c6c83e02791d183b5bf7148d9ff78a,php,3,4,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72c6c83e02791d183b5bf7148d9ff78a,php,3,5,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72c6c83e02791d183b5bf7148d9ff78a,php,3,7,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72c6c83e02791d183b5bf7148d9ff78a,php,3,7,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72c6c83e02791d183b5bf7148d9ff78a,php,3,8,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72c6c83e02791d183b5bf7148d9ff78a,php,3,10,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72c6c83e02791d183b5bf7148d9ff78a,php,3,10,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-72c6c83e02791d183b5bf7148d9ff78a,php,3,11,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 738ecf55376e7a54f3425beeb7e74511,php,1,5,22,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 738ecf55376e7a54f3425beeb7e74511,php,1,21,25,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 738ecf55376e7a54f3425beeb7e74511,php,1,21,32,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
@@ -3600,16 +3260,6 @@ fdc4755e410e8b821a1675539759c7ef,javascript,1,26,1,opengrep-rules.all_langs.sql.
 74577c32164a555f5cc9dbc385588744,php,2,12,15,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 74577c32164a555f5cc9dbc385588744,php,2,12,22,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 74577c32164a555f5cc9dbc385588744,php,2,12,32,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-74b26814aa214c1a400765b4f2c83b28,php,0,23,22,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-76bbb2efaaae11cdf3cfe13cf6c6e939,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-76bbb2efaaae11cdf3cfe13cf6c6e939,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-76bbb2efaaae11cdf3cfe13cf6c6e939,php,12,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-76bbb2efaaae11cdf3cfe13cf6c6e939,php,16,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-76bbb2efaaae11cdf3cfe13cf6c6e939,php,17,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-76bbb2efaaae11cdf3cfe13cf6c6e939,php,17,4,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-76bbb2efaaae11cdf3cfe13cf6c6e939,php,4,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-76bbb2efaaae11cdf3cfe13cf6c6e939,php,5,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-76bbb2efaaae11cdf3cfe13cf6c6e939,php,5,4,3,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 78fb2fe95a08895348f63d508a845f4b,php,2,11,13,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 78fb2fe95a08895348f63d508a845f4b,php,2,11,20,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 78fb2fe95a08895348f63d508a845f4b,php,2,12,13,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
@@ -3618,69 +3268,23 @@ fdc4755e410e8b821a1675539759c7ef,javascript,1,26,1,opengrep-rules.all_langs.sql.
 78fb2fe95a08895348f63d508a845f4b,php,4,7,13,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 78fb2fe95a08895348f63d508a845f4b,php,4,7,20,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 78fb2fe95a08895348f63d508a845f4b,php,4,7,30,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-7dff825944df9b32478b2ad6234d8e72,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 7e52515ee4b7cf56e33ee9d88576f47d,php,0,9,17,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 7e52515ee4b7cf56e33ee9d88576f47d,php,0,10,17,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-7feeef907e0887e2b7f1328e28063a1e,php,15,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 800df88ce461256f13bf32afed84974a,php,0,2,26,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 800df88ce461256f13bf32afed84974a,php,0,5,30,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 800df88ce461256f13bf32afed84974a,php,0,17,15,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 800df88ce461256f13bf32afed84974a,php,0,17,22,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 800df88ce461256f13bf32afed84974a,php,0,17,55,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 800df88ce461256f13bf32afed84974a,php,0,21,24,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-8115ad80c8e945796007def8ca3853c3,php,2,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-8115ad80c8e945796007def8ca3853c3,php,2,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-8115ad80c8e945796007def8ca3853c3,php,2,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-8115ad80c8e945796007def8ca3853c3,php,2,5,10,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-827851aeff14c2e7d05ace23a478e7c9,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-827851aeff14c2e7d05ace23a478e7c9,php,0,9,64,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 8300c722529f3d389adcfe0281823e82,php,0,23,15,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 8300c722529f3d389adcfe0281823e82,php,0,23,22,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 8300c722529f3d389adcfe0281823e82,php,0,23,159,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-83d6fb5ed1e95477945d8af4b0eaf290,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-83d6fb5ed1e95477945d8af4b0eaf290,php,0,6,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-83d6fb5ed1e95477945d8af4b0eaf290,php,0,6,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-83d6fb5ed1e95477945d8af4b0eaf290,php,0,7,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-852fe99c6492219e9e92c4837c3db239,php,0,1,41,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-852fe99c6492219e9e92c4837c3db239,php,0,12,17,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-852fe99c6492219e9e92c4837c3db239,php,0,28,30,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-8939805d2cd6da307c5d4d4e8685eaf2,php,2,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-8a2bb034eb3e736223781bace7c6b709,php,0,1,9,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-8c257713214673876e95c1f433be99ca,php,5,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 8d47dbfdb5f176fd51b55a508ebb078e,php,1,20,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 8d47dbfdb5f176fd51b55a508ebb078e,php,1,20,16,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 8d47dbfdb5f176fd51b55a508ebb078e,php,1,20,54,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 8d47dbfdb5f176fd51b55a508ebb078e,php,3,24,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 8d47dbfdb5f176fd51b55a508ebb078e,php,3,24,16,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 8d47dbfdb5f176fd51b55a508ebb078e,php,3,24,93,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-8d9a2e5c13422af0bc78698c0d8d5c1e,php,6,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-8d9a2e5c13422af0bc78698c0d8d5c1e,php,6,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-8d9a2e5c13422af0bc78698c0d8d5c1e,php,6,3,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-8ec2b2e085c0a23773b817ee75417a08,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-8ec2b2e085c0a23773b817ee75417a08,php,0,7,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-90dcead95dcd0916f85ed0e6cf5f6bad,php,0,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-90dcead95dcd0916f85ed0e6cf5f6bad,php,0,26,9,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-90dcead95dcd0916f85ed0e6cf5f6bad,php,4,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-90dcead95dcd0916f85ed0e6cf5f6bad,php,4,26,9,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-91d2eb9c51cbb55fa6aa488b07643c84,php,3,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-91d2eb9c51cbb55fa6aa488b07643c84,php,4,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-91d2eb9c51cbb55fa6aa488b07643c84,php,5,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-927c90a92eb83f49f86c040cef946367,php,20,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-927c90a92eb83f49f86c040cef946367,php,20,7,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-927c90a92eb83f49f86c040cef946367,php,20,7,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-927c90a92eb83f49f86c040cef946367,php,20,7,36,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-9471db839497bba8e12bfd94299c3ae8,php,0,10,17,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-9471db839497bba8e12bfd94299c3ae8,php,0,12,17,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-96558697ba521b8c5d4a6a70be6f4387,php,4,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-9721ad392423a03ec21fc3c173fc6b3d,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-9799ce21eae840505a675212c69253a7,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-9799ce21eae840505a675212c69253a7,php,0,9,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-9799ce21eae840505a675212c69253a7,php,0,9,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-9799ce21eae840505a675212c69253a7,php,0,10,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-9d508b4bc54c0655b2f6929f00208c2c,php,3,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-9d508b4bc54c0655b2f6929f00208c2c,php,3,8,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-9d508b4bc54c0655b2f6929f00208c2c,php,3,8,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-9d508b4bc54c0655b2f6929f00208c2c,php,3,9,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 9d92e524965a6360d5341b0607b84923,php,1,12,15,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 9d92e524965a6360d5341b0607b84923,php,1,12,22,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 9d92e524965a6360d5341b0607b84923,php,1,13,15,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
@@ -3688,36 +3292,9 @@ fdc4755e410e8b821a1675539759c7ef,javascript,1,26,1,opengrep-rules.all_langs.sql.
 9f0027de09075fff03fcab9a39d67f7c,php,0,3,46,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 9f0027de09075fff03fcab9a39d67f7c,php,0,4,41,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 9f0027de09075fff03fcab9a39d67f7c,php,0,5,60,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-9f3411e77ecc4b705cf251a982ce488c,php,5,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-9fcdb644a44d8cfddaa776a39a27d6b5,php,4,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-9fcdb644a44d8cfddaa776a39a27d6b5,php,4,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-9fcdb644a44d8cfddaa776a39a27d6b5,php,4,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a1bd9ada8784c924ad836a1da8ddc873,php,2,2,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a1bd9ada8784c924ad836a1da8ddc873,php,2,2,16,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a1bd9ada8784c924ad836a1da8ddc873,php,2,2,45,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a391c811e85952a04ab40e100b814614,php,24,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a391c811e85952a04ab40e100b814614,php,25,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a3b34cffccc049f0678beeb68d704999,php,33,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a42ad038c58782dcc4c186ee6245489f,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a42ad038c58782dcc4c186ee6245489f,php,2,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a42ad038c58782dcc4c186ee6245489f,php,3,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 a48c5d70a8f60902c9a5f8e97b6072ea,php,2,22,28,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 a48c5d70a8f60902c9a5f8e97b6072ea,php,2,22,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 a48c5d70a8f60902c9a5f8e97b6072ea,php,2,22,67,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a544cc89cba52a7cb85b3b21cf010000,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a544cc89cba52a7cb85b3b21cf010000,php,0,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a544cc89cba52a7cb85b3b21cf010000,php,0,1,92,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a5553166c550de7372024e6f54930c9c,php,4,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a66735fd0085d06cb6c1bb3d50562585,php,0,12,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a66735fd0085d06cb6c1bb3d50562585,php,0,13,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a66735fd0085d06cb6c1bb3d50562585,php,0,13,16,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a66735fd0085d06cb6c1bb3d50562585,php,0,13,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a775d36f9c7f38fbb7b4fd81ed9181c0,php,23,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a775d36f9c7f38fbb7b4fd81ed9181c0,php,23,21,9,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-a775d36f9c7f38fbb7b4fd81ed9181c0,php,3,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a775d36f9c7f38fbb7b4fd81ed9181c0,php,3,21,9,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-a7c9c752af26154b08c196672cf3a2ab,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-a80f2e863c6a35364d351245c7530e1e,php,1,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 aedebce62bf36c9c1c960e089e9d41c6,php,0,14,5,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 b2c90351894048e465e17770de195190,php,3,14,14,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 b2c90351894048e465e17770de195190,php,3,14,21,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
@@ -3725,217 +3302,22 @@ b2c90351894048e465e17770de195190,php,3,14,114,opengrep-rules.all_langs.sql.sql-k
 b2c90351894048e465e17770de195190,php,4,9,14,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 b2c90351894048e465e17770de195190,php,4,9,21,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 b2c90351894048e465e17770de195190,php,4,9,32,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-b3fd4a64815eb3177f4a32ea96037cc8,php,6,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-b3fd4a64815eb3177f4a32ea96037cc8,php,6,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-b3fd4a64815eb3177f4a32ea96037cc8,php,6,10,3,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 b4064759ba3f651c0dc7143c88d20907,php,0,50,17,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 b4064759ba3f651c0dc7143c88d20907,php,0,50,24,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 b4064759ba3f651c0dc7143c88d20907,php,0,50,61,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 b7f5322631a32191fd30b5d37190ef20,php,0,9,20,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-b877ad026812d360f6f801ed6e5d097a,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-b877ad026812d360f6f801ed6e5d097a,php,0,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-b877ad026812d360f6f801ed6e5d097a,php,0,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-bc4e07b927374ed8e2988c7219c8cd21,php,1,10,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-bc4e07b927374ed8e2988c7219c8cd21,php,1,10,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-bc4e07b927374ed8e2988c7219c8cd21,php,1,10,25,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-bc4e07b927374ed8e2988c7219c8cd21,php,2,9,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-bc4e07b927374ed8e2988c7219c8cd21,php,2,10,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-bc4e07b927374ed8e2988c7219c8cd21,php,2,11,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-bc4e07b927374ed8e2988c7219c8cd21,php,2,12,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-bc4e07b927374ed8e2988c7219c8cd21,php,2,13,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-bdb33c814f4fc8a80ae6aaac8d300962,php,0,2,7,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-bdb33c814f4fc8a80ae6aaac8d300962,php,0,5,10,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-bdb33c814f4fc8a80ae6aaac8d300962,php,0,7,10,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-bf28aec10cfe7611f53a0d25056fb6f9,php,6,6,9,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-c127a32e3ce814e8415aadd52722f63c,php,0,1,12,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c1c0d0c6a94f425d0a38153e1273ccef,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c2061cca3f16666d29ed0fea390cb464,php,5,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c4afdb9d765f6d474e37d3c4602e9d29,php,14,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c4afdb9d765f6d474e37d3c4602e9d29,php,14,8,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c4afdb9d765f6d474e37d3c4602e9d29,php,14,8,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c4afdb9d765f6d474e37d3c4602e9d29,php,14,9,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c4afdb9d765f6d474e37d3c4602e9d29,php,7,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c4afdb9d765f6d474e37d3c4602e9d29,php,7,8,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c4afdb9d765f6d474e37d3c4602e9d29,php,7,8,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c4afdb9d765f6d474e37d3c4602e9d29,php,7,9,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c5b9cb8a29300ef6fa29decb6b2c7977,php,0,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c5b9cb8a29300ef6fa29decb6b2c7977,php,0,14,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c8afa00ec8e1849c1829a05dcdf9a888,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c8afa00ec8e1849c1829a05dcdf9a888,php,0,7,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c8afa00ec8e1849c1829a05dcdf9a888,php,0,7,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c8afa00ec8e1849c1829a05dcdf9a888,php,0,7,31,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c8afa00ec8e1849c1829a05dcdf9a888,php,0,8,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c8afa00ec8e1849c1829a05dcdf9a888,php,0,8,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c8afa00ec8e1849c1829a05dcdf9a888,php,0,8,31,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c8afa00ec8e1849c1829a05dcdf9a888,php,0,9,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c8afa00ec8e1849c1829a05dcdf9a888,php,0,9,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c8afa00ec8e1849c1829a05dcdf9a888,php,0,9,26,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c91c974bf11f0c0bec538d4b5a8e83a4,php,2,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-c91c974bf11f0c0bec538d4b5a8e83a4,php,3,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-ca0c5fa9879003546435aba91a5dd118,php,4,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-ca0c5fa9879003546435aba91a5dd118,php,4,9,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-ca0c5fa9879003546435aba91a5dd118,php,4,12,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-ca4965602523f03bff0da9d60b21e2c2,php,0,1,17,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-ca4965602523f03bff0da9d60b21e2c2,php,0,3,24,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-ca4965602523f03bff0da9d60b21e2c2,php,0,3,31,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-ca4965602523f03bff0da9d60b21e2c2,php,0,3,60,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-cbdeb40c6c7046ca830c634ea317d5ce,php,19,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-cbdeb40c6c7046ca830c634ea317d5ce,php,19,6,4,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-cbdeb40c6c7046ca830c634ea317d5ce,php,19,6,11,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-cbdeb40c6c7046ca830c634ea317d5ce,php,19,6,37,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-cc964d44d0a52c2c2af61f9e9d669788,php,0,2,21,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-ce21a066faf4c39c085b4e07ed01856e,php,1,5,28,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-ce21a066faf4c39c085b4e07ed01856e,php,1,5,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-ce21a066faf4c39c085b4e07ed01856e,php,1,5,86,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-ce21a066faf4c39c085b4e07ed01856e,php,1,10,32,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-ce21a066faf4c39c085b4e07ed01856e,php,1,10,39,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-ce21a066faf4c39c085b4e07ed01856e,php,1,10,82,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-cee86070b41665e32be5e084a194cb5d,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-cee86070b41665e32be5e084a194cb5d,php,1,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-cee86070b41665e32be5e084a194cb5d,php,1,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 d0538394db6e172020dacce25fcf0ae7,php,2,8,14,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-d25b8d1b9073b94919ad5a7d302c4511,php,0,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d25b8d1b9073b94919ad5a7d302c4511,php,0,90,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 d4f73b1187df223e5ea9aff60aa202df,php,1,21,15,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 d4f73b1187df223e5ea9aff60aa202df,php,1,21,22,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 d4f73b1187df223e5ea9aff60aa202df,php,1,21,161,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 d587cf1a14fb954b59a3154fe7163d0f,php,0,17,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 d587cf1a14fb954b59a3154fe7163d0f,php,0,17,16,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 d587cf1a14fb954b59a3154fe7163d0f,php,0,17,47,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d6e0e20248798664ebf32d7aeb4a0ca7,php,6,8,23,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d6e0e20248798664ebf32d7aeb4a0ca7,php,6,8,30,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d6e0e20248798664ebf32d7aeb4a0ca7,php,6,8,71,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d7302f5f7050760b0a037530cb1f6c95,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 d7302f5f7050760b0a037530cb1f6c95,php,1,4,10,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 d7302f5f7050760b0a037530cb1f6c95,php,1,32,27,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 d7302f5f7050760b0a037530cb1f6c95,php,1,35,17,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 d7302f5f7050760b0a037530cb1f6c95,php,1,35,24,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 d7302f5f7050760b0a037530cb1f6c95,php,1,35,57,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d79b814efd071a05bfafa3d51e85a772,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d79b814efd071a05bfafa3d51e85a772,php,1,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d79b814efd071a05bfafa3d51e85a772,php,1,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d8306a3ab409cbe80889478fc9381a10,php,2,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d8306a3ab409cbe80889478fc9381a10,php,2,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d8306a3ab409cbe80889478fc9381a10,php,2,1,61,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d8306a3ab409cbe80889478fc9381a10,php,21,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d8306a3ab409cbe80889478fc9381a10,php,21,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d8306a3ab409cbe80889478fc9381a10,php,21,1,61,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d8306a3ab409cbe80889478fc9381a10,php,22,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d8306a3ab409cbe80889478fc9381a10,php,22,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d8306a3ab409cbe80889478fc9381a10,php,22,1,61,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d8306a3ab409cbe80889478fc9381a10,php,26,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d8306a3ab409cbe80889478fc9381a10,php,26,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d8306a3ab409cbe80889478fc9381a10,php,26,1,61,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d960a98ba05a1a0c82da827e4daf47bd,php,0,11,45,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d960a98ba05a1a0c82da827e4daf47bd,php,0,13,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d960a98ba05a1a0c82da827e4daf47bd,php,0,20,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d960a98ba05a1a0c82da827e4daf47bd,php,0,20,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d960a98ba05a1a0c82da827e4daf47bd,php,0,20,21,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d960a98ba05a1a0c82da827e4daf47bd,php,0,21,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d960a98ba05a1a0c82da827e4daf47bd,php,0,21,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d960a98ba05a1a0c82da827e4daf47bd,php,0,21,21,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d960a98ba05a1a0c82da827e4daf47bd,php,0,38,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d960a98ba05a1a0c82da827e4daf47bd,php,0,39,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d9cb875eba9394029b8804fb97b360fc,php,2,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d9cb875eba9394029b8804fb97b360fc,php,2,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-d9cb875eba9394029b8804fb97b360fc,php,2,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,1,41,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,2,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,2,41,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,3,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,3,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,3,41,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,4,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,4,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,4,41,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,5,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,5,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,11,5,41,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,1,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,2,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,2,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,3,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,3,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,3,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,4,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,4,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,4,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,5,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,5,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,12,5,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,1,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,2,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,2,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,3,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,3,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,3,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,4,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,4,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,4,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,5,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,5,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,5,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,6,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,6,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,6,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,7,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,7,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,7,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,8,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,8,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,8,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,9,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,9,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,14,9,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,1,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,2,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,2,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,3,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,3,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,3,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,4,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,4,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,4,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,5,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,5,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db4e462915adbfbf9981d59f566383cf,php,15,5,48,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,0,5,58,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,1,42,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,2,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,2,42,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,3,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,3,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,3,42,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,4,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,4,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,4,42,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,5,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,5,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,5,42,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,6,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,6,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,1,6,42,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-db6f53987819056243401f689496935a,php,3,9,9,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-dbf1dd910815728943f139798bc1e6c9,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-dbf1dd910815728943f139798bc1e6c9,php,1,7,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-dbf1dd910815728943f139798bc1e6c9,php,1,7,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-dbf1dd910815728943f139798bc1e6c9,php,1,8,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 dcc3f1638da823301084076c4e81cad0,php,0,28,38,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 dcc3f1638da823301084076c4e81cad0,php,0,29,17,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 dcc3f1638da823301084076c4e81cad0,php,0,29,24,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
@@ -3947,36 +3329,10 @@ df3db3faa9f40c1a65e79bda959e2eb1,php,0,25,78,opengrep-rules.all_langs.sql.sql-ke
 e1aaed79a72c17fa7e20a641dab0f505,php,0,34,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 e1aaed79a72c17fa7e20a641dab0f505,php,0,34,16,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 e1aaed79a72c17fa7e20a641dab0f505,php,0,34,86,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e27d4fba6a26e9b2ea0e2cee1d24e214,php,2,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e27d4fba6a26e9b2ea0e2cee1d24e214,php,2,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e27d4fba6a26e9b2ea0e2cee1d24e214,php,2,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e3023b39bc49cd9773a29a60e97a1cc0,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e3023b39bc49cd9773a29a60e97a1cc0,php,1,9,50,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e52838ecb429b6cc487e402ed684cd08,php,1,11,28,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e52838ecb429b6cc487e402ed684cd08,php,1,11,35,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e52838ecb429b6cc487e402ed684cd08,php,1,11,68,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e52838ecb429b6cc487e402ed684cd08,php,1,17,32,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e52838ecb429b6cc487e402ed684cd08,php,1,17,39,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e52838ecb429b6cc487e402ed684cd08,php,1,17,79,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e52838ecb429b6cc487e402ed684cd08,php,1,22,36,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e52838ecb429b6cc487e402ed684cd08,php,1,22,43,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e52838ecb429b6cc487e402ed684cd08,php,1,22,89,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e52838ecb429b6cc487e402ed684cd08,php,1,29,32,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e52838ecb429b6cc487e402ed684cd08,php,1,29,39,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e52838ecb429b6cc487e402ed684cd08,php,1,29,74,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 e650ab52340510bd0396c3c50531a441,php,1,25,37,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 e650ab52340510bd0396c3c50531a441,php,1,25,44,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 e650ab52340510bd0396c3c50531a441,php,1,25,84,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-e75aa720ec2a2f81d4c1b9b2754df60b,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 e7ca3fc19d9c422f39ed42f94c1b782c,php,5,8,21,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-ed5120b2f3463956d9cb89641d9f4405,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-ed5120b2f3463956d9cb89641d9f4405,php,1,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-ed5120b2f3463956d9cb89641d9f4405,php,1,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-eedcb5bccff457df62f6f35df3a0b952,php,0,11,11,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-eedcb5bccff457df62f6f35df3a0b952,php,0,11,17,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-eeedee32138131d440271fd6a140a7eb,php,2,1,9,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-eeedee32138131d440271fd6a140a7eb,php,2,1,16,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-eeedee32138131d440271fd6a140a7eb,php,2,2,4,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 ef9c5477d99303f7a14de1b7cdd0f708,php,7,2,10,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 ef9c5477d99303f7a14de1b7cdd0f708,php,7,21,25,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 ef9c5477d99303f7a14de1b7cdd0f708,php,7,21,32,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
@@ -3991,32 +3347,9 @@ f17d23ca20f29ac4c09c6084efc97fa6,php,5,8,17,opengrep-rules.all_langs.sql.sql-lib
 f17d23ca20f29ac4c09c6084efc97fa6,php,5,9,24,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 f17d23ca20f29ac4c09c6084efc97fa6,php,5,9,31,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 f17d23ca20f29ac4c09c6084efc97fa6,php,5,9,46,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-f4717d7b7e0bd5499c8f8f9223c99700,php,6,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-f4717d7b7e0bd5499c8f8f9223c99700,php,7,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-f4717d7b7e0bd5499c8f8f9223c99700,php,7,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-f4717d7b7e0bd5499c8f8f9223c99700,php,7,1,83,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-f4717d7b7e0bd5499c8f8f9223c99700,php,7,2,41,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-f4717d7b7e0bd5499c8f8f9223c99700,php,7,3,39,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-f4717d7b7e0bd5499c8f8f9223c99700,php,7,4,38,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-f4717d7b7e0bd5499c8f8f9223c99700,php,7,5,37,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-f5280db51aff12712808af5bcf49686e,php,1,15,14,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-f5280db51aff12712808af5bcf49686e,php,1,16,18,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-f5280db51aff12712808af5bcf49686e,php,1,22,45,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-f5280db51aff12712808af5bcf49686e,php,3,25,14,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-f5280db51aff12712808af5bcf49686e,php,3,26,6,opengrep-rules.all_langs.sql.sql-libs,SQL library import
-f5280db51aff12712808af5bcf49686e,php,3,29,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-f95cf4eb074c73175f971630133d4ce0,php,1,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-f95cf4eb074c73175f971630133d4ce0,php,1,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-f95cf4eb074c73175f971630133d4ce0,php,1,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-f95cf4eb074c73175f971630133d4ce0,php,8,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-f95cf4eb074c73175f971630133d4ce0,php,8,1,8,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-f95cf4eb074c73175f971630133d4ce0,php,8,2,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-fb88e645aec1ce19553afae8d224ffa0,php,1,1,15,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 fbc95513f0679ec102939f0db7434b00,php,0,13,10,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 fbc95513f0679ec102939f0db7434b00,php,0,13,17,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 fbc95513f0679ec102939f0db7434b00,php,0,13,51,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-fc9667d6bde8e3696fc081f9c78df961,php,7,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
-fd5d3c9dffe5bf8955951c1db76128f6,php,0,1,1,opengrep-rules.all_langs.sql.sql-keywords,Possible SQL keyword detected
 0050802a1c66cf6ed3b8749c28d9f5ed,python,0,1,6,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 0050802a1c66cf6ed3b8749c28d9f5ed,python,0,2,6,opengrep-rules.all_langs.sql.sql-libs,SQL library import
 0050802a1c66cf6ed3b8749c28d9f5ed,python,0,14,14,opengrep-rules.all_langs.sql.sql-libs,SQL library import
