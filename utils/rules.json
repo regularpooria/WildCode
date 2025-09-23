@@ -1,0 +1,185 @@
+{
+  "hash": {
+    "java": [
+      "use-of-md5",
+      "use-of-weak-rsa-key",
+      "use-of-sha1",
+      "use-of-rc4",
+      "use-of-rc2",
+      "use-of-md5-digest-utils",
+      "use-of-default-aes",
+      "use-of-aes-ecb",
+      "use-of-blowfish",
+      "rsa-no-padding",
+      "no-null-cipher",
+      "gcm-nonce-reuse",
+      "gcm-detection",
+      "ecb-cipher",
+      "desede-is-deprecated",
+      "des-is-deprecated"
+    ],
+    "csharp": [
+      "use_weak_rsa_encryption_padding",
+      "use_deprecated_cipher_algorithm",
+      "X509Certificate2-privkey"
+    ],
+    "javascript": [
+      "aead-no-final",
+      "create-de-cipher-no-iv",
+      "gcm-no-tag-length",
+      "md5-used-as-password"
+    ],
+    "php": [
+      "weak-crypto",
+      "md5-used-as-password",
+      "md5-loose-equality",
+      "mcrypt-use",
+      "openssl-decrypt-validate"
+    ],
+    "python": [
+      "crypto-mode-without-authentication",
+      "insufficient-rsa-key-size",
+      "insufficient-dsa-key-size",
+      "insecure-hash-algorithm-sha1",
+      "insecure-hash-algorithm-md5",
+      "insecure-hash-algorithm-md4",
+      "insecure-hash-algorithm-md2",
+      "insecure-cipher-algorithm-xor",
+      "insecure-cipher-algorithm-rc4",
+      "insecure-cipher-algorithm-rc2",
+      "insecure-cipher-algorithm-des",
+      "insecure-cipher-algorithm-blowfish",
+      "insecure-hash-function",
+      "insecure-hash-algorithm-sha1",
+      "md5-used-as-password",
+      "hashids-with-django-secret",
+      "crypto-mode-without-authentication",
+      "insufficient-ec-key-size",
+      "insecure-cipher-mode-ecb",
+      "insecure-cipher-algorithm-idea",
+      "insecure-cipher-algorithm-arc4",
+      "empty-aes-key"
+    ]
+  },
+  "deserialization": {
+    "java": [
+      "insecure-jms-deserialization",
+      "object-deserialization",
+      "jackson-unsafe-deserialization",
+      "insecure-resteasy-deserialization",
+      "use-snakeyaml-constructor",
+      "xmlinputfactory-external-entities-enabled",
+      "xmlinputfactory-possible-xxe",
+      "documentbuilderfactory-disallow-doctype-decl-false",
+      "documentbuilderfactory-disallow-doctype-decl-missing",
+      "documentbuilderfactory-external-general-entities-true",
+      "documentbuilderfactory-external-parameter-entities-true",
+      "saxparserfactory-disallow-doctype-decl-missing",
+      "transformerfactory-dtds-not-disabled",
+      "server-dangerous-class-deserialization",
+      "server-dangerous-object-deserialization"
+    ],
+    "csharp": [
+      "insecure-binaryformatalter-deseriization",
+      "data-contract-resolver",
+      "insecure-fastjson-deserialization",
+      "insecure-fspickler-deserialization",
+      "insecure-typefilterlevel-full",
+      "insecure-javascriptserializer-deserialization",
+      "insecure-losformatter-deserialization",
+      "insecure-netdatacontract-deserialization",
+      "insecure-newtonsoft-deserialization",
+      "insecure-soapformatter-deserialization",
+      "insecure-typefilterlevel-full"
+    ],
+    "javascript": [
+      "express-expat-xxe",
+      "express-xml2json-xxe",
+      "express-third-party-object-deserialization",
+      "grpc-nodejs-insecure-connection",
+      "xml2json-xxe"
+    ],
+    "python": [
+      "tainted-pickle-deserialization",
+      "avoid-insecure-deserialization",
+      "insecure-deserialization",
+      "multiprocessing-recv",
+      "marshal-usage",
+      "avoid-jsonpickle",
+      "avoid-pyyaml-load",
+      "avoid-unsafe-ruamel"
+    ]
+  },
+  "sql_injection": {
+    "java": [
+      "tainted-sql-string",
+      "tainted-sqli",
+      "hibernate-sqli",
+      "jdbc-sqli",
+      "jdo-sqli",
+      "jpa-sqli",
+      "tainted-sql-from-http-request",
+      "turbine-sqli",
+      "vertx-sqli",
+      "mongodb-nosqli",
+      "tainted-sql-string"
+    ],
+    "csharp": ["csharp-sqli"],
+    "javascript": [
+      "knex-sqli",
+      "mysql-sqli",
+      "pg-sqli",
+      "sequelize-sqli",
+      "tainted-sql-string",
+      "node-knex-sqli",
+      "node-mssql-sqli",
+      "node-mysql-sqli",
+      "node-postgres-sqli"
+    ],
+    "php": [
+      "tainted-sql-string",
+      "laravel-sql-injection",
+      "wp-sql-injection-audit",
+      ""
+    ],
+    "python": [
+      "mysql-sqli",
+      "psycopg-sqli",
+      "pymssql-sqli",
+      "pymysql-sqli",
+      "sqlalchemy-sqli",
+      "tainted-sql-string",
+      "sql-injection-using-extra-where",
+      "sql-injection-using-rawsql",
+      "sql-injection-db-cursor-execute",
+      "sql-injection-using-raw",
+      "aiopg-sqli",
+      "asyncpg-sqli",
+      "pg8000-sqli",
+      "pyramid-sqlalchemy-sql-injection",
+      "sqlalchemy-sql-injection",
+      "sqlalchemy-execute-raw-query",
+      "avoid-sqlalchemy-text"
+    ]
+  },
+  "unsafe_memory": {
+    "c": [
+      "insecure-use-gets-fn",
+      "insecure-use-memset",
+      "insecure-use-printf-fn",
+      "insecure-use-strcat-fn",
+      "insecure-use-scanf-fn",
+      "insecure-use-string-copy-fn"
+    ]
+  },
+  "weak_random": {
+    "java": ["weak-random"],
+    "csharp": ["use_weak_rng_for_keygeneration"],
+    "javascript": ["JS_WEAK_RNG"],
+    "python": [
+      "PYTHON_WEAK_RNG",
+      "PYTHON_WEAK_RNG_UNQUALIFIED",
+      "PYTHON_WEAK_RNG_WRAPPER"
+    ]
+  }
+}
