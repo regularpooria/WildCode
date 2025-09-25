@@ -67,3 +67,13 @@ Follow these files in sequence:
 	2.4 The results will be written to `results/hallucinations_python.json`.
 
 3. `experiments/hallucinations/verify_hallucinations.ipynb`
+	3.1 This notebook will read the list of hallucinations from either Python or JavaScript and then asks an LLM to search the web and determine if the given library name is hallucinated or legitimate.
+	3.2 For the LLM, you will need to use OpenRouter and provide your own API key.
+	3.3 This will create a new file `results/hallucinations_LANGUAGE_cleaned_with_ai.json` (where LANGUAGE is either `javascript` or `python`).
+
+## Step 3: Security analysis
+1. `experiments/security_analysis/run_statnt_analysis_tool.ipynb`
+	1.1 This notebook uses `opengrep` and `opengrep-rules` to perform vulnerability checks on the WildCode dataset.
+	1.2 The output will be saved to `.sarif` files for each language and will also be saved into `.csv` files in the `results` folder. These will later be used to target more specific issues such as weak hash algorithms, SQL injection, etc.
+2. `experiments/security_analysis/parse_results.ipynb` (for `deserialization`, `hash`, `unsafe_memory`, `weak_random`)
+	2.1 These notebooks look through the static analysis tool results and return the conversation hashes that are affected by these issues, alongside with some statistics that we used in the paper.
