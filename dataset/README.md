@@ -51,6 +51,21 @@ This results in **WildCode**, a structured dataset that makes it easier to bench
 
 ---
 
+## Links and Authors
+
+*   **Paper:** [Link to Paper](YOUR_PAPER_LINK_HERE)
+*   **Hugging Face Dataset:** [WildCode on Hugging Face](https://huggingface.co/datasets/regularpooria/wildcode)
+*   **GitHub Repository:** [WildCode on GitHub](https://github.com/regularpooria/wildcode)
+
+### Authors
+*   Kobra Khanmohammadi (Sheridan College, Ontario, Canada) - kobra.khanmohammadi@sheridancollge.ca
+*   Pooria Roy (School of Computing, Queen's University, Kingston, Canada) - pooria.roy@queensu.ca
+*   Raphael Khoury (Université du Québec en Outaouais (UQO), Canada) - raphael.khoury@uqo.ca
+*   Wahab Hamou-Lhadj (Concordia University, Montreal, Canada) - wahab.hamou-lhadj@concordia.ca
+*   Wilfried Patrick Konan (Université du Québec en Outaouais (UQO), Canada) - konk14@uqo.ca
+
+---
+
 ## Citation
 
 If you use **WildCode** in your research, please cite the original WildChat paper and this dataset:
