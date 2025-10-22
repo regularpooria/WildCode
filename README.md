@@ -4,7 +4,7 @@
 
 ## Links and Authors
 
-*   **Paper:** [Link to Paper](YOUR_PAPER_LINK_HERE)
+*   **Paper:** [Link to Paper](https://github.com/regularpooria/WildCode/blob/master/paper/wildcode_pdf.pdf)
 *   **Hugging Face Dataset:** [WildCode on Hugging Face](https://huggingface.co/datasets/regularpooria/wildcode)
 *   **GitHub Repository:** [WildCode on GitHub](https://github.com/regularpooria/wildcode)
 
