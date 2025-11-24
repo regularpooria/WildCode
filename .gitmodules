@@ -7,3 +7,6 @@
 [submodule "utils/javascript/builtin-modules"]
 	path = utils/javascript/builtin-modules
 	url = https://github.com/sindresorhus/builtin-modules
+[submodule "secrets-patterns-db"]
+	path = secrets-patterns-db
+	url = https://github.com/mazen160/secrets-patterns-db.git
