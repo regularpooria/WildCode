@@ -1,6 +1,9 @@
 1. DONE Check if the convo_redo helped remove any vulenrabilities with any of the conversations as a whole
 2. DONE Make a new aggretated table for syntax error
 
+5. Use Cohere to get a different perspective
+6. maybe the chrome extension idea.
+
 
 
 3. See if you can amplify the vulnerability signals using semantic similarity or there's an alternative to regex.
