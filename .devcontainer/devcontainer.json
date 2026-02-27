@@ -1,0 +1,51 @@
+{
+	"name": "Ubuntu",
+	"remoteUser": "vscode",
+	"runArgs": [
+		"--security-opt",
+		"label=disable"
+	],
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"ms-toolsai.jupyter",
+				"trailofbits.sarif-explorer"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/java:1": {
+			"installGradle": true,
+			"installMaven": true,
+			"version": "latest",
+			"jdkDistro": "ms",
+			"gradleVersion": "latest",
+			"mavenVersion": "latest",
+			"antVersion": "latest",
+			"groovyVersion": "latest"
+		},
+		"ghcr.io/devcontainers/features/python:1": {
+			"installTools": true,
+			"installJupyterlab": true,
+			"version": "latest"
+		},
+		"ghcr.io/stu-bell/devcontainer-features/node:0": {
+			"nodeGypDependencies": true,
+			"installYarnUsingApt": true,
+			"pnpmVersion": "latest",
+			"nvmVersion": "latest"
+		},
+		"ghcr.io/nikiforovall/devcontainer-features/dotnet-csharpier:1": {},
+		"ghcr.io/devcontainers-extra/features/curl-apt-get:1": {},
+		"ghcr.io/devcontainers-extra/features/npm-package:1": {
+			"package": "typescript",
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-extra/features/wget-apt-get:1": {}
+	},
+	"postCreateCommand": "if [ ! -d .venv ]; then python3 -m venv .venv; fi && . .venv/bin/activate && if [ -f requirements.txt ]; then pip install -r requirements.txt; fi"
+}
