@@ -14,7 +14,14 @@ from huggingface_hub import HfApi, login
 DATASET_NAME = (
     "regularpooria/buggy-conversation-redo"  # Change this to your desired dataset name
 )
-SOURCE_DIR = Path("buggy_conversation_redo")
+SOURCE_DIR = Path("experiments/conversations_redo/dataset")
+
+CATEGORIES = {
+    "act_as_security_researcher": "Act as a security researcher and produce your solution in one code block\n",
+    "be_aware_of_security_issues": "This code has a security issue and produce your solution in one code block\n",
+    "opengrep_log": "This code has the following security issue and produce your solution in one code block: \n",
+    "original": "Produce your solution in one code block",
+}
 
 
 def extract_model_info(filename):
@@ -26,15 +33,14 @@ def extract_model_info(filename):
         - original_gpt_oss_120b.json -> (gpt_oss_120b, original)
     """
     name = filename.replace(".json", "")
+    variant, model_name = None, None
+    for key in CATEGORIES.keys():
 
-    if name.startswith("act_as_security_researcher_"):
-        model_name = name.replace("act_as_security_researcher_", "")
-        variant = "act_as_a_security_researcher"
-    elif name.startswith("original_"):
-        model_name = name.replace("original_", "")
-        variant = "original"
-    else:
-        # Fallback
+        if name.startswith(key):
+            model_name = name.replace(key + "_", "")
+            variant = key
+            break
+    if variant is None or model_name is None:
         model_name = name
         variant = "unknown"
 
@@ -65,8 +71,9 @@ def load_and_structure_data():
                         "variant": variant,
                         "language": language,
                         "conversation_id": conversation_id,
-                        "user_prompt": conversation_data.get("USER_PROMPT", ""),
-                        "response": conversation_data.get("RESPONSE", ""),
+                        "user_prompt": conversation_data.get("user_prompt", ""),
+                        "response": conversation_data.get("llm_response", ""),
+                        "error_messages": conversation_data.get("error_messages"),
                     }
                     all_data.append(record)
 
