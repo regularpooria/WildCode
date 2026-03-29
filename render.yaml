@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: wildcode-opengrep-scanner
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 10000
+      - key: OPENGREP_BIN
+        value: opengrep
+      - key: MAX_REQUEST_BYTES
+        value: 200000

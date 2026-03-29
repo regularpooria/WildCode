@@ -1,0 +1,23 @@
+{
+  "w3c-web-RTC-adapter": 1,
+  "phantomjs-node": 1,
+  "@next/client-cookies": 1,
+  "@next/next-server": 1,
+  "your-signature-library": 1,
+  "w3c-webrtc-adapter": 1,
+  "tg-web-app": 1,
+  "@next/react-cookies": 1,
+  "@next/router": 1,
+  "freshdesk-app-sdk": 1,
+  "your-pdf-signature-library": 1,
+  "freshdesk-app-utils": 1,
+  "package:google_maps_flutter": 1,
+  "package:geolocator": 1,
+  "office-reader": 1,
+  "excel-to-base64": 1,
+  "@next/client-pages": 1,
+  "@jest/collect-coverage": 1,
+  "passport-google-oauth2.0": 1,
+  "your-ampq-shim": 1,
+  "@telegram/bot": 1
+}
